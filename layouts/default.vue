@@ -38,10 +38,9 @@ export default {
 <style scoped>
 header {
   position: sticky;
-  /* -webkit-transform: translateZ(0); */
   background-color: #000;
   margin: 0;
-  color: #DDD;
+  color: #fff;
   left: 0;
   right: 0;
   top: 0;
@@ -53,7 +52,13 @@ header div {
 }
 
 header nav a {
-  color: #fff;
+  color: #DDD;
+  /* color: rgb(192, 211, 251); */
+}
+
+header nav a.router-link-exact-active {
+  color: white;
+  font-weight: bold;
 }
 
 h1 {
@@ -77,7 +82,9 @@ ul li {
 }
 
 div.content {
+  overflow-x: hidden;
   padding: 0 1rem;
+  word-wrap: break-word;
 }
 
 footer {
@@ -109,6 +116,4 @@ footer div {
     margin: 0 0 0 1em;
   }
 }
-
-
 </style>

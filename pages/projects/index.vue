@@ -2,7 +2,7 @@
   <div>
     <header class="title">
       <h1>Projects</h1>
-      <p>Here's a rough list of projects that I've worked on over the last {{years}} years. Some projects have been omitted due to confidentiality concerns.</p>
+      <p>Here's a rough list of <strong>{{projects.length}} projects</strong> that I've worked on over the last <strong>{{years}} years</strong>. Some projects have been omitted due to confidentiality concerns.</p>
     </header>
     <div>
       <Project v-for="project in projects" :project="project" v-bind:key="project.slug" />
@@ -31,3 +31,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  strong {
+    font-weight: 600;
+  }
+</style>

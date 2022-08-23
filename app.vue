@@ -26,10 +26,12 @@ header.title {
 }
 
 header.title h1 {
+  border-bottom: 4px solid black;
   color: #000;
   font-size: 2em;
   font-weight: 700;
   margin: 0.5em 0;
+  padding-bottom: 0.5em;
 }
 
 header.title h2 {

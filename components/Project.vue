@@ -2,7 +2,7 @@
   <article>
     <header>
       <h1><NuxtLink :to="url">{{project.title}}</NuxtLink></h1>
-      <time :datetime="project.updatedAt">{{displayTime}}</time>
+      <span><time :datetime="project.updatedAt">{{displayTime}}</time></span>
     </header>
     <ul>
       <li v-for="tag in project.tags">
@@ -40,16 +40,16 @@ export default {
 <style scoped>
 header {
   align-items: baseline;
+  border-bottom: 1px solid #666;
   display: flex;
   justify-content: space-between;
   margin: 1.5em 0 0.5em;
   padding-bottom: 0.5em;
-  border-bottom: 1px solid #666;
 }
 
 h1 {
-  /* display: inline; */
-  font-size: 1.5em;
+  /* display: inline-block; */
+  font-size: 1.5rem;
   font-weight: 600;
   margin: 0;
   padding: 0;
@@ -65,8 +65,17 @@ h1 a:hover {
 
 time {
   color: #666;
-  /* display: inline; */
   font-size: 1em;
+  margin-left: 1em;
+  white-space: nowrap;
+}
+
+/*
+Helper to align the timespan to the baseline of the *last* line of the project.title when the title wraps to more than 1 line.
+Per CSS 2.1: The baseline of an 'inline-block' is the baseline of its last line box in the normal flow.
+*/
+h1 > a, span > time {
+  display: inline-block;
 }
 
 div {
@@ -85,7 +94,6 @@ ul li {
   justify-content: flex-start;
   list-style: none;
   white-space: pre-wrap;
-  /* margin: 0 1em 1em 0; */
 }
 
 ul li:not(:last-child):after {
