@@ -1,13 +1,12 @@
-# Nuxt 3 Minimal Starter
+# Derek Brooks' Portfolio
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+This is a simple [Nuxt 3](https://v3.nuxtjs.org) application to showcase some things that I've built throughout my career.
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-# yarn
 yarn install
 ```
 
@@ -17,6 +16,12 @@ Start the development server on http://localhost:3000
 
 ```bash
 yarn run dev
+```
+
+or, to open the site in a browser while starting the server
+
+```bash
+yarn dev -o
 ```
 
 ## Production

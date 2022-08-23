@@ -11,8 +11,10 @@ export const useStore = defineStore('main', {
   }),
   getters: {
     featuredProjects: (state) => {
-      console.log(state)
       return state.projects.filter(project => project.featured)
-    }
+    },
+    getProject: (state) => {
+      return (slug) => state.projects.find((project) => project.slug === slug)
+    },
   }
 })
