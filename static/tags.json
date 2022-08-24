@@ -5,6 +5,11 @@
         "description": "I've used asynchronous request patterns extensively through my years in web development. I was actually writing \"AJAX\" code before (and after) asynchronous web requests were even called AJAX."
     },
     {
+        "slug": "api-design",
+        "name": "API Design",
+        "description": "I've been designing APIs nearly as long as I've been consuming them. I find API design to be very fun and always like collaborating with my API consumers to ensure that we're implementing interfaces in a sane fashion."
+    },
+    {
         "slug": "android",
         "name": "Android",
         "description": ""
@@ -35,6 +40,11 @@
         "description": "I used the old BrightKite API to gather data and sync my check-ins and notes up with my tweets, and facebook statuses in my local database.  Combined with Google Latitude, I also used the API to display my latest location and daily travels on my personal site."
     },
     {
+        "slug": "cloudevents",
+        "name": "Cloudevents",
+        "description": "I spent some time publishing and consuming cloudevents while building consistent event messages between PayPal and Venmo."
+    },
+    {
         "slug": "css",
         "name": "CSS",
         "description": "Front-end styling isn't my expertise, but I've had no choice but to become proficient in cross-browser and responsive styling over my years of web development. I've built applications with Sass, less, raw CSS, and various other styling frameworks."
@@ -43,6 +53,11 @@
         "slug": "docker",
         "name": "Docker",
         "description": "From my personal personal projects to professional ones, I've containerized many applications with Docker to make development and deployment a breeze."
+    },
+    {
+        "slug": "dynamodb",
+        "name": "DynamoDB",
+        "description": ""
     },
     {
         "slug": "e-commerce",
@@ -123,11 +138,16 @@
         "slug": "mapbox",
         "name": "Mapbox API",
         "description": "I started using Mapbox in place of Google Maps APIs for personal projects just because it seemd more more fun, friendlier, and cheaper. I mostly use this for displaying maps of my travels and geocoding my geotagged data."
-  },
+    },
     {
         "slug": "mysql",
         "name": "MySQL",
         "description": "Lately, I've been spoiled by a lot of ORMs like ActiveRecord, SQLAlchemy, Sequelize, etc.\n\nAs such, I haven't been writing as much SQL as I used to... but every once in a while, writing a plain query can be quicker (and easier to manage) than figuring out how to wrangle the ORMs to get the data I need."
+    },
+    {
+        "slug": "mongo",
+        "name": "Mongo",
+        "description": "I've used Mongo as a document store for various projects like mirroring/caching API response data."
     },
     {
         "slug": "node-js",

@@ -4,9 +4,9 @@
       <h1><NuxtLink :to="url">{{project.title}}</NuxtLink></h1>
       <span><time :datetime="project.updatedAt">{{displayTime}}</time></span>
     </header>
-    <ul>
-      <li v-for="tag in project.tags">
-        <NuxtLink :to="'/tags/'+tag">{{tag}}</NuxtLink>
+    <ul v-if="tags">
+      <li v-for="tag in tags" v-bind:key="tag.slug">
+        <NuxtLink :to="'/tags/'+tag.slug">{{tag.name}}</NuxtLink>
       </li>
     </ul>
     <div>{{project.description}}</div>
@@ -14,8 +14,14 @@
 </template>
 
 <script>
+import { useStore } from '~/store'
 const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+
 export default {
+  setup() {
+    const store = useStore()
+    return { store }
+  },
   props: {
     project: Object,
   },
@@ -29,6 +35,13 @@ export default {
       } else {
         return date.getUTCFullYear()
       }
+    },
+    tags() {
+      const tags = []
+      this.project.tags.forEach((tag) => {
+        tags.push(this.store.getTag(tag))
+      })
+      return tags
     },
     url() {
       return `/projects/${this.project.slug}`
