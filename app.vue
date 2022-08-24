@@ -17,7 +17,7 @@ body {
 }
 
 a {
-  color: rgb(37 99 235);
+  color: rgb(37, 99, 235);
   text-decoration: none;
 }
 
@@ -51,5 +51,4 @@ header.title h3 {
 header.title p {
   margin: 1em 0;
 }
-
 </style>
