@@ -82,7 +82,6 @@ ul li {
 }
 
 div.content {
-  overflow-x: hidden;
   padding: 0 1rem;
   word-wrap: break-word;
 }

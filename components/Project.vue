@@ -10,6 +10,25 @@
       </li>
     </ul>
     <div v-html="project.description"></div>
+
+    <div v-if="latestVersion">
+      <h3>{{latestVersion.version}} - latest version</h3>
+      <p v-html="latestVersion.description"></p>
+    </div>
+
+    <div v-if="previousVersions" class="previous">
+      <h3 @click="toggleVersions" class="toggle">{{previousVersionCount}} <span></span></h3>
+      <div class="versions">
+        <div v-for="version in previousVersions" v-bind:key="version.version">
+          <h4>{{version.version}} <span>{{getDisplayDate(version.createdAt)}}</span></h4>
+          <p v-html="version.description"></p>
+        </div>
+      </div>
+    </div>
+
+    <footer v-if="project.url">
+      <a :href="project.url" target="_blank">{{project.url}}</a>
+    </footer>
   </article>
 </template>
 
@@ -27,13 +46,25 @@ export default {
   },
   computed: {
     displayTime() {
-      const updatedAt = this.project.updatedAt
-      const date = new Date(updatedAt)
-      if (updatedAt.length > 4) {
-        const month = months[date.getUTCMonth()]
-        return `${month} ${date.getUTCFullYear()}`
-      } else {
-        return date.getUTCFullYear()
+      return this.getDisplayDate(this.project.updatedAt)
+    },
+    latestVersion() {
+      const versions = this.project.versions
+      if (versions) {
+        return versions[versions.length - 1]
+      }
+    },
+    previousVersionCount() {
+      let title = `${this.previousVersions.length} previous version`
+      if (this.previousVersions.length > 1) {
+        title = `${title}s`
+      }
+      return title
+    },
+    previousVersions() {
+      const versions = [...this.project.versions]
+      if (versions.length > 1) {
+        return versions.slice(0, -1).reverse()
       }
     },
     tags() {
@@ -46,6 +77,30 @@ export default {
     url() {
       return `/projects/${this.project.slug}`
     }
+  },
+  methods: {
+    getDisplayDate(dateString) {
+      const date = new Date(dateString)
+      if (dateString.length > 4) {
+        const month = months[date.getUTCMonth()]
+        return `${month} ${date.getUTCFullYear()}`
+      } else {
+        return date.getUTCFullYear()
+      }
+    },
+    toggleVersions(event) {
+      const parent = event.target.closest('.previous')
+      const versions = parent.querySelector('.versions')
+      const expanded = 'expanded'
+
+      if (parent.classList.contains(expanded)) {
+        parent.classList.remove(expanded)
+        versions.style.height = '0px'
+      } else {
+        parent.classList.add(expanded)
+        versions.style.height = `${versions.scrollHeight}px`
+      }
+    }
   }
 }
 </script>
@@ -53,6 +108,7 @@ export default {
 <style scoped>
 header {
   align-items: baseline;
+  background-color: #fff;
   border-bottom: 1px solid #666;
   display: flex;
   justify-content: space-between;
@@ -61,7 +117,6 @@ header {
 }
 
 h1 {
-  /* display: inline-block; */
   font-size: 1.5rem;
   font-weight: 600;
   margin: 0;
@@ -111,5 +166,76 @@ ul li {
 
 ul li:not(:last-child):after {
   content: ', ';
+}
+
+
+.previous {
+  margin: 1em 0 0;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: 500;
+  margin: 1em 0;
+}
+
+h3.toggle {
+  color: #777;
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+}
+
+h3.toggle span {
+  /* font-size: 1.2em;
+  font-weight: 700; */
+  display: inline-block;
+  margin-left: 0.25em;
+  transition: all 0.2s ease-in-out;
+
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: .25em 0 .25em .5em;
+  border-color: transparent transparent transparent #777;
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: 500;
+  margin: 1em 0;
+  position: relative;
+}
+
+h4 span {
+  color: #777;
+  font-weight: normal;
+  position: absolute;
+  right: 0;
+}
+
+.versions {
+  border-left: 2px solid #DDD;
+  height: 0px;
+  margin: 1em 0 0 0.25em;
+  overflow-y: hidden;
+  padding-left: 1.5em;
+  transition: all 0.3s ease-in-out;
+}
+
+.expanded {
+  margin-bottom: 1em;
+}
+
+.expanded h3 span {
+  transform: rotate(90deg);
+}
+
+p {
+  margin: 1em 0;
+}
+
+footer {
+  margin: 0;
 }
 </style>
