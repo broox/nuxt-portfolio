@@ -163,7 +163,7 @@
         "description": "This is a design that I completed while working for NaTa2 Productions. The client, Kronus Entertainment, is a film production company specializing in underwater video shooting. At the time, they were working on breaking an underwater world record as a fund-raiser. The goal is to make a 100 mile trip around an island which will be approximately 24 hours underwater; the money raised was used to assist ill children. Kronus has a variety of extremely powerful equipment and talented personnel. \n\nThey came to us needing a professional web site to portray their image and draw more attention to their company.",
         "featured": 0,
         "updatedAt": "2002-11-02",
-        "url": "http://www.kronusfilms.com",
+        "url": null,
         "tags": [
             "css",
             "graphic-design",
@@ -177,7 +177,7 @@
         "description": "I developed this site for the James Laas Company out of Bettendorf, Iowa. It was one of the largest, most complex, and complete systems that I have built. \n\nPrior to my development, they made all of their updates via HTML - a database was very much needed. They have a huge amount of information which became quite redundant in the way that they were displaying it. \n\nI designed a more aesthetically pleasing site that used a PHP/MySQL back-end. With the new design, I concentrated mostly on the ease of navigation and finding vital information quickly, which was successfully attained. Their site is now completely free of FTP and is updateable via an administration section in which I created. The database has proven to be very useful as the James Laas company writes several articles per month. This site is also the home of the first \"site wide\" search engine that I have built. Jhlaas.com was a huge success and a great learning experience.",
         "featured": 0,
         "updatedAt": "2002-12-12",
-        "url": "http://www.jhlaas.com",
+        "url": null,
         "tags": [
             "css",
             "flash",
@@ -213,7 +213,7 @@
         "description": "Three years after the original site had gone live Harper Reed hired me to do another design.\n\nThe new site is basically a blog running movable type to update Jugglers in the Chicago area about upcoming events.",
         "featured": 0,
         "updatedAt": "2003-03-03",
-        "url": "http://www.thejugglers.org",
+        "url": null,
         "tags": [
             "css",
             "graphic-design",
@@ -227,7 +227,7 @@
         "description": "SolidGrind is the site that took over the former Broox Extreme (www.broox.com). I wanted to use broox.com as a hub with links to all of my web sites; in order to do this, I had to come up with a new extreme sports site. After I came up with the name and domain, I decided that I wanted to code the entire thing from scratch, rather than customize a prebuilt system. Coding the entire site has paid off numerous times; I now have full control and understanding of the system and can add on, fix bugs, and rebuild very easily.\n\nOne of the most complex parts of SolidGrind was the \"feature pic\" system. It allowed users to upload pictures to be reviewed by the administrators I hired.  These pictures were queued in a database and could be viewed by the administrators. If we saw one we liked, we simply clicked a button to set it as the feature pic. This button contained functionality to automatically adjust the size of the image, add a SolidGrind.com watermark to each image, create a thumbnail of the image, store it in the database, and place the picture on the homepage until a new picture is added. In addition, I designed it so that each picture has to be featured for at least 24 hours; this gives everyone a fair amount of time on our frontpage.\n\nBesides photos, the site featured news, forums, tutorials, videos, and several other things related to extreme sports.",
         "featured": 0,
         "updatedAt": "2003-05-28",
-        "url": null,
+        "url": "https://solidgrind.com",
         "tags": [
             "e-commerce",
             "graphic-design",
@@ -256,7 +256,7 @@
         "description": "One day, a couple friends and I decided to claim the sun.  So we quickly designed this web site to let the world know that \"we own the sun.\"\n\nThe site we created sells plots of the sun as real estate and donates part of the profits to cancer research.\n\nI was in charge of the site's design and some of the creative content.",
         "featured": 0,
         "updatedAt": "2003-10-21",
-        "url": "http://www.weownthesun.com",
+        "url": null,
         "tags": [
             "css",
             "graphic-design",
@@ -342,7 +342,7 @@
         "description": "On october 14th 2004, Bill O'Reilly from Fox News was threathened with a sexual harrassment lawsuit. A typo was made on the lawsuit transcript. Instead of loufa the officer put falafel. Some friends and I found this hilarious so we put up a website talking about \"Falaphilia.\"\n\nEven though it started as a viral joke. We ended up having approximately 50,000 visitors in the first 48hrs and peaked at 100,000 visitors in the first week. We then switched it up and served large political content to the blogger demograph and pulled 3.7 terabytes of transfer in 5 days.\n\nI handled the design of this site as well as some creative content, and made a graphic of O'reilly hugging a giant piece of falafel.",
         "featured": 0,
         "updatedAt": "2004-10-15",
-        "url": "http://www.falaphilia.com",
+        "url": null,
         "tags": [
             "css",
             "graphic-design",
@@ -356,7 +356,7 @@
         "description": "Iowa Meth Watch (local partner of the Meth Watch program) approached my partnership seeking a similar site to the national Meth Watch site. The main difference was to include more personalization, relation, and focus to the State of Iowa. We recreated graphics, created and enhanced flash animations, cleaned up code, and added new text to help integrate the state of Iowa into the Meth Watch program.",
         "featured": 0,
         "updatedAt": "2004-11-02",
-        "url": "http://www.iowamethwatch.com",
+        "url": null,
         "tags": [
             "css",
             "html"
@@ -369,7 +369,7 @@
         "description": "Soft Focus Art is a local Hip Hop and DJ group who came to my partnership with a limited budget and hope for a very complex web site. They wanted a database driven site in order to update their viewers with upcoming shows, bios, media, and news; but they also wanted to keep the look fairly simple with crisp lines and have everything displayed via Flash animation. We helped them out and provided a simple animated design with a powerful back-end using PHP, MySQL, and XML  for easy updating.",
         "featured": 0,
         "updatedAt": "2004-11-02",
-        "url": "http://www.softfocusart.com/",
+        "url": null,
         "tags": [
             "flash",
             "graphic-design",
@@ -415,7 +415,7 @@
         "description": "Rebels Advocate is a Midwest Hip Hop group that got together in Iowa City. With their gaining popularity they decided they needed a strong web presence to show the world what they are all about.\n\nRebels Advocate was referred to my partnership needing both a web site and a music video. With a very limited budget, we had to cut a lot of corners, but the results of both the video and the web site are very pleasing. The site allows visitors to check out their bio, video, photos, and most importantly, their music. We also installed a community driven forum to keep visitors coming back to the site and a statistic program in order to track the site's hits.",
         "featured": 0,
         "updatedAt": "2006-01-22",
-        "url": "http://www.rebelsadvocate.com",
+        "url": null,
         "tags": [
             "css",
             "graphic-design",
@@ -432,7 +432,7 @@
         "description": "Truespin Media is a small partnership that my friend, Nick Leeper, and I started up.  Its basically just around so that we can split profits on side-projects.  \n\nWe originally planned on offering several services including: video production, photography, graphic design, and web design.  However, we've focused primarily on the last 2.",
         "featured": 0,
         "updatedAt": "2006-03-29",
-        "url": "http://www.truespin-media.com",
+        "url": null,
         "tags": [
             "html",
             "mysql",
@@ -457,7 +457,7 @@
         "description": "I built this site for Aeon Grey, a Des Moines hip hop artist, to promote both himself and his 5th solo album: Primate Curriculum.\n\nAeon Grey wanted a very lite site that would include a forum and also allow him to publish photos, videos, and mp3s.  The site's news is integrated with the forum to allow Aeon to display important updates on the home page.  I worked with the graphic designer, Mindy Hoskin, for the graphic elements, which are taken primarily from the album art that she designed.\n\nI also do some of Aeon Grey's photography and videography.  We plan on starting a music video soon.",
         "featured": 0,
         "updatedAt": "2006-05-19",
-        "url": "http://www.aeongrey.com",
+        "url": null,
         "tags": [
             "css",
             "graphic-design",
@@ -489,7 +489,7 @@
         "description": "Five point studios is a professional piercing and custom tattoo shop in Johnston, IA.  I was given the opportunity to revamp their severely outdated web site.\n\nI programmed the site so that the shop could add/edit any page as well as add/edit staff members and staff portfolio images.\n\nIn the design I incorporated one of the shop's tattoo sketches.  The shop also wanted a very artistic font in their design.  And as with any web site, if the visitors don't have your font installed, they won't see your fancy text.  So, using PHP's GD library, I wrote functionality to dynamically load their font and create fancy title images on the fly.\n\nThe site will be much more successful in allowing Five Point to show off the incredible work that consistantly comes out of their shop.",
         "featured": 0,
         "updatedAt": "2007-09-24",
-        "url": "http://www.5pointbody.com",
+        "url": null,
         "tags": [
             "css",
             "graphic-design",
@@ -505,7 +505,7 @@
         "description": "BRT Realty is a commercial real estate company who my company, Red 5 Interactive hosts.  I came into this project a bit late so I didn't have a whole lot to do with the overall functionality.  However, I did build most of the forms for collecting visitor information.  I also handled some dynamic content display, etc.",
         "featured": 0,
         "updatedAt": "2008-01-10",
-        "url": "http://www.brtrealty.com/",
+        "url": null,
         "tags": [
             "ruby-on-rails"
         ],
@@ -517,7 +517,7 @@
         "description": "Countryside RV is my first complete Ruby on Rails site.  I was the main programmer for this site while working with Red 5 Interactive.\n\nOur designer and front end developer took care of most of the design and html build-out.  I was in charge of modeling and building the actual application and admin system.\n\nThe primary function of the site is to display all of Countryside's current RV inventory.\n\nCountryside can add a large amount of detail as well as upload multiple photos of a given RV.  We've also implemented a \"Buyers Gallery\" that allows some visible interaction with Countryside's user base.  When someone buys an RV, they'll soon find a photo of themselves and their new camper online.",
         "featured": 0,
         "updatedAt": "2008-01-24",
-        "url": "http://csrvsales.com/",
+        "url": null,
         "tags": [
             "css",
             "html",
@@ -545,7 +545,7 @@
         "description": "The Bellevue is a building located in downtown Philadelphia that houses restaurants, shops, and a hotel.  They hired my company, Red 5 Interactive to build an informational site for them.\n\nI built a small custom administration section for this site allowing Bellevue to create events and photo galleries.  The photo galleries can be organized and sorted via drag and drop.",
         "featured": 0,
         "updatedAt": "2008-03-01",
-        "url": "http://www.bellevuephiladelphia.com/",
+        "url": null,
         "tags": [
             "css",
             "html",
@@ -563,7 +563,7 @@
         "description": "Team 46 is a group of service and avionics specialists working at the Des Moines Flying Service (DMFS).  We've been a host for DMFS for years - so they hired us to make a mico-site for their technicians.\n\nThe Team 46 micro site was pretty straight forward.  They needed a way to blog, manage case studies, take service requests, and upload photos.  For the blug, I simply installed an internal blog plugin that I built.  Everything else was custom programmed.\n\nThere was nothing crazy about this app, but everything was built and deployed very smoothly.",
         "featured": 0,
         "updatedAt": "2008-03-27",
-        "url": "http://www.dmfs.com/team46",
+        "url": null,
         "tags": [
             "css",
             "html",
@@ -580,7 +580,7 @@
         "description": "Glimcher is a premier real estate investment trust that manages malls and shopping centers across the United States.  They came to my company, Red 5 Interactive, seeking a corporate site.\n\nMy company had already built and launched this site by the time I began working on it, so my job was simply to enhance some features on both the admin and the front-end.\n\nFirst of all the client wanted a near realtime display of their stock price on the homepage.  I built a script which is ran by a CRON job to scrape a couple quote sites and grab their stock price.  Whenever the price is successfully grabbed I write the data to a local file and use that to display their current price.\n\nGlimcher also wanted realtime stats on their leasing informational pages, so I added some functionality to display updates on leasable square feet, property count, etc.\n\nFinally, they wanted to be able to quickly show/hide all dynamic content on their web site.  I added some simple toggling as well as drag/drop sorting to any and all data.",
         "featured": 0,
         "updatedAt": "2008-05-01",
-        "url": "http://www.glimcher.com/",
+        "url": null,
         "tags": [
             "ajax",
             "javascript",
@@ -597,7 +597,7 @@
         "description": "The company I work for, Red 5 Interactive was hired to build a site for NASCAR truck driver, Justin Marks.\n\nOur basic guideline from the driver was to \"make it like Bam Margera's site.\"  He really enjoyed moving elements, photos, and of course - a music player.\n\nMy job was to integrate the site with Justin Marks' Flickr account, build XML feeds to power our flash app, and also build a non-flash version of the site.",
         "featured": 0,
         "updatedAt": "2008-05-08",
-        "url": "http://www.justinmarksracing.com/",
+        "url": null,
         "tags": [
             "css",
             "flickr-api",
@@ -614,7 +614,7 @@
         "description": "Iowa republican Peter Cownie hired our company to build a promotional web site for him during the 2008 election.\n\nThe site was a pretty standard, informational site with a blog, and some photos.  Since so many of our sites were having blog-like functionality, I built a Rails blog plugin.  This site was the first site to make use of my blog plugin - which I've called Bee-Log.\n\nI've also tied the site into Peter's Flickr account for displaying photos on the site.  It was a great excuse to continue playing with the Flickr API.\n\nP.S. Peter Cownie won",
         "featured": 0,
         "updatedAt": "2008-06-10",
-        "url": "http://www.cownieforstatehouse.com/",
+        "url": null,
         "tags": [
             "flickr-api",
             "ruby-on-rails"
@@ -639,7 +639,7 @@
         "description": "Keokuk came to us with a redesign in-mind and also wanted the ability to update news and loan rates.  In addition, they wanted to be able to upload and attach photos to news items.\n\nKeokuk's web site wasn't too programmatically intensive, but it did give me an opportunity to try out some new Rails ideas.\n\nAround the time of building this app, I found a Rails plugin called ActiveScaffold.  Active Scaffold simply makes a default admin scaffold, and makes it very javascript heavy.  There are lots of AJAX calls and very few page loads.  It was an interesting plugin to try and after a bit of modifying and extending, it seemed to fit the bill for this project.",
         "featured": 0,
         "updatedAt": "2008-07-30",
-        "url": "http://www.bankkcsb.com/",
+        "url": null,
         "tags": [
             "image-processing",
             "ruby-on-rails"
@@ -670,7 +670,7 @@
         "description": "Signs Plus is a Des Moines area company who is responsible for some of Iowa's most impressive signs.\n\nThey hired my company, Red 5 Interactive, to completely rebuild and rebrand their site.  They wanted something that was loud, colorful, and gets their products right in front of the customer.\n\nOur designer took care of the visual aspect of the site, while I was in charge of modeling and administration functionality.  \n\nThe major function of the admin was to allow Signs Plus to upload photos of their work.  The images get dynamically resized in several ways to fit the flash splash page, as well as the rest of the site.\n\nBeing that the homepage is flash, I also built some basic XML to feed dynamic data to the animation.\n\nShortly after release, we received emails from the client saying they were already getting new business based on the quality of their new site.",
         "featured": 0,
         "updatedAt": "2008-09-10",
-        "url": "http://www.signsplusamerica.com/",
+        "url": null,
         "tags": [
             "css",
             "html",
@@ -687,7 +687,7 @@
         "description": "Monroe Marketplace is a shopping center located in central Pennsylvania.  Their parent company, PREIT hired us to build a promotional web site during the development of the shopping center.  The site was fairly simple as far as dynamic content was concerned.  \n\nMy primary tasks were to build a blog, calendar, career, polling, and a job posting system for this application.  Each of these tasks were fairly trivial in that I've done them several times, but it was my first opportunity to write a real poll.  I enjoyed working on the poll quite a lot.",
         "featured": 0,
         "updatedAt": "2008-10-13",
-        "url": "http://www.monroe-marketplace.com/",
+        "url": null,
         "tags": [
             "ruby-on-rails"
         ],
@@ -699,7 +699,7 @@
         "description": "TMC, a local trucking company, hired us to rebuild their web site and enhance their web presence.\n\nI was in charge of modeling and building a system to manage employees, sales reps, and news.  The sales rep data was fed to flash maps via XML.\n\nThe careers page is built by parsing a remote XML feed.",
         "featured": 0,
         "updatedAt": "2008-12-02",
-        "url": "http://www.tmctrans.com/",
+        "url": null,
         "tags": [
             "javascript",
             "prototype",
@@ -714,7 +714,7 @@
         "description": "I am a broomball player.  Broomball is a sport similar to hockey but a bit more recreational (If you're still curious about the sport, check out the link below).\n\nOnce my Broomball league caught wind of me being a well connected, tech savvy guy, they nominated me to be the Marketing Director.\n\nAs marketing director my main purpose was to help promote the league - and what better way to do that than to build a fancy web site.\n\nNot having hardly any time to devote to this project, I decided to try out a product that I've heard a bit about, called Drupal.\n\nThe Drupal Content Management System is a great little app.  I literally had a community site up and running within an hour.  The Drupal community has written so many modules, that I didn't have to write a single line of code to get the site off the ground.\n\nAfter installing a handful of modules, a bit of layout tweaking, and modifying a tiny bit of PHP, we had a completely functional site.\n\nI even got the help of designer Kathryn Downing to whip up that logo in a matter of about 25 minutes.\n\nI wouldn't use Drupal for everything, but it was definitely an excellent solution for Des Moines Broomball.  The site has already helped the league gain players and teams for our regional tournaments.",
         "featured": 0,
         "updatedAt": "2009-01-06",
-        "url": "http://www.desmoinesbroomball.com/",
+        "url": null,
         "tags": [
             "css",
             "html",
@@ -771,7 +771,7 @@
         "description": "PREIT (Pennsylvania Real Estate Investment Trust) invests in shopping malls in the eastern United States.\n\nPREIT is one of the primary candidates for our internal CMS project, SiteMan.\n\nWe've succesfully deployed SiteMan to allow PREIT to manage over 40 of their mall web sites - all from 1 location.\n\nOne challenge we faced with this project was PREIT's constant seasonal campaigns.  As such, we've built SiteMan so that new presentation packages can easily be added into SiteMan for each of these campaigns.\n\nWe've also allowed for mobile designs to be appended to each of these presentation packages for easy mobile browsing.",
         "featured": 0,
         "updatedAt": "2009-02-10",
-        "url": "http://www.cherryhillmall.com",
+        "url": null,
         "tags": [
             "ruby-on-rails",
             "siteman"
@@ -816,7 +816,7 @@
         "description": "Fibre To The Home Council Asian Pacific (FTTHCAP) is a non-profit organization aiming to promote and accelerate Fibre To The Home - obviously in the Asian Pacific.  FTTHCAP hired our company to build an easily manageable site to help promote and provide information on their 4th annual conference.\n\nOnce the design had been built out, my job was to stick everything into our internal CMS application, SiteMan, and get it deployed ASAP.\n\nThis was our first installment of SiteMan on a single site system, so it was a great trial run.  Despite a couple \"gotchas\", I was able to push this site out with our SiteMan CMS very rapidly.  During this launch I was able to fix any loose-ends I found in SiteMan, thus enhancing our internal application even further.\n\nNow, FTTH is able to easily edit any and all content via WYSIWYG editors.",
         "featured": 0,
         "updatedAt": "2009-03-04",
-        "url": "http://www.ftthcouncilap-melbourne09.org/",
+        "url": null,
         "tags": [
             "ruby-on-rails",
             "siteman"
@@ -829,7 +829,7 @@
         "description": "Michael Annett is an upcoming race car driver from Des Moines, IA.  We didn't build his site from scratch, but when his site development/hosting company stopped providing good service, we were asked to take over.  The former host of michaelannett.com was not very cooperative in the site transition - so we had an interesting time getting Michael's content for him.\n\nTo get Michael's site, we wrote an internal app called <a href=\"/projects/site-spider\">Site Spider</a> to crawl his existing site, save all the pages, their images, stylesheets, javascripts, etc - all while preserving the links and folder structure.  Once I successfully crawled and downloaded this site, I put this app into our internal Content Management application, <a href=\"/projects/siteman\">SiteMan</a>.\n\nI also built a couple custom SiteMan plugins, which included photo gallery and online store management.\n\nThe store they wanted was fairly small, however, no matter the size, building an online store is quite an effort.\n\nNow, Michael is able to easily update news, photo galleries, results, schedules, general webpage content at anytime, and can sell gear online.",
         "featured": 0,
         "updatedAt": "2009-03-09",
-        "url": "http://www.michaelannett.com/",
+        "url": null,
         "tags": [
             "authorize-net",
             "css",
@@ -848,7 +848,7 @@
         "description": "Loffredo is a high-end produce company serving much of the Mid West.\n\nWhen our company was hired to rebuild their site, my assignments were to integrate our in-house SiteMan CMS, create some plugins, build in a fancy javascript fruit carousel, and of course deploy the site to our production server.\n\nThe plugin I built for this site simply allowed Loffredo to manage branches and employees and allow site visitors to contact them.\n\nThe fruit carousel I mentioned is a custom javascript animation that cycles through various fruits on the homepage.",
         "featured": 0,
         "updatedAt": "2009-05-13",
-        "url": "http://www.loffredo.com/",
+        "url": null,
         "tags": [
             "ajax",
             "javascript",
@@ -865,7 +865,7 @@
         "description": "Iowa Alcoholic Beverages Division is responsible for the regulation and control of all alcohol and tobacco in the state of Iowa.  The division has generated hundreds of millions of dollars for the state of Iowa.\n\nOur company has hosted IABD for years.  Up until recently, they were one of the very last Java based sites running on an ancient server stuck in a closet in the back of our office.  As time went on, it became scarier and scarier to let their site remain live.  Once showing IABD the server they were running on, talking them into a complete rebuild was no challenge at all.\n\nThe scariest part of this rebuild was the task of importing all of the content they had.  I heavily modified our internal Site Spider to accomplish this task.  The client had around 400 pages and 700 files that were linked to (mostly PDF press releases).  I had to completely crawl their site, import everything into our CMS and fix every link to work correctly.  Given the fact that they had FTP access on the old server, this was not a simple task.  I'm talking about some serious site scraping madness!\n\nBeing such a large site, this client came up with all kinds of awesome ideas for our CMS, which I was able to add-on and commit back to the repository for our other clients.\n\nSo after setting up our internal CMS and importing their hundreds of pages/files, I had to build a Javascript Fund counter to display on their homepage.  Basically, the client takes their projected income, enters it into a custom tool (that I built) in SiteMan, and my JS does the math to determine how much money is being transfered to the state every second.  It then dynamically animates a count-<i>up</i> on the homepage.\n\nWhile we're on the JS path.  I also had to build some fancy custom (and totally dynamic) dropdown navigation.\n\nFinally, I had to model and build a custom Uploader plugin that would allow IABD to import CSV files of their alcohol products, stores, and tobacco compliance data.  Then I built functionality to browse and search all of this data on the front-end.  Again, dealing with thousands of records of data.\n\nIowa Alcoholic Beverages Division was basically a test of all my skills.  Sys admin, back-end development, front-end development, scraping, importing, and finally deployment.",
         "featured": 0,
         "updatedAt": "2009-07-29",
-        "url": "http://www.iowaabd.com/",
+        "url": null,
         "tags": [
             "ajax",
             "javascript",
@@ -882,7 +882,7 @@
         "description": "West Bank is an Iowa based bank that my company has working with for years.\n\nWhen they came to us for a redesign, my assignments were to integrate our in-house CMS, build a couple plugins, and build functionality to capture a user's zipcode and display the appropriate location-based content.\n\nThe plugins I built were based on previous functionality they had and wanted to retain: current loan/savings rates, alerts, and custom newsletters.",
         "featured": 0,
         "updatedAt": "2009-08-11",
-        "url": "http://www.westbankiowa.com/",
+        "url": null,
         "tags": [
             "ajax",
             "javascript",
@@ -898,7 +898,7 @@
         "description": "TowRate is a startup that offers a custom service to towing companies.  The site allows subscribed companies to manage assets, map routes, and calculate profit margins for every tow.  It's built in a way that allows the towing companies to quickly run these calculations while on the phone so they can figure out the most profitable way to charge for each tow.\n\nOn this project, I was in charge of pretty much everything except for the initial design.  My job involved data modeling, loads of calculations, back-end developing, front-end developing, form design, and deployment.\n\nTowRate is a very javascript heavy application, using plenty of AJAX calls for things like sorting, recalculating rates on the fly, and grabbing map data from the Google Maps API.  The Maps API is used to help determine mileage and time for each tow.  From there, the app uses extensive math and formulas to help find the best price for each call.\n\nCompanies are able subscribe to TowRate on a monthly or yearly basis.  I integrated PayPal Web Payments Pro to handle these subscriptions; let users join, autorenew, enter discount codes, cancel accounts, etc.\n\nSubscribed companies can also manage their trucks (as well as truck expenses), users, tow rates, tax areas, routes, etc.  It provides an all around fleet management solution to any towing company.",
         "featured": 1,
         "updatedAt": "2009-10-01",
-        "url": "http://www.towrate.com/",
+        "url": null,
         "tags": [
             "ajax",
             "e-commerce",
@@ -917,7 +917,7 @@
         "description": "Countryside Motorsports is an interesting little site that I was able to crank out pretty quickly in 2008.  However, we got it done right when our client got super busy, so it sat unlaunched for about a year until we were able to resurrect, update, and launch the site.\n\nThis is a pretty basic marketing/inventory viewing site for an ATV, Snowmobile dealer in Iowa.  I modeled and built a custom admin for managing inventory, specials, and homepage banners.",
         "featured": 0,
         "updatedAt": "2009-11-24",
-        "url": "http://www.countryside-motorsports.com/",
+        "url": null,
         "tags": [
             "css",
             "html",
@@ -986,7 +986,7 @@
         "description": "Mary McAdams is a Des Moines area folk artist who is becoming very well known in the area.  Mary hired my friend Mindy Hoskin as her designer - and Mindy approached me to bring her designs to life.\n\nHaving a small web budget and not a lot of time, I used this opportunity to brush up my WordPress skills.  \n\nI was able to build Mindy's designs out into a WordPress template and still keep a lot of the custom functionality that Mary wanted.\n\nAlong with her blog, Mary also wanted a lot of multimedia - photos, video, a music player, show times, downloads, etc.  \n\nFor photos, I was able to customize one of the many WordPress Flickr plugins to work with Mindy's design.\n\nShowtimes and the Music player are powered by Mary's ReverbNation account.  To make showtimes work, I hooked her ReverbNation calendar RSS feed to FeedBurner BuzzBoost and embedded the generated BuzzBoost into her blog accordingly.\n\nCombined with Mary's active social networking, I think we were successful in getting all of her info in front of an audience in an elegant way.",
         "featured": 0,
         "updatedAt": "2009-11-30",
-        "url": "http://www.marymcadams.com/",
+        "url": null,
         "tags": [
             "css",
             "html",
@@ -1002,7 +1002,7 @@
         "description": "Smithson Woodworks is a side project run by my cousin-in-law, Jon Smithson.\n\nOne year we decided to trade, he'd build me a component rack for my entertainment center, and I'd help him get his stuff online.\n\nJon sent me a logo and some photos of his work, I helped him by setting a Wordpress site that integrated with a Flickr account.  Jon simply uploads photos to Flickr and creates sets to update the portfolio on SmithsonWoodworks.com.",
         "featured": 0,
         "updatedAt": "2009-12-28",
-        "url": "http://www.smithsonwoodworks.com/",
+        "url": null,
         "tags": [
             "blueprint",
             "css",
@@ -1022,7 +1022,7 @@
         "description": "Bix Produce is a produce distributor based in Minnesota.  They became interested in my company, Red Five after seeing the produce site we built for Loffredo.\n\nI was in charge of integrating the design we came up with into our SiteMan CMS, and also deploying the site for Bix.",
         "featured": 0,
         "updatedAt": "2010-01-07",
-        "url": "http://www.bixproduce.com/",
+        "url": null,
         "tags": [
             "prototype",
             "ruby-on-rails",
@@ -1036,7 +1036,7 @@
         "description": "Valley West Mall is a long time Red Five client and was sort of a guinea pig to test out the latest version of our SiteMan CMS and brand new javascript/HTML5 based SVG maps.\n\nRebuilding the Valley West Mall with our new technology was a great learning experience.  We greatly improved our CMS, making things much more efficient and converting to jQuery.  Rendering maps with javascript rather than flash meant they could be viewed on mobile devices.\n\nIn addition to these great new features, Valley West requested some integration with Twitter.  This allowed me to build a twitter plugin for SiteMan CMS which would allow the mall to easily post tweets as well as monitor mentions or replies.\n\nI left Red Five before our new HTML5 maps were ever deployed, and unfortunately, at the time of writing this, they are still not in production.",
         "featured": 0,
         "updatedAt": "2010-01-08",
-        "url": "http://www.valleywestmall.com/",
+        "url": null,
         "tags": [
             "ruby-on-rails",
             "siteman",
@@ -1050,7 +1050,7 @@
         "description": "Philadelphia Marketplace is the shopping center located within Philadelphia International Airport. They hired Red Five to update their site, give them a content management system and also setup interactive maps for their shopping center.\n\nThis was a pretty simple project from an engineer perspective - I was in charge of integrating the design into our CMS, writing a bit of javascript for the front-end, and finally, deploying the site.",
         "featured": 0,
         "updatedAt": "2010-01-11",
-        "url": "http://www.philamarketplace.com/",
+        "url": null,
         "tags": [
             "javascript",
             "prototype",
@@ -1065,7 +1065,7 @@
         "description": "The PREIT iPhone app was a small, marketing application to promote each of the company's 30-40 shopping malls.\n\nThe application used your phone's location to find their nearest mall, give information about the mall, store directories, SVG based maps, calendars of events, etc.\n\nOne other engineer and I converted our Rails based CMS into an API and then built most of the native Objective-C iOS app prior to me leaving the company... at which point a 3rd party contractor finished \"polished\" the application",
         "featured": 0,
         "updatedAt": "2010-02-01",
-        "url": "https://itunes.apple.com/us/app/preit-malls/id437846433?mt=8",
+        "url": null,
         "tags": [
             "ios",
             "objective-c"
@@ -1078,7 +1078,7 @@
         "description": "Perficut is one of the leading landscaping and lawn service companies in Des Moines, IA.  They came to our company, Red Five seeking a more serious web presence along with some custom tools.\n\nAlong with a complete redesign built around our CMS, I also built a large custom irrigation and service scheduler for Perficut and their clients.\n\nThis scheduler allows Perficut to define a season, average appointment times, the number of crews available, which neighborhoods are serviced, and other small details.  From here, the tool allows Perficut to assign certain crews to certain neighborhoods (based on stats from the previous season).  Once this is all setup, customers can visit Perficut's site to schedule sprinkler system startups, shutdowns, and service.\n\nOn top of this custom tool, I was also in charge of integrating this site into our SiteMan CMS and deploying the site.",
         "featured": 0,
         "updatedAt": "2010-02-17",
-        "url": "http://www.perficut.com/",
+        "url": null,
         "tags": [
             "javascript",
             "jquery",
@@ -1107,7 +1107,7 @@
         "description": "In short, Dipity is a digital timeline web application with a hint of social networking.\n\nWe have built an incredible web-based tool that allows users to create, share, embed and collaborate on timelines that integrate video, audio, images, text, social media, geolocation and timestamps.  Timeline viewers can also pan around and zoom into these timelines for a very nice, visually engaging experience.",
         "featured": 1,
         "updatedAt": "2010-09-25",
-        "url": "http://www.dipity.com",
+        "url": null,
         "tags": [
             "ajax",
             "css",
@@ -1140,7 +1140,7 @@
         "description": "Des Moines Alive is a personal project that my friend Nick Leeper and I built to help Des Moines Area people find awesome local bars and restaurants places. In addition to general merchant info, we provide users with aggregated data such as reviews, foursquare tips, merchant tweets, etc.\n\nWe designed Des Moines Alive to be very lite and easy to navigate. The goal is to provide our visitors with the information they need as quickly as possible.",
         "featured": 1,
         "updatedAt": "2011-04-30",
-        "url": "http://www.desmoinesalive.com",
+        "url": "https://www.desmoinesalive.com",
         "tags": [
             "ajax",
             "css",
@@ -1304,7 +1304,7 @@
         "description": "Carfiend is a mobile application built for car enthusiasts to share photos of both their own cars and cars in the wild.\n\nA couple friends and I were hired to build the backing API for the project. We built it in Python using Flask and SQLAlchemy.\n\nI built many of the endpoints and models for interacting with cars, photos, events, other users, search, etc.",
         "featured": 0,
         "updatedAt": "2013-03-01",
-        "url": "http://www.carfiend.com/",
+        "url": null,
         "tags": [
             "api-design",
             "image-processing",
@@ -1382,7 +1382,7 @@
         "description": "The Modest Control Panel was a multi-tenant Content Management System that allowed merchants to manage their Modest powered storefronts. Features included the management of store themes, payment gateways, shipping methods, orders, third party e-commerce product syncing, and much more.\n\nThe back-end of this app was built in Python using the Flask framework. The front-end was initially built with plain Javascript and jQuery, but was eventually migrated to React.\n\nAs the Modest client application tech lead, I oversaw and greatly contributed to the overall product architecture and implementation of this web application.",
         "featured": 0,
         "updatedAt": "2015-04-13",
-        "url": "https://panel.modest.com/",
+        "url": null,
         "tags": [
             "apple-pay",
             "authorize-net",
@@ -1569,7 +1569,7 @@
         "description": "derek.broox.com is my general \"home page\" and development playground. Its primary purpose is to catalog my life and allow me to play with various APIs and web development technologies. I'd like to also think that it helps keep family and friends updated on my life, but I'm definitely the site's biggest user. derek.broox.com hosts thousands of photos, videos, maps, status updates, blogs, and various other stories from my entire life.\n\nderek.broox.com interfaces with Twitter, Facebook, Flickr, Foursquare, Google Latitude, Google maps, Last.fm, Withings, etc. It's also been known to hook into various other extinct APIs like Brightkite.\n\nEven without major distinction between the versions, this is a constantly evolving web application.",
         "featured": 1,
         "updatedAt": "2022-04-27",
-        "url": "http://derek.broox.com",
+        "url": "https://derek.broox.com",
         "tags": [
             "ajax",
             "api-design",
