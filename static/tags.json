@@ -15,6 +15,11 @@
         "description": ""
     },
     {
+        "slug": "apple-pay",
+        "name": "Apple Pay",
+        "description": ""
+    },
+    {
         "slug": "applescript",
         "name": "AppleScript",
         "description": ""
@@ -33,6 +38,11 @@
         "slug": "blueprint",
         "name": "Blueprint",
         "description": "Blueprint is a small CSS framework that helps speed up front-end styling development.  I'm not a huge fan of spending lots of time getting my html/css pixel perfect, so I decided to give this a test drive."
+    },
+    {
+        "slug": "braintree",
+        "name": "Braintree",
+        "description": ""
     },
     {
         "slug": "brightkite-api",
@@ -195,6 +205,11 @@
         "description": "After reading the Zen of Python, Python quickly became my server-side and scripting language of choice. It's readable, concise, and easy to get rolling with - especially when paired with the tons of lightweight frameworks and libraries that are available."
     },
     {
+        "slug": "react",
+        "name": "React",
+        "description": ""
+    },
+    {
         "slug": "ruby-on-rails",
         "name": "Ruby on Rails",
         "description": "I started programming with Ruby on Rails in 2007. It was really my first time being forced into using MVC principles and it was one of the best things that has happened to me as a programmer.\n\nThe way that Ruby on Rails pushes good development principles really strengthened me.  Since starting with Rails, even my PHP apps became much cleaner and more concise."
@@ -220,6 +235,11 @@
         "description": "SiteMan is an internal Content Management System that was developed at Red 5 Interactive. I built this system from the ground up with our lead engineer and we deployed it to dozens of client web applications.  \n\nTo find out more about SiteMan itself, check out the <a href=\"/projects/siteman\">SiteMan project</a>."
     },
     {
+        "slug": "stripe",
+        "name": "Stripe",
+        "description": ""
+    },
+    {
         "slug": "twitter-api",
         "name": "Twitter API",
         "description": "I've gotten to use the Twitter API for a handful of professional projects, but I mostly use it for fetching my personal status updates and displaying them in various places.  It's a very fun API."
@@ -232,7 +252,7 @@
     {
         "slug": "vue",
         "name": "Vue.js",
-        "description": ""
+        "description": "I began tinkering with Vue.js as an alternative to React.js. To be honest, I just never quite fell in love with React's JSX templating language and Vue, in my opinion, has a nicer separation of templating and logic."
     },
     {
         "slug": "wap",

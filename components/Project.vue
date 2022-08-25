@@ -9,7 +9,7 @@
         <NuxtLink :to="'/tags/'+tag.slug">{{tag.name}}</NuxtLink>
       </li>
     </ul>
-    <div>{{project.description}}</div>
+    <div v-html="project.description"></div>
   </article>
 </template>
 

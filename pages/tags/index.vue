@@ -2,7 +2,7 @@
   <div>
     <header class="title">
       <h1>Tags</h1>
-      <p>This is a word cloud of some technologies and tools that I've used while building the projects here. Select one to find out more about how I've used it.</p>
+      <p>This is a word cloud of some skills, tools, and technologies that I've used while building the projects here. Select one to learn more about how I've used it.</p>
     </header>
     <div>
       <ul>
@@ -18,7 +18,6 @@ import { useStore } from '~/store'
 export default {
   setup() {
     const store = useStore()
-    const projects = store.projects
     const tags = store.tags
     const minFontSize = 1
     const maxFontSize = 3
