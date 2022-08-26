@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/vocalfi", {data:[{}],fetch:{},mutations:void 0});

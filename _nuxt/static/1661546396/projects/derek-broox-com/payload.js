@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/derek-broox-com", {data:[{}],fetch:{},mutations:void 0});

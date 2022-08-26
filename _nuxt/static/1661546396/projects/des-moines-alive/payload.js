@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/des-moines-alive", {data:[{}],fetch:{},mutations:void 0});

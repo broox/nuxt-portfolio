@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/rebels-advocate", {data:[{}],fetch:{},mutations:void 0});

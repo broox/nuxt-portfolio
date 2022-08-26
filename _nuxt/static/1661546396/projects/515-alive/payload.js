@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/515-alive", {data:[{}],fetch:{},mutations:void 0});

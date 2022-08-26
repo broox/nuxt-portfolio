@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/adium-status-plugin", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/modest-ios-store", {data:[{}],fetch:{},mutations:void 0});

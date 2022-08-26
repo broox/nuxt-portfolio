@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/towrate", {data:[{}],fetch:{},mutations:void 0});

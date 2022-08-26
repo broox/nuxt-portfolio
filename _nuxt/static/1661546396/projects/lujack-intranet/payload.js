@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/lujack-intranet", {data:[{}],fetch:{},mutations:void 0});

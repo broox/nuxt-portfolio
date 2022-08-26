@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/james-h-laas-company", {data:[{}],fetch:{},mutations:void 0});

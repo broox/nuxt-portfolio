@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tags/flash", {data:[{}],fetch:{},mutations:void 0});

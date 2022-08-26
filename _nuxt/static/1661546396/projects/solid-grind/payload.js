@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/solid-grind", {data:[{}],fetch:{},mutations:void 0});

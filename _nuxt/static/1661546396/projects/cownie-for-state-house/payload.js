@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/cownie-for-state-house", {data:[{}],fetch:{},mutations:void 0});

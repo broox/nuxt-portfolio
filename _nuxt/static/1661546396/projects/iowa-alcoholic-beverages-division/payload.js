@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/iowa-alcoholic-beverages-division", {data:[{}],fetch:{},mutations:void 0});

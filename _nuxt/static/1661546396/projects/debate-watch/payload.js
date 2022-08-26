@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/debate-watch", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/3g-screensaver", {data:[{}],fetch:{},mutations:void 0});

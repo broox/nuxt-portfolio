@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/iowa-business-alliance", {data:[{}],fetch:{},mutations:void 0});

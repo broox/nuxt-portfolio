@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/vedanta-gallery", {data:[{}],fetch:{},mutations:void 0});

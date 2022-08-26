@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/itunes-web-remote", {data:[{}],fetch:{},mutations:void 0});

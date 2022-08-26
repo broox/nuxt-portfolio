@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tags/e-commerce", {data:[{}],fetch:{},mutations:void 0});

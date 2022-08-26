@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/kappa-theta", {data:[{}],fetch:{},mutations:void 0});

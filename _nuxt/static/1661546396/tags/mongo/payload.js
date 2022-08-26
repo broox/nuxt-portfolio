@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tags/mongo", {data:[{}],fetch:{},mutations:void 0});

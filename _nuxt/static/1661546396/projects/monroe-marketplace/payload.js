@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/monroe-marketplace", {data:[{}],fetch:{},mutations:void 0});

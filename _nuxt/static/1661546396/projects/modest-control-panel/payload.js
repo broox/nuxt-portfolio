@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/modest-control-panel", {data:[{}],fetch:{},mutations:void 0});

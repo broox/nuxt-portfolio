@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/modest-commerce-api", {data:[{}],fetch:{},mutations:void 0});
