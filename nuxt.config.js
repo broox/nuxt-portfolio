@@ -30,7 +30,7 @@ export default {
     '~/plugins/dates',
   ],
   router: {
-    base: '/nuxt-portfolio/',
+    // base: '/nuxt-portfolio/',
     trailingSlash: false,
   },
   target: 'static'
