@@ -19,7 +19,12 @@ import { useStore } from '~/store'
 export default {
   setup() {
     const store = useStore()
-    return { featuredProjects: store.featuredProjects }
+    return { store }
+  },
+  computed: {
+    featuredProjects() {
+      return this.store.featuredProjects
+    }
   },
 }
 </script>

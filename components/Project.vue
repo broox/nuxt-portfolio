@@ -11,9 +11,7 @@
     </ul>
 
     <div>
-      <a :href="img" v-if="img" @click.prevent="showScreenshot">
-        <img :src="thumbnail"/>
-      </a>
+      <Thumbnail :project="project" :version="latestVersion"/>
       <div v-html="project.description"></div>
     </div>
 
@@ -41,57 +39,23 @@
 
 <script>
 import { useStore } from '~/store'
-import * as basicLightbox from 'basiclightbox'
 
 export default {
   setup() {
     const store = useStore()
-    const thumbnails = import.meta.globEager('~/assets/images/thumb/*.gif')
-    const images = import.meta.globEager('~/assets/images/*')
-    return { images, store, thumbnails }
+    return { store }
   },
   props: {
     project: Object,
   },
+  data() {
+    return {
+      images: [],
+    }
+  },
   computed: {
     displayTime() {
       return this.$getDisplayDate(this.project.updatedAt)
-    },
-    img() {
-      const keys = [
-        `/assets/images/${this.project.slug}.png`,
-        `/assets/images/${this.project.slug}.gif`
-      ]
-
-      if (this.latestVersion) {
-        keys.push(...[
-          `/assets/images/${this.project.slug}-${this.latestVersion.version}.png`,
-          `/assets/images/${this.project.slug}-${this.latestVersion.version}.gif`
-        ])
-      }
-
-      for (const key of keys) {
-        if (key in this.images) {
-          return this.images[key].default
-        }
-      }
-    },
-    thumbnail() {
-      const paths = [`/assets/images/thumb/${this.project.slug}.gif`]
-      if (this.latestVersion) {
-        paths.push(`/assets/images/thumb/${this.project.slug}-${this.latestVersion.version}.gif`)
-      }
-
-      for (const path of paths) {
-        if (path in this.thumbnails) {
-          return this.thumbnails[path].default
-        }
-      }
-
-      // const key = `/assets/images/thumb/${this.project.slug}.gif`
-      // if (key in this.thumbnails) {
-      //   return this.thumbnails[key].default
-      // }
     },
     latestVersion() {
       const versions = this.project.versions
@@ -124,10 +88,6 @@ export default {
     }
   },
   methods: {
-    showScreenshot() {
-      const instance = basicLightbox.create(`<img src="${this.img}"/>`)
-      instance.show()
-    },
     toggleVersions(event) {
       const parent = event.target.closest('.previous')
       const versions = parent.querySelector('.versions')
@@ -258,12 +218,6 @@ h3.toggle span {
 
 p {
   margin: 1em 0;
-}
-
-img {
-  border: 1px solid #000;
-  float: left;
-  margin: 0 1em 1em 0;
 }
 
 footer {

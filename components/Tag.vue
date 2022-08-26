@@ -5,12 +5,7 @@
 </template>
 
 <script>
-import { defineComponent } from '@vue/composition-api'
-
-export default defineComponent({
-  setup() {
-    
-  },
+export default {
   props: {
     tag: Object,
   },
@@ -29,12 +24,12 @@ export default defineComponent({
       return `/tags/${this.tag.slug}`
     }
   }
-})
+}
 </script>
 
 <style scoped>
   a {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem;
   }
   a:hover {
     background-color: rgb(37, 99, 235);

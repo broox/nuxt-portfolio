@@ -6,11 +6,12 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview"
   },
-  "devDependencies": {
-    "nuxt": "3.0.0-rc.8"
-  },
+  "devDependencies": {},
   "dependencies": {
-    "@pinia/nuxt": "^0.4.1",
-    "basiclightbox": "^5.0.4"
+    "@nuxtjs/composition-api": "^0.33.1",
+    "@pinia/nuxt": "0.2.1",
+    "basiclightbox": "^5.0.4",
+    "nuxt": "^2.15.8",
+    "pinia": "^2.0.21"
   }
 }

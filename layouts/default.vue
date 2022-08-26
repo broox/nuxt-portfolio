@@ -1,27 +1,29 @@
 <template>
-  <header>
-    <div>
-      <h1>The Portfolio of Derek Brooks</h1>
-      <nav>
-        <ul>
-          <li><NuxtLink to="/">Home</NuxtLink></li>
-          <li><NuxtLink to="/projects">Projects</NuxtLink></li>
-          <li><NuxtLink to="/tags">Tags</NuxtLink></li>
-          <li><NuxtLink to="/resume">Resume</NuxtLink></li>
-        </ul>
-      </nav>
+  <div>
+    <header>
+      <div>
+        <h1>The Portfolio of Derek Brooks</h1>
+        <nav>
+          <ul>
+            <li><NuxtLink to="/">Home</NuxtLink></li>
+            <li><NuxtLink to="/projects">Projects</NuxtLink></li>
+            <li><NuxtLink to="/tags">Tags</NuxtLink></li>
+            <li><NuxtLink to="/resume">Resume</NuxtLink></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="content">
+      <Nuxt />
     </div>
-  </header>
-  <div class="content">
-    <slot />
+    <footer>
+      <div>
+        Copyright &copy; {{year}} Derek Brooks<br>
+        <a href="https://github.com/broox/nuxt-portfolio">source code</a> &middot;
+        <a href="https://validator.w3.org/check?uri=https%3A%2F%2Fwww.broox.com%2Fwork%2F">valid markup</a>
+      </div>
+    </footer>
   </div>
-  <footer>
-    <div>
-      Copyright &copy; {{year}} Derek Brooks<br>
-      <a href="https://github.com/broox/nuxt-portfolio">source code</a> &middot; 
-      <a href="https://validator.w3.org/check?uri=https%3A%2F%2Fwww.broox.com%2Fwork%2F">valid markup</a>
-    </div>
-  </footer>
 </template>
 
 <script>
@@ -105,7 +107,7 @@ footer div {
     justify-content: space-between;
   }
 
-  div, footer {
+  header div, div.content, footer {
     margin: 0 auto;
     max-width: 1024px;
   }
