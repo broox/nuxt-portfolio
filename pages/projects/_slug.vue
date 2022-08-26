@@ -16,12 +16,10 @@ export default {
     project() {
       const project = this.getProject(this.$route.params.slug)
       if (!project) {
-        // throw createError({ statusCode: 404, statusMessage: 'Project not found' })
         this.$nuxt.context.error({
           status: 404,
           message: 'Project not found',
         })
-
       }
       return project
     }

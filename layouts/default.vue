@@ -20,7 +20,7 @@
       <div>
         Copyright &copy; {{year}} Derek Brooks<br>
         <a href="https://github.com/broox/nuxt-portfolio">source code</a> &middot;
-        <a href="https://validator.w3.org/check?uri=https%3A%2F%2Fwww.broox.com%2Fwork%2F">valid markup</a>
+        <a :href="validateURL">valid markup</a>
       </div>
     </footer>
   </div>
@@ -29,9 +29,13 @@
 <script>
 export default {
   data() {
-    const year = new Date().getFullYear();
+    const validateURL = new URL('https://validator.w3.org/nu/')
+    validateURL.searchParams.append('doc', 'https://broox.dev')
+
+    const year = new Date().getFullYear()
     return {
       year,
+      validateURL
     }
   },
 }

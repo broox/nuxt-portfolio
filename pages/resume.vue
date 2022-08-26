@@ -18,8 +18,8 @@
       <h2>Experience</h2>
       <article :class="job.slug" v-for="job in jobs" v-bind:key="job.slug">
         <header>
-          <h1><strong>{{job.position}}</strong> for <strong>{{job.company}}</strong> of {{job.location}}</h1>
-          <h2>{{job.timespan}}</h2>
+          <h3><strong>{{job.position}}</strong> for <strong>{{job.company}}</strong> of {{job.location}}</h3>
+          <h4>{{job.timespan}}</h4>
         </header>
         <ul>
           <li v-for="task in job.tasks" v-bind:key="task">{{task}}</li>
@@ -100,12 +100,12 @@ article header {
   margin: 0 0 1rem;
 }
 
-article h1 {
+article h3 {
   font-size: 1.1em;
   font-weight: 400;
 }
 
-article h2 {
+article h4 {
   font-size: 1em;
   font-weight: normal;
 }

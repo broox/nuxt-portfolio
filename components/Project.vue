@@ -1,7 +1,7 @@
 <template>
   <article>
     <header>
-      <h1><NuxtLink :to="url">{{project.title}}</NuxtLink></h1>
+      <h2><NuxtLink :to="url">{{project.title}}</NuxtLink></h2>
       <span><time :datetime="project.updatedAt">{{displayTime}}</time></span>
     </header>
     <ul v-if="tags">
@@ -116,18 +116,18 @@ header {
   padding-bottom: 0.5em;
 }
 
-h1 {
+h2 {
   font-size: 1.5rem;
   font-weight: 600;
   margin: 0;
   padding: 0;
 }
 
-h1 a {
+h2 a {
   color: black;
 }
 
-h1 a:hover {
+h2 a:hover {
   color: rgb(37 99 235);
 }
 
@@ -142,7 +142,7 @@ time {
 Helper to align the timespan to the baseline of the *last* line of the project.title when the title wraps to more than 1 line.
 Per CSS 2.1: The baseline of an 'inline-block' is the baseline of its last line box in the normal flow.
 */
-h1 > a, span > time {
+h2 > a, span > time {
   display: inline-block;
 }
 
