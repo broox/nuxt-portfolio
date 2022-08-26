@@ -9,7 +9,13 @@
         <NuxtLink :to="'/tags/'+tag.slug">{{tag.name}}</NuxtLink>
       </li>
     </ul>
-    <div v-html="project.description"></div>
+
+    <div>
+      <a :href="img" v-if="img" @click.prevent="showScreenshot">
+        <img :src="thumbnail"/>
+      </a>
+      <div v-html="project.description"></div>
+    </div>
 
     <div v-if="latestVersion">
       <h3>{{latestVersion.version}} - latest version</h3>
@@ -19,34 +25,73 @@
     <div v-if="previousVersions" class="previous">
       <h3 @click="toggleVersions" class="toggle">{{previousVersionCount}} <span></span></h3>
       <div class="versions">
-        <div v-for="version in previousVersions" v-bind:key="version.version">
-          <h4>{{version.version}} <span>{{getDisplayDate(version.createdAt)}}</span></h4>
+        <Version :version="version" :project="project" v-for="version in previousVersions" v-bind:key="version.version" />
+        <!-- <div v-for="version in previousVersions" v-bind:key="version.version">
+          <h4>{{version.version}} <span>{{$getDisplayDate(version.createdAt)}}</span></h4>
           <p v-html="version.description"></p>
-        </div>
+        </div> -->
       </div>
     </div>
 
-    <footer v-if="project.url">
-      <a :href="project.url" target="_blank">{{project.url}}</a>
+    <footer>
+      <a :href="project.url" target="_blank" v-if="project.url">{{project.url}}</a>
     </footer>
   </article>
 </template>
 
 <script>
 import { useStore } from '~/store'
-const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+import * as basicLightbox from 'basiclightbox'
 
 export default {
   setup() {
     const store = useStore()
-    return { store }
+    const thumbnails = import.meta.globEager('~/assets/images/thumb/*.gif')
+    const images = import.meta.globEager('~/assets/images/*')
+    return { images, store, thumbnails }
   },
   props: {
     project: Object,
   },
   computed: {
     displayTime() {
-      return this.getDisplayDate(this.project.updatedAt)
+      return this.$getDisplayDate(this.project.updatedAt)
+    },
+    img() {
+      const keys = [
+        `/assets/images/${this.project.slug}.png`,
+        `/assets/images/${this.project.slug}.gif`
+      ]
+
+      if (this.latestVersion) {
+        keys.push(...[
+          `/assets/images/${this.project.slug}-${this.latestVersion.version}.png`,
+          `/assets/images/${this.project.slug}-${this.latestVersion.version}.gif`
+        ])
+      }
+
+      for (const key of keys) {
+        if (key in this.images) {
+          return this.images[key].default
+        }
+      }
+    },
+    thumbnail() {
+      const paths = [`/assets/images/thumb/${this.project.slug}.gif`]
+      if (this.latestVersion) {
+        paths.push(`/assets/images/thumb/${this.project.slug}-${this.latestVersion.version}.gif`)
+      }
+
+      for (const path of paths) {
+        if (path in this.thumbnails) {
+          return this.thumbnails[path].default
+        }
+      }
+
+      // const key = `/assets/images/thumb/${this.project.slug}.gif`
+      // if (key in this.thumbnails) {
+      //   return this.thumbnails[key].default
+      // }
     },
     latestVersion() {
       const versions = this.project.versions
@@ -79,14 +124,9 @@ export default {
     }
   },
   methods: {
-    getDisplayDate(dateString) {
-      const date = new Date(dateString)
-      if (dateString.length > 4) {
-        const month = months[date.getUTCMonth()]
-        return `${month} ${date.getUTCFullYear()}`
-      } else {
-        return date.getUTCFullYear()
-      }
+    showScreenshot() {
+      const instance = basicLightbox.create(`<img src="${this.img}"/>`)
+      instance.show()
     },
     toggleVersions(event) {
       const parent = event.target.closest('.previous')
@@ -168,7 +208,6 @@ ul li:not(:last-child):after {
   content: ', ';
 }
 
-
 .previous {
   margin: 1em 0 0;
 }
@@ -200,20 +239,6 @@ h3.toggle span {
   border-color: transparent transparent transparent #777;
 }
 
-h4 {
-  font-size: 1em;
-  font-weight: 500;
-  margin: 1em 0;
-  position: relative;
-}
-
-h4 span {
-  color: #777;
-  font-weight: normal;
-  position: absolute;
-  right: 0;
-}
-
 .versions {
   border-left: 2px solid #DDD;
   height: 0px;
@@ -235,7 +260,14 @@ p {
   margin: 1em 0;
 }
 
+img {
+  border: 1px solid #000;
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
 footer {
+  clear: both;
   margin: 0;
 }
 </style>
