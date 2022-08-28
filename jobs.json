@@ -6,9 +6,8 @@
     "location" : "San Jose, California (remote)",
     "timespan" : "August 2015 - May 2022",
     "tasks"    : [
-      "Led, architected, and developed commerce and financial service products amongst various teams within Venmo, Braintree, and PayPal proper",
-      "Helped grow the Venmo Chicago development team by over 1000%",
-      "Development: Python, Javascript, SQL"
+      "Led, architected, and developed commerce and financial service products amongst several teams within Venmo, Braintree, and PayPal proper",
+      "Helped grow the Venmo Chicago development team by 1000%"
     ]
   },
   {
@@ -18,11 +17,10 @@
     "location" : "Chicago, Illinois (remote)",
     "timespan" : "January 2013 - August 2015",
     "tasks"    : [
-      "Focused on in-context commerce software servicing both retailers and consumers",
-      "Helped architect and build our core API, web client and iOS client",
+      "Focused on in-context commerce software that serviced both retailers and consumers",
+      "Helped architect and build our core commerce API, web clients and iOS client",
       "Helped grow team of engineers, designers and product managers by 400%",
-      "Got acquired by PayPal",
-      "Development: Python, JavaScript"
+      "Got acquired by PayPal"
     ]
   },
   {
@@ -34,8 +32,7 @@
     "tasks"    : [
       "Focused on building software and services to help reach, register, and protect potential voters",
       "Managed, architected, and helped develop 10 highly scalable products across 19 applications",
-      "Built and worked closely with a small team of extremely talented software engineers",
-      "Development: Ruby on Rails, Python, SQL, JavaScript, PHP"
+      "Built and worked closely with a small team of extremely talented software engineers"
     ]
   },
   {
@@ -48,8 +45,7 @@
       "Developed and extended JavaScript based interactive timeline software",
       "Managed systems receiving 250,000 - 700,000 daily pageviews on Amazon EC2 and S3",
       "Architected and developed JavaScript API to allow developers to leverage our timeline widget",
-      "Extended our REST API while offloading all date calculation to 24-bit API servers to extend the span of our timelines",
-      "Development: PHP, JavaScript, SQL"
+      "Extended our REST API while offloading all date calculation to 24-bit API servers to extend the span of our timelines"
     ]
   },
   { 
@@ -61,8 +57,7 @@
     "tasks"    : [
       "Analyzed, modeled, and developed rich web applications for clients",
       "Managed systems and deployment of web applications",
-      "Built and extended Rails based Content Management System which was deployed on dozens of sites",
-      "Development: Ruby on Rails, JavaScript, SQL, Objective-C"
+      "Built and extended Rails based Content Management System which was deployed on dozens of sites"
     ]
   },
   {
@@ -74,8 +69,7 @@
     "tasks"    : [
       "Developed web-based and client-based software for scientific research",
       "Aided in the analysis and design of software and systems",
-      "Played key roles in increased developer productivity",
-      "Development: ASP, ASP.NET, C#, Java, JavaScript, JSP, PowerScript, SQL, VBScript"
+      "Played key roles in increased developer productivity"
     ]
   },
   {
@@ -86,8 +80,7 @@
     "timespan" : "February 2004 - May 2010",
     "tasks"    : [
       "Designed and developed company social projects and applications",
-      "Designed and developed professional web applications for clients",
-      "Development: PHP, JavaScript, SQL"
+      "Designed and developed professional web applications for clients"
     ]
   },
   {
@@ -97,10 +90,9 @@
     "location" : "Mount Vernon, Iowa",
     "timespan" : "April 2002 - May 2003",
     "tasks"    : [
-      "Designed and managed portions of the Cornell College web site",
+      "Designed and managed portions of the Cornell College website",
       "Managed and instructed other students on the Web Team",
-      "Handled complex projects including PHP/MySQL and Flash Systems",
-      "Development: PHP, Flash, JavaScript"
+      "Handled complex projects including PHP/MySQL and Flash Systems"
     ]
   },
   {
@@ -112,8 +104,7 @@
     "tasks"    : [
       "Built, altered, and updated databases using various software packages",
       "Assisted faculty with computer hardware/software support and installation",
-      "Managed campus network systems",
-      "Development: SQL"
+      "Managed campus network systems"
     ]
   },
   {
@@ -125,8 +116,7 @@
     "tasks"    : [
       "Created a PHP/MySQL based intranet system",
       "Organized and managed company network systems",
-      "Designed and managed various databases",
-      "Development: PHP, JavaScript, SQL"
+      "Designed and managed various databases"
     ]
   },
   {
@@ -136,10 +126,9 @@
     "location" : "Cedar Rapids, Iowa",
     "timespan" : "June 2001 - October 2001",
     "tasks"    : [
-      "Designed professional web sites for clients",
+      "Designed professional websites for clients",
       "Installed small office networks for clients",
-      "Assisted clients with computer hardware/software problems and installation",
-      "Development: PHP, Flash, JavaScript"
+      "Assisted clients with computer hardware/software problems and installation"
     ]
   }
 ]

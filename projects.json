@@ -2,7 +2,7 @@
     {
         "slug": "kappa-theta",
         "title": "Kappa Theta",
-        "description": "Kappa Theta is a female social group at Cornell College - Cornell's equivalent to a Sorority.  The women of Kappa Theta hired me to design a simple informational web site.  After designing the site, I trained one of the women to update the content via Macromedia Dream Weaver.\n\nIt turned out to be a very useful tool to easily communicate the message, purpose, and goals of the group.  5 years later, I ended up marrying one of them!",
+        "description": "Kappa Theta is a female social group at Cornell College - Cornell's equivalent to a Sorority.  The women of Kappa Theta hired me to design a simple informational website.  After designing the site, I trained one of the women to update the content via Macromedia Dream Weaver.\n\nIt turned out to be a very useful tool to easily communicate the message, purpose, and goals of the group.  5 years later, I ended up marrying one of them!",
         "featured": 0,
         "updatedAt": "2000",
         "url": null,
@@ -15,7 +15,7 @@
     {
         "slug": "advantage-group",
         "title": "Advantage Group",
-        "description": "The Advantage Group is an investment company based in Cedar Rapids Iowa.  They were a client for one of my employers and hired me to do their web site.  This site was fairly simple but needed to be extremely clean, professional, and still be able to relay a large amount of information to the reader.\n\nThe site turned out just as planned and served as a great tool for The Advantage Group.",
+        "description": "The Advantage Group is an investment company based in Cedar Rapids Iowa.  They were a client for one of my employers and hired me to do their website.  This site was fairly simple but needed to be extremely clean, professional, and still be able to relay a large amount of information to the reader.\n\nThe site turned out just as planned and served as a great tool for The Advantage Group.",
         "featured": 0,
         "updatedAt": "2001",
         "url": null,
@@ -28,7 +28,7 @@
     {
         "slug": "computing-services",
         "title": "Computing Services",
-        "description": "While at Cornell, I worked for Computing Services - the department that managed all of Information Technology.  As part of my work-study I was hired to design a site for our department.  It was my first experience in coding web sites with things other than straight HTML, CSS, and JavaScript.  I got to learn perl and the magic of including reusable .nav files for easy, DRY navigation manipulation.\n\nMy main duty was to fix old links, remove unwanted content, add new content, and update various items throughout.  Due to such a large amount of changes, I ended up recoding most of the site from scratch.  Everything except for the RESnet (student intranet) section of the website was my work.  At the time, if you saw a little stylized \"x\" in the footer the bottom of the page - I programmed it.",
+        "description": "While at Cornell, I worked for Computing Services - the department that managed all of Information Technology.  As part of my work-study I was hired to design a site for our department.  It was my first experience in coding websites with things other than straight HTML, CSS, and JavaScript.  I got to learn perl and the magic of including reusable .nav files for easy, DRY navigation manipulation.\n\nMy main duty was to fix old links, remove unwanted content, add new content, and update various items throughout.  Due to such a large amount of changes, I ended up recoding most of the site from scratch.  Everything except for the RESnet (student intranet) section of the website was my work.  At the time, if you saw a little stylized \"x\" in the footer the bottom of the page - I programmed it.",
         "featured": 0,
         "updatedAt": "2001",
         "url": null,
@@ -43,7 +43,7 @@
     {
         "slug": "paac",
         "title": "PAAC",
-        "description": "PAAC (Performing Arts and Activities Council) is an organization at Cornell College that organized all entertainment on campus.  I was hired as a technician and web master for the 2001-2002 school year.  As technician I was in charge of setting up and running all audio/video equipment at our events.  As web master I had complete reign over the site.\n\nWhen I first joined this group the site was programmed via Macromedia Dream Weaver and was quite simple. I rebuilt the site from scratch, giving it a more uniform, professional look that was very easy to navigate.  I also integrated some Flash animation for aesthetics.\n\nThe color scheme may not not have been the best, but it was our school colors and the overall layout turned out nice.",
+        "description": "PAAC (Performing Arts and Activities Council) is an organization at Cornell College that organized all entertainment on campus.  I was hired as a technician and web master for the 2001-2002 school year.  As technician, I was in charge of setting up and running all audio/video equipment at our events.  As web master, I had complete reign over the site.\n\nWhen I first joined this group the site was programmed via Macromedia Dream Weaver and was quite simple. I rebuilt the site from scratch, giving it a more uniform, professional look that was very easy to navigate.  I also integrated some Flash animation for aesthetics.\n\nThe color scheme may not have been the best, but it was our school colors and the overall layout turned out nice.",
         "featured": 0,
         "updatedAt": "2001",
         "url": null,
@@ -58,7 +58,7 @@
     {
         "slug": "brooksfsw",
         "title": "BrooksFSW",
-        "description": "BrooksFSW was a site dedicated to Soap Shoes, a company that makes shoes capable of sliding across objects such as handrails, benches, etc.  The activity of \"soaping\" is very similar to grinding with inline skates or skateboards.  I did promotional work for Soap Shoes for several years and this site was a huge part of that.\n\nBrooksFSW was a portal site using PHP Nuke to develop a community for \"Soapers.\"  It kept users informed on the latest news and happenings with the company.  It also kept everyone involved in friendly competition with photos, polls, forums, and videos.\n\nThis was the first site I ran that used an extensive PHP and MySQL back-end and was an excellent learning experience for me. My mentor, Harper Reed, helped tremendously with the initial setup and training. It was released in September 2000 and integrated into <a href=\"/projects/broox-extreme\">Broox Exteme</a> in October 2001.  During that year it received nearly 620,000 hits and had 800 registered users.  The site also had 441 news articles published and over 6,000 comments on those articles.\n\nBrooksFSW received some great recognition from large medias such as the British Broadcasting Corporation, The Mount Vernon Sun, The Rock Island Dispatch, and the Cedar Rapids Gazette.\n\nDisclaimer: After the BrooksFSW.com domain was released from my posession, another company purchased it. It has been known to display various lewd content. I have no affiliation with the current owner of the website.",
+        "description": "BrooksFSW was a site dedicated to Soap Shoes, a company that makes shoes capable of sliding across objects such as handrails, benches, etc.  The activity of \"soaping\" is very similar to grinding with inline skates or skateboards.  I did promotional work for Soap Shoes for several years and this site was a huge part of that.\n\nBrooksFSW was a portal site using PHP Nuke to develop a community for \"Soapers.\"  It kept users informed on the latest news and happenings with the company.  It also kept everyone involved in friendly competition with photos, polls, forums, and videos.\n\nThis was the first site I ran that used an extensive PHP and MySQL back-end and was an excellent learning experience for me. My mentor, Harper Reed, helped tremendously with the initial setup and training. It was released in September 2000 and integrated into <a href=\"/projects/broox-extreme\">Broox Extreme</a> in October 2001.  During that year it received nearly 620,000 hits and had 800 registered users.  The site also had 441 news articles published and over 6,000 comments on those articles.\n\nBrooksFSW received some great recognition from large medias such as the British Broadcasting Corporation, The Mount Vernon Sun, The Rock Island Dispatch, and the Cedar Rapids Gazette.\n\nDisclaimer: After the BrooksFSW.com domain was released from my posession, another company purchased it. It has been known to display various lewd content. I have no affiliation with the current owner of the website.",
         "featured": 0,
         "updatedAt": "2000-09-01",
         "url": null,
@@ -73,7 +73,7 @@
     {
         "slug": "broox-extreme",
         "title": "Broox Extreme",
-        "description": "Broox Extreme was the former version of <a href=\"/projects/solid-grind\">SolidGrind.com</a>. It was an extreme sports website that included 6 categories: bmx, inline, scooter, skateboard, snowboard, and soap shoes. Each section had the latest news and information along with user submitted photos and videos. \n\nI hired several authors who specialized in at least one category of the site to help me keep everyone informed of what's going on. \n\nAlmost a year after the site was released (October 2001), broox.com received over 700,000 hits and had nearly 700 registered users. Upon closing, the site was just shy of 1 million hits. \n\nYM (Your Magazine) found this site and contacted me in order to feature me and some of my \"Soaping Buddies.\" They flew out from New York to do a day long photoshoot of us sliding on handrails and we were all featured in the April, 2002 of YM magazine!",
+        "description": "Broox Extreme was the former version of <a href=\"/projects/solid-grind\">SolidGrind.com</a>. It was an extreme sports website that included 6 categories: bmx, inline, scooter, skateboard, snowboard, and soap shoes. Each section had the latest news and information along with user submitted photos and videos. \n\nI hired several authors who specialized in at least one category of the site to help me keep everyone informed of what's going on. \n\nAlmost a year after the site was released (October 2001), broox.com received over 700,000 hits and had nearly 700 registered users. Upon closing, the site was just shy of 1 million hits. \n\nYM (Your Magazine) found this site and contacted me in order to feature me and some of my \"Soaping Buddies.\" They flew out from New York to do a day long photoshoot of us sliding on handrails, and we were all featured in the April, 2002 of YM magazine!",
         "featured": 0,
         "updatedAt": "2001-10-24",
         "url": null,
@@ -103,7 +103,7 @@
     {
         "slug": "the-simple-truth-cornell-college",
         "title": "The Simple Truth @ Cornell College",
-        "description": "This is one of the many sites I built while on the Cornell College student webteam. It is probably my favorite due to the tight deadline and how well everything worked out. First of all, I had a 4 day deadline on this project. Cornell introduced a new marketing scheme to give students information about the college, which was titled \"The Simple Truth.\" The college had hundreds of pamphlets printed out, which they would send to everyone who visited truth.cornellcollege.edu. On top of that we even had an advertisement going into U.S. News, which had a link to the site I was supposed to build (hence the short deadline).\n\nThe site was only to be 1 page long, had to open in a static sized window, and needed to have a PHP based form to collect data and insert information into a database.  On top of all of that, they wanted flash animation for the header.  The screenshot pictured is simply of the flash animation.",
+        "description": "This is one of the many sites I built while on the Cornell College student webteam. It is probably my favorite due to the tight deadline and how well everything worked out. First of all, I had a 4-day deadline on this project. Cornell introduced a new marketing scheme to give students information about the college, which was titled \"The Simple Truth.\" The college had hundreds of pamphlets printed out, which they would send to everyone who visited truth.cornellcollege.edu. On top of that we even had an advertisement going into U.S. News, which had a link to the site I was supposed to build (hence the short deadline).\n\nThe site was only to be 1 page long, had to open in a static sized window, and needed to have a PHP based form to collect data and insert information into a database.  On top of all of that, they wanted flash animation for the header.  The screenshot pictured is simply of the flash animation.",
         "featured": 0,
         "updatedAt": "2002-08-01",
         "url": null,
@@ -132,7 +132,7 @@
     {
         "slug": "lujacks-suv-trails",
         "title": "Lujack's SUV Trails",
-        "description": "I designed this site for Lujack's Northpark Auto Plaza, where I previously held my internship. Lujack's is the fist dealership in the country to have their own SUV offroad test track. This track has several obstacle's to test the performance of sport utility vehicles. \n\nThe screenshot shown is a portion of the virtual map I built for Lujack's. When a user hovered their mouse over an obstacle a description of that obstacle was shown in the description box. If an obstacle was clicked on, a small video clip would be played in Quicktime format.",
+        "description": "I designed this site for Lujack's Northpark Auto Plaza, where I previously held my internship. Lujack's is the fist dealership in the country to have their own SUV offroad test track. This track has several obstacles to test the performance of sport utility vehicles. \n\nThe screenshot shown is a portion of the virtual map I built for Lujack's. When a user hovered their mouse over an obstacle a description of that obstacle was shown in the description box. If an obstacle was clicked on, a small video clip would be played in Quicktime format.",
         "featured": 0,
         "updatedAt": "2002-09-26",
         "url": null,
@@ -160,7 +160,7 @@
     {
         "slug": "kronus-films",
         "title": "Kronus Films",
-        "description": "This is a design that I completed while working for NaTa2 Productions. The client, Kronus Entertainment, is a film production company specializing in underwater video shooting. At the time, they were working on breaking an underwater world record as a fund-raiser. The goal was to make a 100 mile trip around an island which would be approximately 24 hours underwater; the money raised was used to assist ill children. Kronus had a variety of extremely powerful equipment and talented personnel. \n\nThey came to us needing a professional web site to portray their image and draw more attention to their cause and company.",
+        "description": "This is a design that I completed while working for NaTa2 Productions. The client, Kronus Entertainment, is a film production company specializing in underwater video shooting. At the time, they were working on breaking an underwater world record as a fund-raiser. The goal was to make a 100-mile trip around an island which would be approximately 24 hours underwater; the money raised was used to assist ill children. Kronus had a variety of extremely powerful equipment and talented personnel. \n\nThey came to us needing a professional website to portray their image and draw more attention to their cause and company.",
         "featured": 0,
         "updatedAt": "2002-11-02",
         "url": null,
@@ -191,7 +191,7 @@
     {
         "slug": "wireless-wallpapers",
         "title": "Wireless Wallpapers",
-        "description": "Wireless Wallpapers was a personal project of mine. It was a site that allowed users to download wallpapers for their early 2000s color screened mobile phones. \n\nAt the time there were several sites offering this service however nearly all of them only supported one type of phone or charged money for each wallpaper downloaded (usually $1.00 per wallpaper). Wireless Wallpapers allowed users to download unlimited wallpapers for free, which were available for several types of phones. The free wallpapers had a tiny \"wirelesswallpapers\" watermarks near the bottom of the image, however if the user paid a small fee each month, they could get more features (such as private wallpapers) and the watermark was removed. In addition to this, I added functionality to allow users to upload their own images to the website which gave me the ability to let the site run itself. The website automatically resized the uploaded user images to fit various mobile screen sizes and printed my watermark to the image. The site was a huge sucess and learning experience. The first day it was online it received 7,000 hits and had nearly 100 users. After the first week there were nearly 50,000 hits and 500 users.  Upon selling the site, I had over 24,000 users and received over 3,200,000 hits.",
+        "description": "Wireless Wallpapers was a personal project of mine. It was a site that allowed users to download wallpapers for their early 2000s color screened mobile phones. \n\nAt the time there were several sites offering this service however nearly all of them only supported one type of phone or charged money for each wallpaper downloaded (usually $1.00 per wallpaper). Wireless Wallpapers allowed users to download unlimited wallpapers for free, which were available for several types of phones. The free wallpapers had a tiny \"wirelesswallpapers\" watermarks near the bottom of the image, however if the user paid a small fee each month, they could get more features (such as private wallpapers) and the watermark was removed. In addition to this, I added functionality to allow users to upload their own images to the website which gave me the ability to let the site run itself. The website automatically resized the uploaded user images to fit various mobile screen sizes and printed my watermark to the image. The site was a huge success and learning experience. The first day it was online it received 7,000 hits and had nearly 100 users. After the first week there were nearly 50,000 hits and 500 users.  Upon selling the site, I had over 24,000 users and received over 3,200,000 hits.",
         "featured": 0,
         "updatedAt": "2003-01-31",
         "url": null,
@@ -253,7 +253,7 @@
     {
         "slug": "we-own-the-sun",
         "title": "We Own The Sun",
-        "description": "One day, a couple friends and I decided to claim the sun.  As such, we quickly designed this web site to let the world know that \"we own the sun.\"\n\nThe site we created sold plots of the sun as real estate and donated part of the profits to cancer research.\n\nI was in charge of the site's design and some of the creative content.",
+        "description": "One day, a couple friends and I decided to claim the sun.  As such, we quickly designed this website to let the world know that \"we own the sun.\"\n\nThe site we created sold plots of the sun as real estate and donated part of the profits to cancer research.\n\nI was in charge of the site's design and some of the creative content.",
         "featured": 0,
         "updatedAt": "2003-10-21",
         "url": null,
@@ -309,7 +309,7 @@
     {
         "slug": "trek-for-kids",
         "title": "Trek For Kids",
-        "description": "Trek For Kids was a fundraising bike ride for The Boys and Girls Club of Dane County. Their web site provided information about the ride, allowed people register to ride, and also let people make pledges to the registered rider.\n\nA friend of mine contacted me to contract out the development for small section of this site. Shortly after, my partner and I were hired to design and program the rider registration, pledge donations, and full administration/reporting tools.\n\nThis was our first time diving into accepting credit card payments, but we were able to get the registration and donation sections up and running on a secure server and used encryption in order to ensure protection for the visitors.\n\nThe administration panel let Trek For Kids manage users, teams, donations, etc. It also provided full reporting to keep them up to date on number of registered riders, team rosters, and pledge standings.",
+        "description": "Trek For Kids was a fundraising bike ride for The Boys and Girls Club of Dane County. Their website provided information about the ride, allowed people register to ride, and also let people make pledges to the registered rider.\n\nA friend of mine contacted me to contract out the development for small section of this site. Shortly after, my partner and I were hired to design and program the rider registration, pledge donations, and full administration/reporting tools.\n\nThis was our first time diving into accepting credit card payments, but we were able to get the registration and donation sections up and running on a secure server and used encryption in order to ensure protection for the visitors.\n\nThe administration panel let Trek For Kids manage users, teams, donations, etc. It also provided full reporting to keep them up to date on number of registered riders, team rosters, and pledge standings.",
         "featured": 0,
         "updatedAt": "2004-06-29",
         "url": null,
@@ -325,7 +325,7 @@
     {
         "slug": "sae-long-beach",
         "title": "SAE Long Beach",
-        "description": "A friend of mine from the The Long Beach chapter of Sigma Alpha Epsilon contacted me seeking some extensions to their current website.  They wanted a content management system to allow for easy management of active members, alumni, alumni job postings, dues, a calendar of events, etc.\n\nMy partner and I were able to provide them with a very user-friendly administration panel to manage all of this data. SAE also wanted a photo gallery and forum which we installed and fit 2 previously built systems for.",
+        "description": "A friend of mine from the Long Beach chapter of Sigma Alpha Epsilon contacted me seeking some extensions to their current website.  They wanted a content management system to allow for easy management of active members, alumni, alumni job postings, dues, a calendar of events, etc.\n\nMy partner and I were able to provide them with a very user-friendly administration panel to manage all of this data. SAE also wanted a photo gallery and forum which we installed and fit 2 previously built systems for.",
         "featured": 0,
         "updatedAt": "2004-06-29",
         "url": null,
@@ -339,7 +339,7 @@
     {
         "slug": "falaphilia",
         "title": "Falaphilia",
-        "description": "On October 14th 2004, Bill O'Reilly from Fox News was threatened with a sexual harrassment lawsuit. A typo was made on the lawsuit transcript, where instead of \"loufa,\" the officer wrote \"falafel.\" Some friends and I found this hilarious so we coined the term \"Falaphilia\" and put this website together.\n\nEven though it was just a joke. We ended up having approximately 50,000 visitors in the first 48hrs and peaked at 100,000 visitors in the first week. We then switched it up and served large political content to the blogger demograph and pulled 3.7 terabytes of transfer in 5 days.\n\nI handled the design of this site as well as some creative content, and made a graphic of O'reilly hugging a giant piece of falafel.",
+        "description": "On October 14th 2004, Bill O'Reilly from Fox News was threatened with a sexual harassment lawsuit. A typo was made on the lawsuit transcript, where instead of \"loufa,\" the officer wrote \"falafel.\" Some friends and I found this hilarious, so we coined the term \"Falaphilia\" and put this website together.\n\nEven though it was just a joke. We ended up having approximately 50,000 visitors in the first 48hrs and peaked at 100,000 visitors in the first week. We then switched it up and served large political content to the blogger demograph and pulled 3.7 terabytes of transfer in 5 days.\n\nI handled the design of this site as well as some creative content, and made a graphic of O'reilly hugging a giant piece of falafel.",
         "featured": 0,
         "updatedAt": "2004-10-15",
         "url": null,
@@ -366,7 +366,7 @@
     {
         "slug": "soft-focus-art",
         "title": "Soft Focus Art",
-        "description": "Soft Focus Art was a local Hip Hop and DJ group who came to my partnership with a limited budget and hopes of a fairly complex, dynamic web site. They wanted to be able to update their viewers with bios, media, news, and information about upcoming shows; but they also wanted to keep the design simple with crisp lines and have everything animated via Flash. We helped them out and provided a simple animated design with a PHP/MySQL content management system that delivered XML to the Flash module to display the dynamic content.",
+        "description": "Soft Focus Art was a local Hip Hop and DJ group who came to my partnership with a limited budget and hopes of a fairly complex, dynamic website. They wanted to be able to update their viewers with bios, media, news, and information about upcoming shows; but they also wanted to keep the design simple with crisp lines and have everything animated via Flash. We helped them out and provided a simple animated design with a PHP/MySQL content management system that delivered XML to the Flash module to display the dynamic content.",
         "featured": 0,
         "updatedAt": "2004-11-02",
         "url": null,
@@ -413,7 +413,7 @@
     {
         "slug": "rebels-advocate",
         "title": "Rebels Advocate",
-        "description": "Rebels Advocate was a Midwest Hip Hop group that got together in Iowa City. With their gaining popularity they decided they needed a strong web presence to show the world what they were all about.\n\nRebels Advocate was referred to my partnership needing both a web site and a music video. With a very limited budget, we had to cut a lot of corners, but the results of both the video and the web site turned on great. The site allowed visitors to check out their bios, video, photos, and most importantly, their music. We also installed a community driven forum to keep visitors coming back to the site and gave them analytics to track the site's traffic.",
+        "description": "Rebels Advocate was a Midwest Hip Hop group that got together in Iowa City. With their gaining popularity they decided they needed a strong web presence to show the world what they were all about.\n\nRebels Advocate was referred to my partnership needing both a website and a music video. With a very limited budget, we had to cut a lot of corners, but the results of both the video and the website turned on great. The site allowed visitors to check out their bios, video, photos, and most importantly, their music. We also installed a community driven forum to keep visitors coming back to the site and gave them analytics to track the site's traffic.",
         "featured": 0,
         "updatedAt": "2006-01-22",
         "url": null,
@@ -430,7 +430,7 @@
     {
         "slug": "truespin-media",
         "title": "Truespin Media",
-        "description": "Truespin Media was a small partnership that my friend, Nick Leeper, and I started up to work on side-gigs.  \n\nWe originally planned on offering several services including: video production, photography, graphic design, and web development. However, we focused primarily on the develpment and design pieces.",
+        "description": "Truespin Media was a small partnership that my friend, Nick Leeper, and I started up to work on side-gigs.  \n\nWe originally planned on offering several services including: video production, photography, graphic design, and web development. However, we focused primarily on the development and design pieces.",
         "featured": 0,
         "updatedAt": "2006-03-29",
         "url": null,
@@ -447,7 +447,7 @@
             },
             {
                 "version": "v2",
-                "description": "After realizing that we were mainly focusing on web development and not the other services we offered, we decided to redesign our web site.\n\nThis version of our site was much lighter and contained only information relevant to development.\n\nWith this release we also drastically updated our outdated portfolio. with all of the work we were doing, we didn't have enough time to update our own site!",
+                "description": "After realizing that we were mainly focusing on web development and not the other services we offered, we decided to redesign our website.\n\nThis version of our site was much lighter and contained only information relevant to development.\n\nWith this release we also drastically updated our outdated portfolio. with all of the work we were doing, we didn't have enough time to update our own site!",
                 "createdAt": "2006-03-29"
             }
         ]
@@ -487,7 +487,7 @@
     {
         "slug": "five-point-studios",
         "title": "Five Point Studios",
-        "description": "Five point studios was a professional piercing and custom tattoo shop in Johnston, IA. I was hired to revamp their severely outdated web site and built them a custom content management so the shop could manage any page as well as manage staff members and portfolios.\n\nI incorporated one of the shop's tattoo sketches into the design along with a fancy font that they requested.\n\nAs with any web site, if the visitors don't have that font installed, they won't see your fancy text. So, using PHP's GD library, I wrote functionality to dynamically load their font and create fancy title images on the fly.\n\nThe site was much more successful in allowing Five Point to showcase the incredible work that consistantly came out of their shop.",
+        "description": "Five point studios was a professional piercing and custom tattoo shop in Johnston, IA. I was hired to revamp their severely outdated website and built them a custom content management so the shop could manage any page as well as manage staff members and portfolios.\n\nI incorporated one of the shop's tattoo sketches into the design along with a fancy font that they requested.\n\nAs with any website, if the visitors don't have that font installed, they won't see your fancy text. So, using PHP's GD library, I wrote functionality to dynamically load their font and create fancy title images on the fly.\n\nThe site was much more successful in allowing Five Point to showcase the incredible work that consistently came out of their shop.",
         "featured": 0,
         "updatedAt": "2007-09-24",
         "url": null,
@@ -503,7 +503,7 @@
     {
         "slug": "brt-realty",
         "title": "BRT Realty",
-        "description": "BRT Realty is a commercial real estate company who my company, Red 5 Interactive hosted. I came into this project a bit late so I didn't have a whole lot to do with the overall buildout. However, I did build most of the forms for collecting visitor information. I also handled some dynamic content display, etc.",
+        "description": "BRT Realty is a commercial real estate company who my company, Red 5 Interactive hosted. I came into this project a bit late, so I didn't have a whole lot to do with the overall buildout. However, I did build most of the forms for collecting visitor information. I also handled some dynamic content display, etc.",
         "featured": 0,
         "updatedAt": "2008-01-10",
         "url": null,
@@ -531,7 +531,7 @@
     {
         "slug": "audit-trail",
         "title": "Audit Trail",
-        "description": "The Audit Trail is an internal application that I built for Red 5 interactive. When we built sites for clients, it was often helpful to track all administrative actions that took place in their content management systems. This allowed us to easily troubleshoot content issues - accidentally deleted data, security breaches, etc.\n\nWe were duplicating much of this functionality for several clients, so I whipped up an Audit Trail app. I built it so that it could be deployed in 2 separate ways. The first, and most commonly used way was for our client applications to call a centrally hosted Audit Trail as a service.  With most of our clients hitting the same service, we could keep a close eye on what all of our clients were doing.\n\nThe second way was to install the Audit Trail as a separate app for any given client. We generally only do this if we anticipate a large amount of logs, or if we have a client that managed several sites.\n\nThe app and service was incredibly useful. Our clients really enjoyed being able to easily see what was being updated and who did the updating.",
+        "description": "The Audit Trail is an internal application that I built for Red 5 interactive. When we built sites for clients, it was often helpful to track all administrative actions that took place in their content management systems. This allowed us to easily troubleshoot content issues - accidentally deleted data, bad actors, security breaches, etc.\n\nWe were duplicating much of this functionality for several clients, so I whipped up an Audit Trail app. I built it so that it could be deployed in 2 separate ways. The first, and most commonly used way was for our client applications to call a centrally hosted Audit Trail as a service.  With most of our clients hitting the same service, we could keep a close eye on what all of our clients were doing.\n\nThe second way was to install the Audit Trail as a separate app for any given client. We generally only did this if we anticipated a large amount of logs, or if we had a client that managed several sites.\n\nThe app and service was incredibly useful. Our clients really enjoyed being able to easily see what was being updated and who did the updating.",
         "featured": 1,
         "updatedAt": "2008-02-28",
         "url": null,
@@ -578,7 +578,7 @@
     {
         "slug": "glimcher",
         "title": "Glimcher",
-        "description": "Glimcher is a premier real estate investment trust that manages malls and shopping centers across the United States. They came to my company, Red 5 Interactive, seeking a corporate website.\n\nMy company had already built and launched this site by the time I began working on it, so my job was simply to enhance some features on both the admin and the front-end.\n\nGlimcher wanted a near realtime display of their stock price on the homepage. However, there weren't any great services to grab this information at the time, so I built a CRON scheduled script to scrape a couple quote sites and grab their stock price.  Whenever the price was successfully grabbed, the price was written to a local file that was read by the website.\n\nGlimcher also wanted realtime stats on their leasing informational pages, so I added some functionality to display updates on leasable square feet, property count, etc.\n\nFinally, they wanted to be able to quickly show/hide all dynamic content on their web site. I added some simple toggling as well as drag/drop sorting to any and all data in the CMS.",
+        "description": "Glimcher is a premier real estate investment trust that manages malls and shopping centers across the United States. They came to my company, Red 5 Interactive, seeking a corporate website.\n\nMy company had already built and launched this site by the time I began working on it, so my job was simply to enhance some features on both the admin and the front-end.\n\nGlimcher wanted a near real-time display of their stock price on the homepage. However, there weren't any great services to grab this information at the time, so I built a CRON scheduled script to scrape a couple quote sites and grab their stock price.  Whenever the price was successfully grabbed, the price was written to a local file that was read by the website.\n\nGlimcher also wanted real-time stats on their leasing informational pages, so I added some functionality to display updates on leasable square feet, property count, etc.\n\nFinally, they wanted to be able to quickly show/hide all dynamic content on their website. I added some simple toggling as well as drag/drop sorting to any and all data in the CMS.",
         "featured": 0,
         "updatedAt": "2008-05-01",
         "url": null,
@@ -612,7 +612,7 @@
     {
         "slug": "cownie-for-state-house",
         "title": "Cownie For State House",
-        "description": "Iowa Republican Peter Cownie hired our company to build a promotional web site during the 2008 election.\n\nHe wanted a pretty standard, informational site with a blog, and some photos. Since so many of o ur clients wanted blog-like functionality, I built a Rails blog plugin (named Bee-Log) and this site was the first to make use of it.\n\nI also integrated this site with the Flickr API to display photos from Peter's Flickr account.\n\nP.S. Peter Cownie won. Probably because of this website.",
+        "description": "Iowa Republican Peter Cownie hired our company to build a promotional website during the 2008 election.\n\nHe wanted a pretty standard, informational site with a blog, and some photos. Since so many of our clients wanted blog-like functionality, I built a Rails blog plugin (named Bee-Log) and this site was the first to make use of it.\n\nI also integrated this site with the Flickr API to display photos from Peter's Flickr account.\n\nP.S. Peter Cownie won. Probably because of this website.",
         "featured": 0,
         "updatedAt": "2008-06-10",
         "url": null,
@@ -637,7 +637,7 @@
     {
         "slug": "keokuk-county-state-bank",
         "title": "Keokuk County State Bank",
-        "description": "Keokuk came to us with a redesign in mind and also wanted the ability to easily update loan rates, add news articles, and attach rich media to those news articles.\n\nKeokuk's web site wasn't too programmatically intensive, but it did give me an opportunity to try out some new Rails ideas.\n\nWhile building this app, I found a Rails plugin called ActiveScaffold, which made a standard CRUD scaffold that was very javascript heavy with a lot of asynchronous calls and very few page loads. It was a fun plugin to play with and after a bit of modifying and extending, it seemed to fit the bill for this project.",
+        "description": "Keokuk came to us with a redesign in mind and also wanted the ability to easily update loan rates, add news articles, and attach rich media to those news articles.\n\nKeokuk's website wasn't too programmatically intensive, but it did give me an opportunity to try out some new Rails ideas.\n\nWhile building this app, I found a Rails plugin called ActiveScaffold, which made a standard CRUD scaffold that was very javascript heavy with a lot of asynchronous calls and very few page loads. It was a fun plugin to play with and after a bit of modifying and extending, it seemed to fit the bill for this project.",
         "featured": 0,
         "updatedAt": "2008-07-30",
         "url": null,
@@ -686,7 +686,7 @@
     {
         "slug": "monroe-marketplace",
         "title": "Monroe Marketplace",
-        "description": "Monroe Marketplace is a shopping center located in central Pennsylvania. Their parent company, PREIT hired us to build a promotional web site during the development of the shopping center.\n\nMy primary tasks were to build a blog, calendar, polling, and a job posting system.  Each of these tasks were fairly trivial in that I've done them several times, but it was my first opportunity to write a polling system and I thoroughly enjoyed that.",
+        "description": "Monroe Marketplace is a shopping center located in central Pennsylvania. Their parent company, PREIT hired us to build a promotional website during the development of the shopping center.\n\nMy primary tasks were to build a blog, calendar, polling, and a job posting system.  Each of these tasks were fairly trivial in that I've done them several times, but it was my first opportunity to write a polling system and I thoroughly enjoyed that.",
         "featured": 0,
         "updatedAt": "2008-10-13",
         "url": null,
@@ -698,7 +698,7 @@
     {
         "slug": "tmc-transportation",
         "title": "TMC Transportation",
-        "description": "TMC, a local trucking company with some of the most beautiful trucks that I've ever seen, hired us to rebuild their web site and enhance their web presence.\n\nI was in charge of modeling and building a system to manage employees, sales reps, and news.  The sales rep data was fed to flash maps via XML.\n\nThe careers page was built by consuming a remote XML feed.",
+        "description": "TMC, a local trucking company with some of the most beautiful trucks that I've ever seen, hired us to rebuild their website and enhance their web presence.\n\nI was in charge of modeling and building a system to manage employees, sales reps, and news.  The sales rep data was fed to flash maps via XML.\n\nThe careers page was built by consuming a remote XML feed.",
         "featured": 0,
         "updatedAt": "2008-12-02",
         "url": null,
@@ -713,7 +713,7 @@
     {
         "slug": "des-moines-broomball",
         "title": "Des Moines Broomball",
-        "description": "I am a broomball player. Broomball is a sport similar to hockey but a bit more recreational.\n\nOnce my Broomball league caught wind of me being a well connected, tech savvy guy, they nominated me to be the Marketing Director.\n\nAs marketing director my main purpose was to help promote the league - and what better way to do that than to build a fancy web site.\n\nNot having hardly any time to devote to this project, I decided to try out a product that I'd heard a bit about, called Drupal.\n\nThe Drupal Content Management System was a pretty great little app.  I literally had a community site up and running within an hour.  The Drupal community had written so many modules, that I didn't have to write a single line of code to get the site off the ground.\n\nAfter installing a handful of modules, a bit of layout tweaking, and modifying a tiny bit of PHP, we had a completely functional site.\n\nI even got the help of designer Kathryn Downing to whip up that logo in a matter of about 25 minutes.\n\nI wouldn't use Drupal for everything, but it was definitely an excellent solution for this project. The site helped the league gain players and teams for our regional tournaments.",
+        "description": "I am a broomball player. Broomball is a sport similar to hockey but a bit more recreational.\n\nOnce my Broomball league caught wind of me being a well-connected, tech savvy guy, they nominated me to be the Marketing Director.\n\nAs marketing director my main purpose was to help promote the league - and what better way to do that than to build a fancy website.\n\nNot having hardly any time to devote to this project, I decided to try out a product that I'd heard a bit about, called Drupal.\n\nThe Drupal Content Management System was a pretty great little app.  I literally had a community site up and running within an hour.  The Drupal community had written so many modules, that I didn't have to write a single line of code to get the site off the ground.\n\nAfter installing a handful of modules, a bit of layout tweaking, and modifying a tiny bit of PHP, we had a completely functional site.\n\nI even got the help of designer Kathryn Downing to whip up that logo in a matter of about 25 minutes.\n\nI wouldn't use Drupal for everything, but it was definitely an excellent solution for this project. The site helped the league gain players and teams for our regional tournaments.",
         "featured": 0,
         "updatedAt": "2009-01-06",
         "url": null,
@@ -738,6 +738,7 @@
             "jquery",
             "json",
             "payflow-pro",
+            "paypal",
             "ruby-on-rails",
             "scraping"
         ],
@@ -745,8 +746,8 @@
     },
     {
         "slug": "siteman",
-        "title": "Siteman",
-        "description": "SiteMan is a Content Management System that we built at Red 5 Interactive. It was originally built so that mall property owners could manage each of their mall property's web sites.  However, once we realized how powerful our system was, we decided to generalize the app so that we could deploy it for all of our clients.\n\nWe rebuilt SiteMan to allow our clients to easily manage a single web site or a group of web sites. This way, a parent company could edit any of their child company web sites, while employees of the child companies would only be able to see and manage their respective site.\n\nThe front-ends of the sites managed by SiteMan were also completely extracted from SiteMan itself, which was great for 2 reasons. First of all, it allowed us to more easily keep all of our clients' systems up-to-date in that we were just updating SiteMan and not touching their presentation layer. Secondly, it also allowed us to launch new campaigns and designs for clients very quickly without touching the content management system.\n\nWhen we deployed SiteMan for a client it came with a core group of tools like user management, webpage editing, file management, audit logs, etc.  From there, custom tools could be added as plugins.  These tools included functionality like, announcements, events, careers, photo galleries, stores, social networking, etc.\n\nWe also built SiteMan in a way that allowed users to customize their tool layout. Any user could pick which tools they used the most and arrange them in a way to get a quick snapshot of the exact data that they were interested in. Tools could be added, removed, or sorted at any time - and everything remained just as they left it on their next visit.  \n\nThis application was very Javascript heavy, making extensive use AJAX, dialog windows, and WYSIWYG editing.  As such, we had minimal page loads which provided a very streamlined experience for our clients.\n\nI am very proud and excited to have worked with such a great team on this app.  It was so versatile and simple to keep pushing forward.",
+        "title": "SiteMan",
+        "description": "SiteMan is a Content Management System that we built at Red 5 Interactive. It was originally built so that mall property owners could manage each of their mall property's websites.  However, once we realized how powerful our system was, we decided to generalize the app so that we could deploy it for all of our clients.\n\nWe rebuilt SiteMan to allow our clients to easily manage a single website or a group of websites. This way, a parent company could edit any of their child company websites, while employees of the child companies would only be able to see and manage their respective site.\n\nThe front-ends of the sites managed by SiteMan were also completely extracted from SiteMan itself, which was great for 2 reasons. First of all, it allowed us to more easily keep all of our clients' systems up-to-date in that we were just updating SiteMan and not touching their presentation layer. Secondly, it also allowed us to launch new campaigns and designs for clients very quickly without touching the content management system.\n\nWhen we deployed SiteMan for a client it came with a core group of tools like user management, web page editing, file management, audit logs, etc.  From there, custom tools could be added as plugins.  These tools included functionality like, announcements, events, careers, photo galleries, stores, social networking, etc.\n\nWe also built SiteMan in a way that allowed users to customize their tool layout. Any user could pick which tools they used the most and arrange them in a way to get a quick snapshot of the exact data that they were interested in. Tools could be added, removed, or sorted at any time - and everything remained just as they left it on their next visit.  \n\nThis application was very Javascript heavy, making extensive use AJAX, dialog windows, and WYSIWYG editing.  As such, we had minimal page loads which provided a very streamlined experience for our clients.\n\nI am very proud and excited to have worked with such a great team on this app.  It was so versatile and simple to keep pushing forward.",
         "featured": 1,
         "updatedAt": "2009-02-10",
         "url": null,
@@ -770,7 +771,7 @@
     {
         "slug": "preit-malls",
         "title": "PREIT Malls",
-        "description": "PREIT (Pennsylvania Real Estate Investment Trust) invests in shopping malls in the eastern United States.\n\nPREIT is one of the primary consumers of our internal CMS project, SiteMan.\n\nWe succesfully deployed SiteMan to allow PREIT to manage over 40 of their mall web sites - all from 1 location.\n\nOne challenge we faced with this project was PREIT's constant seasonal marketing campaigns and presentation layer redesigns. As such, we built SiteMan so that new presentation packages could easily be added into SiteMan for each of these campaigns.\n\nWe also allowed for mobile designs to be appended to each of these presentation packages for easy mobile browsing.",
+        "description": "PREIT (Pennsylvania Real Estate Investment Trust) invests in shopping malls in the eastern United States.\n\nPREIT is one of the primary consumers of our internal CMS project, SiteMan.\n\nWe successfully deployed SiteMan to allow PREIT to manage over 40 of their mall websites - all from 1 location.\n\nOne challenge we faced with this project was PREIT's constant seasonal marketing campaigns and presentation layer redesigns. As such, we built SiteMan so that new presentation packages could easily be added into SiteMan for each of these campaigns.\n\nWe also allowed for mobile designs to be appended to each of these presentation packages for easy mobile browsing.",
         "featured": 0,
         "updatedAt": "2009-02-10",
         "url": null,
@@ -828,7 +829,7 @@
     {
         "slug": "michael-annett",
         "title": "Michael Annett",
-        "description": "Michael Annett was an upcoming race car driver from Des Moines, IA.  We didn't build his site from scratch, but when his site development/hosting company stopped providing good service, we were asked to take over.  The former host of michaelannett.com was not very cooperative in the site transition - so we had an interesting time getting Michael's content for him.\n\nTo get Michael's site, we wrote an internal app called <a href=\"/projects/site-spider\">Site Spider</a> to crawl his existing site, save all the pages, their images, stylesheets, javascripts, etc - all while preserving the links and folder structure.  Once I successfully crawled and downloaded this site, I put this app into our internal Content Management application, <a href=\"/projects/siteman\">SiteMan</a>.\n\nI also built a couple custom SiteMan plugins, which included a photo gallery and online store management.\n\nThe store they wanted was fairly small, however, no matter the size, building an online store is quite an effort.\n\nAfter launch, Michael was able to easily update news, photo galleries, results, schedules, general webpage content at anytime, and could sell his gear online.",
+        "description": "Michael Annett was an upcoming race car driver from Des Moines, IA.  We didn't build his site from scratch, but when his site development/hosting company stopped providing good service, we were asked to take over.  The former host of michaelannett.com was not very cooperative in the site transition - so we had an interesting time getting Michael's content for him.\n\nTo get Michael's site, we wrote an internal app called <a href=\"/projects/site-spider\">Site Spider</a> to crawl his existing site, save all the pages, their images, stylesheets, javascripts, etc - all while preserving the links and folder structure.  Once I successfully crawled and downloaded this site, I put this app into our internal Content Management application, <a href=\"/projects/siteman\">SiteMan</a>.\n\nI also built a couple custom SiteMan plugins, which included a photo gallery and online store management.\n\nThe store they wanted was fairly small, however, no matter the size, building an online store is quite an effort.\n\nAfter launch, Michael was able to easily update news, photo galleries, results, schedules, general web page content at anytime, and could sell his gear online.",
         "featured": 0,
         "updatedAt": "2009-03-09",
         "url": null,
@@ -864,7 +865,7 @@
     {
         "slug": "iowa-alcoholic-beverages-division",
         "title": "Iowa Alcoholic Beverages Division",
-        "description": "Iowa Alcoholic Beverages Division is responsible for the regulation and control of all alcohol and tobacco in the state of Iowa.  The division has generated hundreds of millions of dollars for the state of Iowa.\n\nOur company, Red 5 Interactive had hosted IABD for years.  Up until this rebuild, they were one of the very last Java based sites running on an ancient server stuck in a closet in the back of our office. As time went on, it became scarier and scarier to let their site remain live. Once showing IABD the physical server they were running on, talking them into a complete rebuild was no challenge at all.\n\nOne of the most daunting parts of this rebuild was the task of migrating all their content. I heavily modified our internal Site Spider to accomplish this task. The client had around 400 pages and 700 files that were linked to (mostly PDF press releases). I had to completely crawl their site, import everything into our CMS and fix every link to work correctly. Given the fact that they had FTP access to the old server, things were a mess, and this was not a simple task. I'm talking about some serious site scraping madness!\n\nBeing such a large site, this client came up with all kinds of awesome ideas for our CMS, which I was able to add-on and commit back to the repository for our other clients.\n\nAfter setting up our internal CMS and importing their hundreds of pages/files, I had to build a Javascript Fund counter to display on their homepage.  Basically, the client takes their projected income, enters it into a custom tool that I built in SiteMan, and my JS did the math to determine how much money was being transfered to the state every second.  It then dynamically animated a count-<i>up</i> on the homepage.\n\nI also built some fancy, custom (and totally dynamic) javascript dropdown navigation.\n\nFinally, I had to model and build a custom plugin to allow IABD to import CSV files of their alcohol products, stores, and tobacco compliance data.  Then, I built functionality to browse and search all of this data on the front-end.\n\nAt the time, Iowa Alcoholic Beverages Division was basically a test of all my skills. Sys admin, back-end development, front-end development, scraping, importing, and finally deployment.",
+        "description": "Iowa Alcoholic Beverages Division is responsible for the regulation and control of all alcohol and tobacco in the state of Iowa.  The division has generated hundreds of millions of dollars for the state of Iowa.\n\nOur company, Red 5 Interactive had hosted IABD for years.  Up until this rebuild, they were one of the very last Java based sites running on an ancient server stuck in a closet in the back of our office. As time went on, it became scarier and scarier to let their site remain live. Once showing IABD the physical server they were running on, talking them into a complete rebuild was no challenge at all.\n\nOne of the most daunting parts of this rebuild was the task of migrating all their content. I heavily modified our internal Site Spider to accomplish this task. The client had around 400 pages and 700 files that were linked to (mostly PDF press releases). I had to completely crawl their site, import everything into our CMS and fix every link to work correctly. Given the fact that they had FTP access to the old server, things were a mess, and this was not a simple task. I'm talking about some serious site scraping madness!\n\nBeing such a large site, this client came up with all kinds of awesome ideas for our CMS, which I was able to add-on and commit back to the repository for our other clients.\n\nAfter setting up our internal CMS and importing their hundreds of pages/files, I had to build a Javascript Fund counter to display on their homepage.  Basically, the client takes their projected income, enters it into a custom tool that I built in SiteMan, and my JS did the math to determine how much money was being transferred to the state every second.  It then dynamically animated a count-<i>up</i> on the homepage.\n\nI also built some fancy, custom (and totally dynamic) javascript dropdown navigation.\n\nFinally, I had to model and build a custom plugin to allow IABD to import CSV files of their alcohol products, stores, and tobacco compliance data.  Then, I built functionality to browse and search all of this data on the front-end.\n\nAt the time, Iowa Alcoholic Beverages Division was basically a test of all my skills. Sys admin, back-end development, front-end development, scraping, importing, and finally deployment.",
         "featured": 0,
         "updatedAt": "2009-07-29",
         "url": null,
@@ -897,7 +898,7 @@
     {
         "slug": "towrate",
         "title": "TowRate",
-        "description": "TowRate is a startup that offered a custom service to towing companies.  The site allowed subscribed companies to manage their assets, map routes, and calculate profit margins for every tow.  It was built in a way that allowed the towing companies to quickly run these calculations while on the phone so they could figure out the most profitable way to charge for each tow.\n\nOn this project, I was in charge of pretty much everything except for the initial design.  My job involved data modeling, loads of calculations, back-end development, front-end development, form design, and deployment.\n\nTowRate was a very javascript heavy application, using plenty of asynchronous calls for things like sorting, calculating rates on the fly, and grabbing map data from the Google Maps API.  The Maps API was used to help determine mileage and time for each tow.  From there, the app used extensive math and formulas to help find the best price for each call.\n\nCompanies were able subscribe to TowRate on a monthly or yearly basis.  I integrated PayPal's Web Payments Pro to handle these subscriptions; let users join, autorenew, enter discount codes, cancel accounts, etc.\n\nSubscribed companies could also manage their trucks (as well as truck expenses), users, tow rates, tax areas, routes, etc.  It provided an all around fleet management solution to any towing company.",
+        "description": "TowRate is a startup that offered a custom service to towing companies.  The site allowed subscribed companies to manage their assets, map routes, and calculate profit margins for every tow.  It was built in a way that allowed the towing companies to quickly run these calculations while on the phone, so they could figure out the most profitable way to charge for each tow.\n\nOn this project, I was in charge of pretty much everything except for the initial design.  My job involved data modeling, loads of calculations, back-end development, front-end development, form design, and deployment.\n\nTowRate was a very javascript heavy application, using plenty of asynchronous calls for things like sorting, calculating rates on the fly, and grabbing map data from the Google Maps API.  The Maps API was used to help determine mileage and time for each tow.  From there, the app used extensive math and formulas to help find the best price for each call.\n\nCompanies were able subscribe to TowRate on a monthly or yearly basis.  I integrated PayPal's Web Payments Pro to handle these subscriptions; let users join, autorenew, enter discount codes, cancel accounts, etc.\n\nSubscribed companies could also manage their trucks (as well as truck expenses), users, tow rates, tax areas, routes, etc.  It provided an all around fleet management solution to any towing company.",
         "featured": 1,
         "updatedAt": "2009-10-01",
         "url": null,
@@ -908,6 +909,7 @@
             "javascript",
             "jquery",
             "json",
+            "paypal",
             "ruby-on-rails",
             "website-payments-pro"
         ],
@@ -956,7 +958,7 @@
     {
         "slug": "holiday-ecards",
         "title": "Holiday eCards",
-        "description": "This is a microsite that I built as a marketing tool for malls owned by PREIT.  It allowed people to customize and send flash-based cards to friends and family.\n\nIt was also built so that a campaign could be coupled with a contest. For example, all cards sent to moms on mothers day could be eligible for a mall gift card.\n\nFor delivering the cards, I wrote a small script using the WhatCounts.com API.\n\nThis little application wasa lot of fun to work on and a huge success for the associated malls.",
+        "description": "This is a microsite that I built as a marketing tool for malls owned by PREIT.  It allowed people to customize and send flash-based cards to friends and family.\n\nIt was also built so that a campaign could be coupled with a contest. For example, all cards sent to moms on mothers day could be eligible for a mall gift card.\n\nFor delivering the cards, I wrote a small script using the WhatCounts.com API.\n\nThis little application was a lot of fun to work on and a huge success for the associated malls.",
         "featured": 0,
         "updatedAt": "2009-11-30",
         "url": null,
@@ -985,7 +987,7 @@
     {
         "slug": "mary-mcadams",
         "title": "Mary McAdams",
-        "description": "Mary McAdams is a Des Moines area folk artist who was becoming super well known in the area. Mary hired my friend Mindy Hoskin as her designer - and Mindy approached me to bring her designs to life.\n\nHaving a small web budget and not a lot of time, I used this opportunity to brush up my WordPress skills.\n\nI was able to build Mindy's designs out into a WordPress template and still keep a lot of the custom functionality that Mary wanted.\n\nAlong with her blog, Mary also wanted a lot of multimedia - photos, video, a music player, show times, downloads, etc.\n\nFor photos, I was able to customize one of the many WordPress Flickr plugins to work with Mindy's design.\n\nShowtimes and the Music player were powered by Mary's ReverbNation account.  To make showtimes work, I hooked her ReverbNation calendar RSS feed to FeedBurner BuzzBoost and embedded the generated BuzzBoost into her blog accordingly.\n\nCombined with Mary's active social networking, I think we were successful in getting all of her info in front of an audience in an elegant way.",
+        "description": "Mary McAdams is a Des Moines area folk artist who was becoming super well known in the area. Mary hired my friend Mindy Hoskin as her designer - and Mindy approached me to bring her designs to life.\n\nHaving a small web budget and not a lot of time, I used this opportunity to brush up my WordPress skills.\n\nI was able to build Mindy's designs out into a WordPress template and still keep a lot of the custom functionality that Mary wanted.\n\nAlong with her blog, Mary also wanted a lot of multimedia - photos, video, a music player, show times, downloads, etc.\n\nFor photos, I was able to customize one of the many WordPress Flickr plugins to work with Mindy's design.\n\nShow times and the Music player were powered by Mary's ReverbNation account.  To make show times work, I hooked her ReverbNation calendar RSS feed to FeedBurner BuzzBoost and embedded the generated BuzzBoost into her blog accordingly.\n\nCombined with Mary's active social networking, I think we were successful in getting all of her info in front of an audience in an elegant way.",
         "featured": 0,
         "updatedAt": "2009-11-30",
         "url": null,
@@ -1229,7 +1231,7 @@
     {
         "slug": "debate-watch",
         "title": "Debate Watch",
-        "description": "Debate Watch was a web application loosely based on Planned Parenthood's \"Pledge a Protestor\" program. The basic idea is that you make your opposition pay for negative actions by allowing your supporters to pledge money each time the opposition attempts slander.\n\nWith Debate Watch, we took some of the Republican candidates' favorite demeaning terms and promoted them on our site along with some fact checking. Obama supporters could then pledge to donate a certain amount of money each time a given word was said during the debate, and of course put a max cap on their donation in case something got out of control.\n\nWe had a team of word trackers stuffed in a room listening to the debate and tallying the terms in real-time. On the web site's front-end the words would then re-arrange and scale in real-time as our pledgers watched.\n\nI built the entire back-end of the application along with the word tracker and a small JSON API for consumption by our front-end team.\n\nThis application was built primarily as an experiment to test some of our scaling and payment infrastructure but managed to be quite fun and also earned us tens of thousands of dollars early on.",
+        "description": "Debate Watch was a web application loosely based on Planned Parenthood's \"Pledge a Protestor\" program. The basic idea is that you make your opposition pay for negative actions by allowing your supporters to pledge money each time the opposition attempts slander.\n\nWith Debate Watch, we took some of the Republican candidates' favorite demeaning terms and promoted them on our site along with some fact checking. Obama supporters could then pledge to donate a certain amount of money each time a given word was said during the debate, and of course put a max cap on their donation in case something got out of control.\n\nWe had a team of word trackers stuffed in a room listening to the debate and tallying the terms in real-time. On the website's front-end the words would then re-arrange and scale in real-time as our pledgers watched.\n\nI built the entire back-end of the application along with the word tracker and a small JSON API for consumption by our front-end team.\n\nThis application was built primarily as an experiment to test some of our scaling and payment infrastructure but managed to be quite fun and also earned us tens of thousands of dollars early on.",
         "featured": 1,
         "updatedAt": "2011-12-05",
         "url": null,
@@ -1242,7 +1244,7 @@
     {
         "slug": "narwhal",
         "title": "Narwhal",
-        "description": "Narwhal was the famous technology infrastructure behind Barack Obama's 2012 Re-election campaign. It was a Python-based interface and integration layer that allowed us to unify the disconnected pieces of what we knew about voters, volunteers, event-goers, voting locations, etc. I was one of the top 5 contributors to the Narwhal project.\n\nThe integration side was a small web layer that handled syncing data with our vendors in realtime. Incoming data was saved to a local database and then became queued via SQS for translation and loading (by our integration workers) into the Narwhal interface layer. Here, I extended existing integrations and built some parts to sync voter applicant and precinct data.\n\nThe interface side allowed us to use this unified data to quickly build dozens of client applications for various tasks across the campaign. I spent most of my time in Narwhal building and extending models and endpoints to support client application needs. The pieces I worked on helped support pollster surveys, phone canvassing, volunteer organizing, image processing, voting location lookup, incident tracking, etc.\n\nI also built a thin Ruby Gem that allowed our ruby based API consumer applications to quickly and easily interface with the Narwhal API.",
+        "description": "Narwhal was the famous technology infrastructure behind Barack Obama's 2012 Re-election campaign. It was a Python-based interface and integration layer that allowed us to unify the disconnected pieces of what we knew about voters, volunteers, event-goers, voting locations, etc. I was one of the top 5 contributors to the Narwhal project.\n\nThe integration side was a small web layer that handled syncing data with our vendors in real-time. Incoming data was saved to a local database and then became queued via SQS for translation and loading (by our integration workers) into the Narwhal interface layer. Here, I extended existing integrations and built some parts to sync voter applicant and precinct data.\n\nThe interface side allowed us to use this unified data to quickly build dozens of client applications for various tasks across the campaign. I spent most of my time in Narwhal building and extending models and endpoints to support client application needs. The pieces I worked on helped support pollster surveys, phone canvassing, volunteer organizing, image processing, voting location lookup, incident tracking, etc.\n\nI also built a thin Ruby Gem that allowed our ruby based API consumer applications to quickly and easily interface with the Narwhal API.",
         "featured": 1,
         "updatedAt": "2012-11-06",
         "url": null,
@@ -1258,7 +1260,7 @@
     {
         "slug": "voting-location-lookup",
         "title": "Voting Location Lookup",
-        "description": "The 2012 Obama Re-election campaign was a firm believer in that the more voters who turn-out to vote the more likely Democrats are to win the election. With that, the campaign put a huge effort into cataloguing voting locations and making sure voters had the tools they needed to find these locations.\n\nAs the lead engineer of voter contact I architected and built the data layers, integration tools, and APIs to allow client applications to get at the data. I worked very closely with our data team, the DNC, voting location experts, and our front-end team.\n\nDespite the incredible challenges that came with the constantly evolving, incomplete/disorganized data and different laws/rules in each state, we built a comprehensive, nation-wide election day lookup tool. In addition to that, we built the first ever nation-wide \"early vote\" lookup tools.\n\nNot only was this data available via online lookup tools, it also integrated with DNC applications and allowed our phone canvassing applications to automatically display relevant voting locations for the canvassed voter.",
+        "description": "The 2012 Obama Re-election campaign was a firm believer in that the more voters who turn-out to vote the more likely Democrats are to win the election. With that, the campaign put a huge effort into cataloging voting locations and making sure voters had the tools they needed to find these locations.\n\nAs the lead engineer of voter contact I architected and built the data layers, integration tools, and APIs to allow client applications to get at the data. I worked very closely with our data team, the DNC, voting location experts, and our front-end team.\n\nDespite the incredible challenges that came with the constantly evolving, incomplete/disorganized data and different laws/rules in each state, we built a comprehensive, nation-wide election day lookup tool. In addition to that, we built the first ever nation-wide \"early vote\" lookup tools.\n\nNot only was this data available via online lookup tools, it also integrated with DNC applications and allowed our phone canvassing applications to automatically display relevant voting locations for the canvassed voter.",
         "featured": 0,
         "updatedAt": "2012-11-06",
         "url": null,
@@ -1320,7 +1322,7 @@
     {
         "slug": "simple-auto-service",
         "title": "Simple Auto Service",
-        "description": "In the early 2000s, I often found myself at a mechanic or auto-parts store needing to know the last time I performed a certain service on my vehicles. So I whipped up a tiny web-app to help track and display this information. A decade later I became bored while traveling so I decided to clean up the old app and publish the code.\n\nIt's a super simple PHP/MySQL CRUD application based off of an ORM and Model framework that I built after learning Rails in 2008. The app itself barely has any features but I published the code publicly to show some friends my simple PHP framework.\n\nToday, I'd just use a damned google docs spreadsheet to track this stuff.",
+        "description": "In the early 2000s, I often found myself at a mechanic or auto-parts store needing to know the last time I performed a certain service on my vehicles. So I whipped up a tiny web-app to help track and display this information. A decade later I became bored while traveling, so I decided to clean up the old app and publish the code.\n\nIt's a super simple PHP/MySQL CRUD application based off of an ORM and Model framework that I built after learning Rails in 2008. The app itself barely has any features but I published the code publicly to show some friends my simple PHP framework.\n\nToday, I'd just use a damned google docs spreadsheet to track this stuff.",
         "featured": 0,
         "updatedAt": "2013-03-28",
         "url": "https://github.com/broox/simple-auto-service",
@@ -1335,7 +1337,7 @@
     {
         "slug": "modest-ios-store",
         "title": "Modest iOS Store",
-        "description": "The Modest iOS Store was a multi-tenant, whitelabel application that our merchants could easily adopt as a standalone app or as an SDK that could attach a storefront to their existing iOS app.\n\nWhen Modest was still young, and was \"all-hands-on-deck,\" I got to do a bit of iOS development consuming the Modest APIs and rendering UIs.",
+        "description": "The Modest iOS Store was a multi-tenant, white label application that our merchants could easily adopt as a standalone app or as an SDK that could attach a storefront to their existing iOS app.\n\nWhen Modest was still young, and was \"all-hands-on-deck,\" I got to do a bit of iOS development consuming the Modest APIs and rendering UIs.",
         "featured": 0,
         "updatedAt": "2014-11-01",
         "url": null,
@@ -1368,7 +1370,7 @@
     {
         "slug": "modest-commerce-api",
         "title": "Modest Commerce API",
-        "description": "The Commerce API was a flask-based python API built to power storefronts for merchants using the Modest platform. I helped design and develop the initial architecture - including database modeling and endpoint design.\n\nAs our company grew, I became the API consumer tech lead, so my API contributions switched primarly to endpoint contract collaboration.",
+        "description": "The Commerce API was a flask-based python API built to power storefronts for merchants using the Modest platform. I helped design and develop the initial architecture - including database modeling and endpoint design.\n\nAs our company grew, I became the API consumer tech lead, so my API contributions switched primarily to endpoint contract collaboration.",
         "featured": 0,
         "updatedAt": "2015-04-13",
         "url": null,
@@ -1569,7 +1571,7 @@
     {
         "slug": "derek-broox-com",
         "title": "derek.broox.com",
-        "description": "derek.broox.com is my general \"home page\" and development playground. Its primary purpose is to catalog my life and allow me to play with various APIs and web development technologies. It serves up thousands of photos, check-ins, microblogs, blogs, maps, videos, and various other data from my life.\n\nSince 2001, this has been a constantly evolving web application.",
+        "description": "derek.broox.com is my general home page, online scrapbook, and development playground. Its primary purpose is to catalog my life and allow me to play with various APIs and web development technologies. It serves up thousands of photos, check-ins, microblogs, blogs, maps, videos, and various other data from my life.\n\nSince 2001, it has been a constantly evolving web application.",
         "featured": 1,
         "updatedAt": "2022-04-27",
         "url": "https://derek.broox.com",
@@ -1587,6 +1589,7 @@
             "html",
             "image-processing",
             "javascript",
+            "jquery",
             "json",
             "mapbox",
             "mysql",
@@ -1612,7 +1615,7 @@
             },
             {
                 "version": "v3",
-                "description": "This version of derek.broox.com was mostly just content and design changes.  I tried to simplify the design a bit while adding much more content, including audio, videos, a biography, and links to my friends' sites.  \n\nOne cool addition was that on the homepage I made the random photo of myself change to photos of friends when you hovered over links to their web sites.",
+                "description": "This version of derek.broox.com was mostly just content and design changes.  I tried to simplify the design a bit while adding much more content, including audio, videos, a biography, and links to my friends' sites.  \n\nOne cool addition was that on the homepage I made the random photo of myself change to photos of friends when you hovered over links to their websites.",
                 "createdAt": "2003-09-22"
             },
             {
@@ -1637,7 +1640,7 @@
             },
             {
                 "version": "v8",
-                "description": "This is the first version of my site that I completely rebuilt in a new language and platform. I moved the entire site from a LAMP stack to a server-side-rendered (SSR) NuxtJS application that relies completely on the Broox API to power its content.\n\nI chose Nuxt and SSR in order to keep my SEO and open graph / social sharing meta tags in tact while still providing a speedy, asynchronous client-side browsing experience.",
+                "description": "This is the first version of my site that I completely rebuilt in a new language and platform. I moved the entire site from a LAMP stack to a server-side-rendered (SSR) Nuxt.js application that relies completely on the Broox API to power its content.\n\nI chose Nuxt and SSR in order to keep my SEO and open graph / social sharing meta tags intact while still providing a speedy, asynchronous client-side browsing experience.",
                 "createdAt": "2022-04-27"
             }
         ]
