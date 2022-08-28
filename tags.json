@@ -57,7 +57,7 @@
     {
         "slug": "css",
         "name": "CSS",
-        "description": "Front-end styling isn't my expertise, but I've had no choice but to become proficient in cross-browser and responsive styling over my years of web development. I've built applications with Sass, less, raw CSS, and various other styling frameworks."
+        "description": "Front-end styling isn't my expertise, but I've become quite proficient in cross-browser and responsive styling over my years of web development. I've built applications with Sass, less, raw CSS, and various other styling frameworks."
     },
     {
         "slug": "docker",

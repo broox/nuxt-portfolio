@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/photos-broox", {data:[{}],fetch:{},mutations:void 0});
