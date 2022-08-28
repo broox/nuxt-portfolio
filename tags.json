@@ -72,7 +72,7 @@
     {
         "slug": "e-commerce",
         "name": "E-Commerce",
-        "description": "I've built plenty of sites that have handled some form of online payment - whether it's for goods, subscriptions, or events.\n\nThe payment gateways I've used are <a href=\"/tags/authorize-net\">Authorize.net</a>, Braintree, Stripe, <a href=\"/tags/paypal\">PayPal</a> (including Paypal's <a href=\"/tags/website-payments-pro\">Website Payments Pro</a> and <a href=\"/tags/payflow-pro\">Payflow Pro</a>)"
+        "description": "I've built plenty of sites that have handled some form of online payment - whether it's for goods, subscriptions, or events.\n\nThe payment gateways I've used are <a href=\"/tags/authorize-net/\">Authorize.net</a>, Braintree, Stripe, <a href=\"/tags/paypal/\">PayPal</a> (including Paypal's <a href=\"/tags/website-payments-pro/\">Website Payments Pro</a> and <a href=\"/tags/payflow-pro/\">Payflow Pro</a>)"
     },
     {
         "slug": "extjs",
@@ -132,7 +132,7 @@
     {
         "slug": "javascript",
         "name": "JavaScript",
-        "description": "I've done extensive JavaScript work over the years. From the client-side to server-side and from popular frameworks to thousands of lines of custom libraries.\n\nSome of the frameworks I've most used include: Express, <a href=\"/tags/extjs\">ExtJS</a>, <a href=\"/tags/jquery\">jQuery</a>, <a href=\"/tags/nuxt\">Nuxt</a>, <a href=\"/tags/prototype\">Prototype</a>, <a href=\"/tags/scriptaculous\">Scriptaculous</a>, SproutCore, <a href=\"/tags/vue\">Vue</a> and a handful of custom in-house frameworks."
+        "description": "I've done extensive JavaScript work over the years. From the client-side to server-side and from popular frameworks to thousands of lines of custom libraries.\n\nSome of the frameworks I've most used include: Express, <a href=\"/tags/extjs/\">ExtJS</a>, <a href=\"/tags/jquery/\">jQuery</a>, <a href=\"/tags/nuxt/\">Nuxt</a>, <a href=\"/tags/prototype/\">Prototype</a>, <a href=\"/tags/scriptaculous/\">Scriptaculous</a>, SproutCore, <a href=\"/tags/vue/\">Vue</a> and a handful of custom in-house frameworks."
     },
     {
         "slug": "jquery",
@@ -177,12 +177,12 @@
     {
         "slug": "payflow-pro",
         "name": "Payflow Pro",
-        "description": "PayFlow Pro is a payment gateway offered by PayPal. Even though it's owned by PayPal, it's a true gateway in that it's unbranded and does not require the end-user to have a PayPal account.\n\nI've only had the opportunity to use PayFlow Pro one time but I must say I was quite impressed.\n\nFeel free to check out some of my other <a href=\"/tags/e-commerce\">e-commerce applications</a>."
+        "description": "PayFlow Pro is a payment gateway offered by PayPal. Even though it's owned by PayPal, it's a true gateway in that it's unbranded and does not require the end-user to have a PayPal account.\n\nI've only had the opportunity to use PayFlow Pro one time but I must say I was quite impressed.\n\nFeel free to check out some of my other <a href=\"/tags/e-commerce/\">e-commerce applications</a>."
     },
     {
         "slug": "paypal",
         "name": "PayPal",
-        "description": "I tend to prefer payment gateways over using PayPal, but their API has been useful for quick projects that need simple payment processing.\n\nFeel free to check out some of my other <a href=\"/tags/e-commerce\">e-commerce applications</a>."
+        "description": "I tend to prefer payment gateways over using PayPal, but their API has been useful for quick projects that need simple payment processing.\n\nFeel free to check out some of my other <a href=\"/tags/e-commerce/\">e-commerce applications</a>."
     },
     {
         "slug": "perl",
@@ -232,7 +232,7 @@
     {
         "slug": "siteman",
         "name": "SiteMan",
-        "description": "SiteMan is an internal Content Management System that was developed at Red 5 Interactive. I built this system from the ground up with our lead engineer, and we deployed it to dozens of client web applications.  \n\nTo find out more about SiteMan itself, check out the <a href=\"/projects/siteman\">SiteMan project</a>."
+        "description": "SiteMan is an internal Content Management System that was developed at Red 5 Interactive. I built this system from the ground up with our lead engineer, and we deployed it to dozens of client web applications.  \n\nTo find out more about SiteMan itself, check out the <a href=\"/projects/siteman/\">SiteMan project</a>."
     },
     {
         "slug": "stripe",
@@ -262,7 +262,7 @@
     {
         "slug": "website-payments-pro",
         "name": "Website Payments Pro",
-        "description": "Website Payments Pro is a payment gateway offered by PayPal.\n\nFeel free to check out some of my other <a href=\"/tags/e-commerce\">e-commerce applications</a>."
+        "description": "Website Payments Pro is a payment gateway offered by PayPal.\n\nFeel free to check out some of my other <a href=\"/tags/e-commerce/\">e-commerce applications</a>."
     },
     {
         "slug": "wordpress",
