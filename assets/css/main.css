@@ -44,3 +44,7 @@ header.title h3 {
 header.title p {
   margin: 1em 0;
 }
+
+strong {
+  font-weight: 600;
+}

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Project :project="project" v-bind:key="project.slug" v-if="project"/>
+    <Project :project="project" v-if="project"/>
   </div>
 </template>
 
@@ -11,6 +11,13 @@ export default {
   setup() {
     const store = useStore()
     return { getProject: store.getProject }
+  },
+  head() {
+    const title = `${this.project.title} by Derek Brooks`
+    return {
+      title,
+      meta: this.$getMetaTags({ title, description: this.project.description }),
+    }
   },
   computed: {
     project() {
@@ -26,3 +33,5 @@ export default {
   }
 }
 </script>
+
+const maxLength = 155;

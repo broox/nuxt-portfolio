@@ -2,7 +2,7 @@
   <div>
     <header class="title">
       <h1>Derek R. Brooks</h1>
-      <section class="contact">
+      <div class="contact">
         <div class="address">
           Des Moines, Iowa<br>
           <a href="https://www.broox.com" title="Derek Brooks">www.broox.com</a>
@@ -11,20 +11,12 @@
           <a href="mailto:derek@broox.com" title="E-mail Derek Brooks">derek@broox.com</a><br>
           1-951-282-7669
         </div>
-      </section>
+      </div>
     </header>
   
     <section class="experience">
       <h2>Experience</h2>
-      <article :class="job.slug" v-for="job in jobs" v-bind:key="job.slug">
-        <header>
-          <h3><strong>{{job.position}}</strong> for <strong>{{job.company}}</strong> of {{job.location}}</h3>
-          <h4>{{job.timespan}}</h4>
-        </header>
-        <ul>
-          <li v-for="task in job.tasks" v-bind:key="task">{{task}}</li>
-        </ul>
-      </article>
+      <Job v-for="job in jobs" :job="job" v-bind:key="job.slug" />
     </section>
   
     <section class="skills">
@@ -66,7 +58,14 @@ export default {
   setup() {
     const store = useStore()
     return { jobs: store.jobs }
-  }
+  },
+  head() {
+    const title = 'Derek Brooks\'s Resume'
+    return {
+      title,
+      meta: this.$getMetaTags({ title, })
+    }
+  },
 }
 </script>
 
@@ -92,33 +91,6 @@ section > h2 {
   margin: 1em 0 0.5em;
 }
 
-article {
-  margin: 1rem 0;
-}
-
-article header {
-  margin: 0 0 1rem;
-}
-
-article h3 {
-  font-size: 1.1em;
-  font-weight: 400;
-}
-
-article h4 {
-  font-size: 1em;
-  font-weight: normal;
-}
-
-article ul {
-  margin-left: 2rem;
-}
-
-article li {
-  list-style-type: square;
-  margin: 0.5em 0;
-}
-
 dl {
   column-gap: 1rem;
   display: grid;
@@ -129,8 +101,6 @@ dl {
 dt {
   font-weight: 600;
 }
-
-strong { font-weight: 600; }
 
 footer {
   color: #AAA;

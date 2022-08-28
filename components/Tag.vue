@@ -21,7 +21,7 @@ export default {
       return title
     },
     url() {
-      return `/tags/${this.tag.slug}`
+      return `/tags/${this.tag.slug}/`
     }
   }
 }

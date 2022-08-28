@@ -18,6 +18,13 @@ export default {
     const store = useStore()
     return { store }
   },
+  head() {
+    const title = `${this.tag.name} by Derek Brooks`
+    return {
+      title,
+      meta: this.$getMetaTags({ title, description: this.tag.description}),
+    }
+  },
   computed: {
     be() {
       return this.projects.length == 1 ? 'is' : 'are'

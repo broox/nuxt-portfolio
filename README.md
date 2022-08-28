@@ -1,12 +1,17 @@
 # Derek Brooks' Portfolio
 
-This is a simple [Nuxt 3](https://v3.nuxtjs.org) application to showcase some things that I've built throughout my career.
+This is a simple [Nuxt](https://nuxtjs.org/) application that I built to showcase some software that I've built over the years.
+
+This app is designed to be generated and deployed as a static website and is currently hosted on GitHub pages at [broox.dev](https://broox.dev/).
 
 ## Setup
 
-Make sure to install the dependencies:
+1. Install nvm.
+2. Install dependencies.
 
 ```bash
+nvm install --lts
+npm install --global yarn
 yarn install
 ```
 
@@ -26,16 +31,10 @@ yarn dev -o
 
 ## Production
 
-Build the application for production:
+This application uses GitHub actions and will automatically generate a static website that will be deployed when new code is pushed to the `main` branch.
+
+It can also be built locally for production and tested via:
 
 ```bash
-yarn run build
+yarn run generate
 ```
-
-Locally preview production build:
-
-```bash
-yarn run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.

@@ -6,16 +6,16 @@
     </header>
     <ul v-if="tags">
       <li v-for="tag in tags" v-bind:key="tag.slug">
-        <NuxtLink :to="'/tags/'+tag.slug">{{tag.name}}</NuxtLink>
+        <NuxtLink :to="`/tags/${tag.slug}/`">{{tag.name}}</NuxtLink>
       </li>
     </ul>
 
-    <div>
+    <div class="description">
       <Thumbnail :project="project" :version="latestVersion"/>
       <div v-html="project.description"></div>
     </div>
 
-    <div v-if="latestVersion">
+    <div v-if="latestVersion" class="latest">
       <h3>{{latestVersion.version}} - latest version</h3>
       <p v-html="latestVersion.description"></p>
     </div>
@@ -84,7 +84,7 @@ export default {
       return tags
     },
     url() {
-      return `/projects/${this.project.slug}`
+      return `/projects/${this.project.slug}/`
     }
   },
   methods: {
@@ -153,7 +153,7 @@ div {
 ul {
   display: inline-flex;
   flex-flow: row wrap;
-  margin: 0 0 1em;
+  margin: 0;
   padding: 0;
 }
 
@@ -166,6 +166,14 @@ ul li {
 
 ul li:not(:last-child):after {
   content: ', ';
+}
+
+.description {
+  margin: 1em 0;
+}
+
+.latest {
+  margin: 1em 0;
 }
 
 .previous {
@@ -186,8 +194,6 @@ h3.toggle {
 }
 
 h3.toggle span {
-  /* font-size: 1.2em;
-  font-weight: 700; */
   display: inline-block;
   margin-left: 0.25em;
   transition: all 0.2s ease-in-out;
@@ -221,7 +227,12 @@ p {
 }
 
 footer {
-  clear: both;
   margin: 0;
+}
+
+footer::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 </style>

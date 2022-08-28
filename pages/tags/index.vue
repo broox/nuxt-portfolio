@@ -45,7 +45,17 @@ export default {
     })
 
     return { tags }
-  }
+  },
+  head() {
+    const title = 'Derek Brooks\'s Portfolio Tags'
+    return {
+      title,
+      meta: this.$getMetaTags({
+        title,
+        description: 'This is a word cloud of some skills, tools, and technologies that I\'ve used over the years.'
+      }),
+    }
+  },
 }
 </script>
 

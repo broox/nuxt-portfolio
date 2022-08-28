@@ -6,9 +6,9 @@
         <nav>
           <ul>
             <li><NuxtLink to="/">Home</NuxtLink></li>
-            <li><NuxtLink to="/projects">Projects</NuxtLink></li>
-            <li><NuxtLink to="/tags">Tags</NuxtLink></li>
-            <li><NuxtLink to="/resume">Resume</NuxtLink></li>
+            <li><NuxtLink to="/projects/">Projects</NuxtLink></li>
+            <li><NuxtLink to="/tags/">Tags</NuxtLink></li>
+            <li><NuxtLink to="/resume/">Resume</NuxtLink></li>
           </ul>
         </nav>
       </div>
@@ -19,18 +19,26 @@
     <footer>
       <div>
         Copyright &copy; {{year}} Derek Brooks<br>
-        <a href="https://github.com/broox/nuxt-portfolio">source code</a> &middot;
-        <a :href="validateURL">valid markup</a>
+        <a href="https://github.com/broox/nuxt-portfolio" target="_blank">source code</a> &middot;
+        <a :href="validateURL" target="_blank">valid markup</a>
       </div>
     </footer>
   </div>
 </template>
 
 <script>
+import ogImage from '~/assets/images/derek-brooks.jpeg';
 export default {
+  head () {
+    return {
+      meta: [
+        { hid: 'og:image', property: 'og:image', content: this.$config.baseURL + ogImage }
+      ]
+    }
+  },
   data() {
     const validateURL = new URL('https://validator.w3.org/nu/')
-    validateURL.searchParams.append('doc', 'https://broox.dev')
+    validateURL.searchParams.append('doc', this.$config.baseURL + this.$route.path)
 
     const year = new Date().getFullYear()
     return {
@@ -62,7 +70,7 @@ header nav a {
   /* color: rgb(192, 211, 251); */
 }
 
-header nav a.router-link-exact-active {
+header nav a.nuxt-link-exact-active {
   color: white;
   font-weight: bold;
 }

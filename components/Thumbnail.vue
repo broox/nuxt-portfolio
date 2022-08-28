@@ -50,7 +50,8 @@ export default {
 
 <style scoped>
 img {
-  border: 1px solid #000;
+  border: 1px solid #DDD;
+  border-radius: 0.25em;
   float: left;
   margin: 0 1em 1em 0;
 }

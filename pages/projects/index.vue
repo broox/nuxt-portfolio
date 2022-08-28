@@ -2,7 +2,7 @@
   <div>
     <header class="title">
       <h1>Projects</h1>
-      <p>Here's a rough list of <strong>{{projects.length}} projects</strong> that I've worked on over the last <strong>{{years}} years</strong>. Some projects have been omitted due to confidentiality concerns.</p>
+      <p>Here's a rough list of <strong>{{projects.length}} projects</strong> that I've worked on over the past <strong>{{years}} years</strong>. Some projects have been omitted due to confidentiality concerns.</p>
     </header>
     <div>
       <Project v-for="project in projects" :project="project" v-bind:key="project.slug" />
@@ -18,6 +18,15 @@ export default {
     const store = useStore()
     return { projects: store.projects }
   },
+  head() {
+    const title = 'Derek Brooks\'s Portfolio Projects'
+    return {
+      title,
+      meta: this.$getMetaTags({
+        title,
+        description: `This is a rough list of ${this.projects.length} projects that I've worked on over the past ${this.years} years.` }),
+    }
+  },
   computed: {
     years() {
       const currentYear = new Date().getFullYear();
@@ -31,9 +40,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-  strong {
-    font-weight: 600;
-  }
-</style>
