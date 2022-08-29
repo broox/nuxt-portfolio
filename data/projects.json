@@ -820,7 +820,7 @@
     {
         "slug": "preit-malls",
         "title": "PREIT Malls",
-        "description": "PREIT (Pennsylvania Real Estate Investment Trust) invests in shopping malls in the eastern United States.\n\nPREIT is one of the primary consumers of our internal CMS project, SiteMan.\n\nWe successfully deployed SiteMan to allow PREIT to manage over 40 of their mall websites - all from 1 location.\n\nOne challenge we faced with this project was PREIT's constant seasonal marketing campaigns and presentation layer redesigns. As such, we built SiteMan so that new presentation packages could easily be added into SiteMan for each of these campaigns.\n\nWe also allowed for mobile designs to be appended to each of these presentation packages for easy mobile browsing.",
+        "description": "PREIT (Pennsylvania Real Estate Investment Trust) invests in shopping malls in the eastern United States.\n\nPREIT is one of the primary consumers of our internal CMS project, <a href=\"/projects/siteman/\">SiteMan</a>.\n\nWe successfully deployed SiteMan to allow PREIT to manage over 40 of their mall websites - all from 1 location.\n\nOne challenge we faced with this project was PREIT's constant seasonal marketing campaigns and presentation layer redesigns. As such, we built SiteMan so that new presentation packages could easily be added into SiteMan for each of these campaigns.\n\nWe also allowed for mobile designs to be appended to each of these presentation packages for easy mobile browsing.",
         "featured": 0,
         "updatedAt": "2009-02-10",
         "url": null,
@@ -868,7 +868,7 @@
     {
         "slug": "ftthcap-conference",
         "title": "FTTHCAP Conference",
-        "description": "Fibre To The Home Council Asian Pacific (FTTHCAP) is a non-profit organization aiming to promote and accelerate Fibre To The Home - obviously in the Asian Pacific.  FTTHCAP hired our company to build an easily manageable site to help promote and provide information on their 4th annual conference.\n\nOnce the design had been built out, my job was to stick everything into our internal CMS application, SiteMan, and get it deployed ASAP.\n\nThis was our first installment of SiteMan on a single site system, so it was a great trial run.  Despite a couple \"gotchas\", I was able to push this site out with our SiteMan CMS very rapidly.  During this launch I was also able to fix up some loose-ends that I found in SiteMan, thus enhancing our internal application even further.\n\nAfter the launch, FTTH was able to easily edit any and all content via WYSIWYG editors.",
+        "description": "Fibre To The Home Council Asian Pacific (FTTHCAP) is a non-profit organization aiming to promote and accelerate Fibre To The Home - obviously in the Asian Pacific.  FTTHCAP hired our company to build an easily manageable site to help promote and provide information on their 4th annual conference.\n\nOnce the design had been built out, my job was to stick everything into our internal CMS application, <a href=\"/projects/siteman/\">SiteMan</a>, and get it deployed ASAP.\n\nThis was our first installment of SiteMan on a single site system, so it was a great trial run.  Despite a couple \"gotchas,\" I was able to push this site out with our SiteMan CMS very rapidly.  During this launch I was also able to fix up some loose-ends that I found in SiteMan, thus enhancing our internal application even further.\n\nAfter the launch, FTTH was able to easily edit any and all content via WYSIWYG editors.",
         "featured": 0,
         "updatedAt": "2009-03-04",
         "url": null,
@@ -902,7 +902,7 @@
     {
         "slug": "loffredo-fresh-produce",
         "title": "Loffredo Fresh Produce",
-        "description": "Loffredo is a high-end produce company serving much of the Mid West.\n\nWhen our company was hired to rebuild their site, my assignments were to integrate our in-house SiteMan CMS, create some plugins, build in a fancy javascript fruit carousel, and of course deploy the site to our production server.\n\nThe plugin I built for this site simply allowed Loffredo to manage branches and employees and allow site visitors to contact them.\n\nThe fruit carousel I mentioned was a custom javascript animation that cycles through various fruits on the homepage.",
+        "description": "Loffredo is a high-end produce company serving much of the Mid West.\n\nWhen our company was hired to rebuild their site, my assignments were to integrate our in-house <a href=\"/projects/siteman/\">SiteMan</a> CMS, create some plugins, build in a fancy javascript fruit carousel, and of course deploy the site to our production server.\n\nThe plugin I built for this site simply allowed Loffredo to manage branches and employees and allow site visitors to contact them.\n\nThe fruit carousel I mentioned was a custom javascript animation that cycles through various fruits on the homepage.",
         "featured": 0,
         "updatedAt": "2009-05-13",
         "url": null,
@@ -920,7 +920,7 @@
     {
         "slug": "iowa-alcoholic-beverages-division",
         "title": "Iowa Alcoholic Beverages Division",
-        "description": "Iowa Alcoholic Beverages Division is responsible for the regulation and control of all alcohol and tobacco in the state of Iowa.  The division has generated hundreds of millions of dollars for the state of Iowa.\n\nOur company, Red 5 Interactive had hosted IABD for years.  Up until this rebuild, they were one of the very last Java based sites running on an ancient server stuck in a closet in the back of our office. As time went on, it became scarier and scarier to let their site remain live. Once showing IABD the physical server they were running on, talking them into a complete rebuild was no challenge at all.\n\nOne of the most daunting parts of this rebuild was the task of migrating all their content. I heavily modified our internal Site Spider to accomplish this task. The client had around 400 pages and 700 files that were linked to (mostly PDF press releases). I had to completely crawl their site, import everything into our CMS and fix every link to work correctly. Given the fact that they had FTP access to the old server, things were a mess, and this was not a simple task. I'm talking about some serious site scraping madness!\n\nBeing such a large site, this client came up with all kinds of awesome ideas for our CMS, which I was able to add-on and commit back to the repository for our other clients.\n\nAfter setting up our internal CMS and importing their hundreds of pages/files, I had to build a Javascript Fund counter to display on their homepage.  Basically, the client takes their projected income, enters it into a custom tool that I built in SiteMan, and my JS did the math to determine how much money was being transferred to the state every second.  It then dynamically animated a count-<i>up</i> on the homepage.\n\nI also built some fancy, custom (and totally dynamic) javascript dropdown navigation.\n\nFinally, I had to model and build a custom plugin to allow IABD to import CSV files of their alcohol products, stores, and tobacco compliance data.  Then, I built functionality to browse and search all of this data on the front-end.\n\nAt the time, Iowa Alcoholic Beverages Division was basically a test of all my skills. Sys admin, back-end development, front-end development, scraping, importing, and finally deployment.",
+        "description": "Iowa Alcoholic Beverages Division is responsible for the regulation and control of all alcohol and tobacco in the state of Iowa.  The division has generated hundreds of millions of dollars for the state of Iowa.\n\nOur company, Red 5 Interactive had hosted IABD for years.  Up until this rebuild, they were one of the very last Java based sites running on an ancient server stuck in a closet in the back of our office. As time went on, it became scarier and scarier to let their site remain live. Once showing IABD the physical server they were running on, talking them into a complete rebuild was no challenge at all.\n\nOne of the most daunting parts of this rebuild was the task of migrating all their content. I heavily modified our internal <a href=\"/projects/site-spider/\">Site Spider</a> to accomplish this task. The client had around 400 pages and 700 files that were linked to (mostly PDF press releases). I had to completely crawl their site, import everything into our CMS and fix every link to work correctly. Given the fact that they had FTP access to the old server, things were a mess, and this was not a simple task. I'm talking about some serious site scraping madness!\n\nBeing such a large site, this client came up with all kinds of awesome ideas for our CMS, which I was able to add-on and commit back to the repository for our other clients.\n\nAfter setting up our internal CMS and importing their hundreds of pages/files, I had to build a Javascript Fund counter to display on their homepage.  Basically, the client takes their projected income, enters it into a custom tool that I built in <a href=\"/projects/siteman/\">SiteMan</a>, and my JS did the math to determine how much money was being transferred to the state every second.  It then dynamically animated a count-<i>up</i> on the homepage.\n\nI also built some fancy, custom (and totally dynamic) javascript dropdown navigation.\n\nFinally, I had to model and build a custom plugin to allow IABD to import CSV files of their alcohol products, stores, and tobacco compliance data.  Then, I built functionality to browse and search all of this data on the front-end.\n\nAt the time, Iowa Alcoholic Beverages Division was basically a test of all my skills. Sys admin, back-end development, front-end development, scraping, importing, and finally deployment.",
         "featured": 0,
         "updatedAt": "2009-07-29",
         "url": null,
@@ -955,7 +955,7 @@
     {
         "slug": "towrate",
         "title": "TowRate",
-        "description": "TowRate is a startup that offered a custom service to towing companies.  The site allowed subscribed companies to manage their assets, map routes, and calculate profit margins for every tow.  It was built in a way that allowed the towing companies to quickly run these calculations while on the phone, so they could figure out the most profitable way to charge for each tow.\n\nOn this project, I was in charge of pretty much everything except for the initial design.  My job involved data modeling, loads of calculations, back-end development, front-end development, form design, and deployment.\n\nTowRate was a very javascript heavy application, using plenty of asynchronous calls for things like sorting, calculating rates on the fly, and grabbing map data from the Google Maps API.  The Maps API was used to help determine mileage and time for each tow.  From there, the app used extensive math and formulas to help find the best price for each call.\n\nCompanies were able subscribe to TowRate on a monthly or yearly basis.  I integrated PayPal's Web Payments Pro to handle these subscriptions; let users join, autorenew, enter discount codes, cancel accounts, etc.\n\nSubscribed companies could also manage their trucks (as well as truck expenses), users, tow rates, tax areas, routes, etc.  It provided an all around fleet management solution to any towing company.",
+        "description": "TowRate was a startup that offered a custom service to towing companies.  The site allowed subscribed companies to manage their assets, map routes, and calculate profit margins for every tow.  It was built in a way that allowed the towing companies to quickly run these calculations while on the phone, so they could figure out the most profitable way to charge for each tow.\n\nOn this project, I was in charge of pretty much everything except for the initial design.  My job involved data modeling, loads of calculations, back-end development, front-end development, form design, and deployment.\n\nTowRate was a very javascript heavy application, using plenty of asynchronous calls for things like sorting, calculating rates on the fly, and grabbing map data from the Google Maps API.  The Maps API was used to help determine mileage and time for each tow.  From there, the app used extensive math and formulas to help find the best price for each call.\n\nCompanies were able subscribe to TowRate on a monthly or yearly basis.  I integrated PayPal's Web Payments Pro to handle these subscriptions; let users join, autorenew, enter discount codes, cancel accounts, etc.\n\nSubscribed companies could also manage their trucks (as well as truck expenses), users, tow rates, tax areas, routes, etc.  It provided an all around fleet management solution to any towing company.",
         "featured": 1,
         "updatedAt": "2009-10-01",
         "url": null,
@@ -1086,7 +1086,7 @@
     {
         "slug": "bix-produce",
         "title": "Bix Produce",
-        "description": "Bix Produce is a produce distributor based in Minnesota.  They became interested in my company, Red Five after seeing the produce site that we built for Loffredo.\n\nI was in charge of integrating the design we came up with into our SiteMan CMS, and also deploying the site for Bix.",
+        "description": "Bix Produce is a produce distributor based in Minnesota.  They became interested in my company, Red Five after seeing the produce site that we built for Loffredo.\n\nI was in charge of integrating the design we came up with into our <a href=\"/projects/siteman/\">SiteMan</a> CMS, and also deploying the site for Bix.",
         "featured": 0,
         "updatedAt": "2010-01-07",
         "url": null,
@@ -1101,7 +1101,7 @@
     {
         "slug": "valley-west-mall",
         "title": "Valley West Mall",
-        "description": "Valley West Mall is a long time Red Five client and was sort of a guinea pig to test out the latest version of our SiteMan CMS and the brand new javascript/HTML5 based SVG map UI that we'd built.\n\nRebuilding the Valley West Mall site with our new technology was a great learning experience.  We greatly improved our CMS, made things much more efficient and moved from Prototype to jQuery.  Rendering maps with javascript rather than flash meant they could be viewed on mobile devices, iPads, etc.\n\nIn addition to these great new features, Valley West requested to be integrated with their Twitter account.  This allowed me to build a twitter plugin for the SiteMan CMS which would allow the mall to easily post tweets as well as monitor mentions and replies.",
+        "description": "Valley West Mall is a long time Red Five client and was sort of a guinea pig to test out the latest version of our <a href=\"/projects/siteman/\">SiteMan</a> CMS and the brand new javascript/HTML5 based SVG map UI that we'd built.\n\nRebuilding the Valley West Mall site with our new technology was a great learning experience.  We greatly improved our CMS, made things much more efficient and moved from Prototype to jQuery.  Rendering maps with javascript rather than flash meant they could be viewed on mobile devices, iPads, etc.\n\nIn addition to these great new features, Valley West requested to be integrated with their Twitter account.  This allowed me to build a twitter plugin for the SiteMan CMS which would allow the mall to easily post tweets as well as monitor mentions and replies.",
         "featured": 0,
         "updatedAt": "2010-01-08",
         "url": null,
@@ -1147,7 +1147,7 @@
     {
         "slug": "perficut",
         "title": "Perficut",
-        "description": "Perficut is one of the leading landscaping and lawn service companies in Des Moines, IA. They came to our company, Red Five seeking a more serious web presence along with some custom tools.\n\nIn addition to a complete redesign built around our CMS, I also built a large custom irrigation and service scheduler for Perficut and their clients.\n\nThis scheduler allowed Perficut to define a season, serviceable neighborhoods, average appointment times, the number of crews available, and other small details. From here, the tool allowed Perficut to assign crews to neighborhoods (based on stats from the previous season). Once this was all set up, customers could visit Perficut's site to schedule sprinkler system startups, shutdowns, and service.\n\nOn top of this custom tool, I was also in charge of integrating this site into our SiteMan CMS and deploying the site.",
+        "description": "Perficut is one of the leading landscaping and lawn service companies in Des Moines, IA. They came to our company, Red Five seeking a more serious web presence along with some custom tools.\n\nIn addition to a complete redesign built around our CMS, I also built a large custom irrigation and service scheduler for Perficut and their clients.\n\nThis scheduler allowed Perficut to define a season, serviceable neighborhoods, average appointment times, the number of crews available, and other small details. From here, the tool allowed Perficut to assign crews to neighborhoods (based on stats from the previous season). Once this was all set up, customers could visit Perficut's site to schedule sprinkler system startups, shutdowns, and service.\n\nOn top of this custom tool, I was also in charge of integrating this site into our <a href=\"/projects/siteman/\">SiteMan</a> CMS and deploying the site.",
         "featured": 0,
         "updatedAt": "2010-02-17",
         "url": null,
@@ -1527,7 +1527,7 @@
     {
         "slug": "broox-photos",
         "title": "Broox Photos",
-        "description": "Broox Photos was a light, responsive, single page web application that I built during the COVID-19 pandemic to browse the photos hosted at derek.broox.com.\n\nThe front-end was built with Vue.js and it hits a thin python/flask-based API proxy that leverages the Broox API.",
+        "description": "Broox Photos was a light, responsive, single page web application that I built during the COVID-19 pandemic to browse the photos hosted at derek.broox.com.\n\nThe front-end was built with Vue.js and it hits a thin python/flask-based API proxy that leverages the <a href=\"/projects/broox-api/\">Broox API</a>.",
         "featured": 0,
         "updatedAt": "2020-03-30",
         "url": "https://github.com/broox/photos",
@@ -1546,7 +1546,7 @@
     {
         "slug": "venmo-credit-card",
         "title": "Venmo Credit Card",
-        "description": "Amidst the start of the COVID-19 pandemic, the Chicago Venmo team was tasked with launching one of our most ambitious products. We worked closely with PayPal Credit, Synchrony Bank, and several internal Venmo teams to launch a branded Venmo Credit Card product in just 10 months time.\n\nI served as a tech lead and cross-company liaison to help architect and lead the development of the Credit Card servicing portion of the product. This included the data syncing, data structures, and API design to power the interfaces that a user sees when viewing or managing any information about their credit card in the Venmo Application.\n\nLater, as part of a larger effort to upgrade the outdated Python 2 codebase across all of Venmo, I also led the effort to get the Credit Card service's codebase upgraded to a more modern version of Python.",
+        "description": "Amidst the start of the COVID-19 pandemic, the Chicago Venmo team was tasked with launching one of our most ambitious products. We worked closely with PayPal Credit, Synchrony Bank, and several internal Venmo teams to launch a branded Venmo Credit Card product in just 10 months time.\n\nI served as a tech lead and cross-company liaison to help architect and lead the development of the Credit Card servicing portion of the product. This included the data syncing, data structures, and API design to power the interfaces that a user sees when viewing or managing any information about their credit card in the Venmo Application.\n\nLater, I worked with a small team to add <a href=\"/projects/venmo-cashback-to-crypto/\">Cryptocurrency Reward</a> functionality and also led the effort to get the Credit Card service's codebase upgraded to a more modern version of Python.",
         "featured": 1,
         "updatedAt": "2020-10-05",
         "url": "https://venmo.com/about/creditcard/",
@@ -1564,7 +1564,7 @@
     {
         "slug": "venmo-cashback-to-crypto",
         "title": "Venmo Cashback to Crypto",
-        "description": "The Venmo Credit Card offers up to 3% cash back on a user's top expenditures. After Venmo launched the ability for users to buy and hold cryptocurrency in their accounts, we decided to allow Credit Card users to automatically turn their cash back rewards into the cryptocurrency of their choice.\n\nI co-led the effort and worked with a small team of engineers to architect and build the new functionality that made heavy use of Cloudevents, PayPal's crypto APIs, and internal Venmo services to get the job done.",
+        "description": "The <a href=\"/projects/venmo-credit-card/\">Venmo Credit Card</a> offers up to 3% cash back on a user's top expenditures. After Venmo launched the ability for users to buy and hold cryptocurrency in their accounts, we decided to allow Credit Card users to automatically turn their cash back rewards into the cryptocurrency of their choice.\n\nI co-led the effort and worked with a small team of engineers to architect and build the new functionality that made heavy use of Cloudevents, PayPal's crypto APIs, and internal Venmo services to get the job done.",
         "featured": 0,
         "updatedAt": "2021-08-10",
         "url": null,
@@ -1616,7 +1616,7 @@
     {
         "slug": "broox-api",
         "title": "Broox API",
-        "description": "This is a RESTful API to surface all of my personal data like blogs, microblogs, photos, geodata, etc. It currently powers derek.broox.com and photos.broox.com.",
+        "description": "This is a RESTful API to surface all of my personal data like blogs, microblogs, photos, geodata, etc. It currently powers <a href=\"/projects/derek-broox-com/\">derek.broox.com</a> and <a href=\"/projects/broox-photos/\">photos.broox.com</a>.",
         "featured": 0,
         "updatedAt": "2022-04-27",
         "url": null,
@@ -1646,7 +1646,7 @@
     {
         "slug": "broox-integration",
         "title": "Broox Integration",
-        "description": "Broox Integration is a containerized set of scheduled and manually run Python scripts that I use to manage the data that powers the Broox API. Its primary purpose is to sync data with various social networks (Flickr, Twitter, Foursquare), but I also use it for things like moving photo assets to cloud storage providers or running batch operations on my local data.\n\nAll third party API response data that I fetch is cached in a Mongo DB and then manipulated to store only the relevant data in the MySQL DB that powers the Broox API.",
+        "description": "Broox Integration is a containerized set of scheduled and manually run Python scripts that I use to manage the data that powers the <a href=\"/projects/broox-api/\">Broox API</a>. Its primary purpose is to sync data with various social networks (Flickr, Twitter, Foursquare), but I also use it for things like moving photo assets to cloud storage providers or running batch operations on my local data.\n\nAll third party API response data that I fetch is cached in a Mongo DB and then manipulated to store only the relevant data in the MySQL DB that powers the Broox API.",
         "featured": 0,
         "updatedAt": "2022-04-27",
         "url": null,
@@ -1736,7 +1736,7 @@
             },
             {
                 "version": "v8",
-                "description": "This is the first version of my site that I completely rebuilt in a new language and platform. I moved the entire site from a LAMP stack to a server-side-rendered (SSR) Nuxt.js application that relies completely on the Broox API to power its content.\n\nI chose Nuxt and SSR in order to keep my SEO and open graph / social sharing meta tags intact while still providing a speedy, asynchronous client-side browsing experience.",
+                "description": "This is the first version of my site that I completely rebuilt in a new language and platform. I moved the entire site from a containerized LAMP stack to a server-side-rendered (SSR) Nuxt.js application that relies completely on the <a href=\"/projects/broox-api/\">Broox API</a> to power its content.\n\nI chose Nuxt and SSR in order to keep my SEO and open graph / social sharing meta tags intact while still providing a speedy, asynchronous client-side browsing experience.",
                 "createdAt": "2022-04-27"
             }
         ]
