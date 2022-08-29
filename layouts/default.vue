@@ -129,4 +129,10 @@ footer div {
     margin: 0 0 0 1em;
   }
 }
+
+@media print {
+  header, footer {
+    display: none;
+  }
+}
 </style>

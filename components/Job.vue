@@ -67,9 +67,4 @@ article li {
 li.projects span:not(:last-child):after {
   content: ', ';
 }
-
-.projects span, .projects a {
-  color: #777;
-}
-
 </style>

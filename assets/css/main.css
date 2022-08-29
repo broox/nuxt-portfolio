@@ -48,3 +48,9 @@ header.title p {
 strong {
   font-weight: 600;
 }
+
+@media print {
+  a {
+    color: #666;
+  }
+}

@@ -108,4 +108,11 @@ footer {
   margin: 3em 0 0;
   text-align: center;
 }
+
+@media print {
+  footer {
+    display: none;
+  }
+}
+
 </style>
