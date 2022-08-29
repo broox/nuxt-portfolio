@@ -41,6 +41,15 @@ export default {
       { name: 'msapplication-TileColor', content:'#2563eb'},
       { name: 'theme-color', content: '#ffffff' },
     ],
+    script: [
+      {
+        async: true,
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-PCR2QT1MRT',
+      },
+      {
+        src: 'js/ga.js'
+      }
+    ],
     title: title,
   },
   plugins: [
