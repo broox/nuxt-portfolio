@@ -1,5 +1,13 @@
 [
   {
+    "slug"     : "panther",
+    "position" : "Senior Full Stack Software Engineer",
+    "company"  : "Panther",
+    "location" : "San Francisco, California (remote)",
+    "timespan" : "Novmeber 2022 - Present",
+    "tasks"    : []
+  },
+  {
     "slug"     : "paypal",
     "position" : "Senior Staff Software Engineer",
     "company"  : "PayPal",
