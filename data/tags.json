@@ -100,6 +100,11 @@
         "description": "I've spent a lot of time playing with the Foursquare API. For some personal projects I use it to help track where I am and display that information for curious family and friends.\n\nI've also used it to pull tips for bars and restaurants on my \"alive\" sites."
     },
     {
+        "slug": "go",
+        "name": "Go",
+        "description": null
+    },
+    {
         "slug": "google-maps-api",
         "name": "Google Maps API",
         "description": "I've used the Google Maps API primarily to display the coordinates of geotagged data and also to track trips."
@@ -108,6 +113,11 @@
         "slug": "graphic-design",
         "name": "Graphic Design",
         "description": "I'm a much better programmer than designer, but I do really enjoy doing some design from time-to-time."
+    },
+    {
+        "slug": "graphql",
+        "name": "GraphQL",
+        "description": ""
     },
     {
         "slug": "html",
@@ -243,6 +253,11 @@
         "slug": "twitter-api",
         "name": "Twitter API",
         "description": "I've gotten to use the Twitter API for a handful of professional projects, but I mostly use it for fetching my personal status updates and displaying them in various places.  It's a very fun API."
+    },
+    {
+        "slug": "typescript",
+        "name": "Typescript",
+        "description": null
     },
     {
         "slug": "video-production",

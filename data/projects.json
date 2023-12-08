@@ -1393,6 +1393,7 @@
         "job": null,
         "tags": [
             "api-design",
+            "go",
             "image-processing",
             "json",
             "mysql",
@@ -1500,6 +1501,7 @@
         "job": "paypal",
         "tags": [
             "api-design",
+            "graphql",
             "mongo",
             "mysql",
             "paypal",
@@ -1740,5 +1742,66 @@
                 "createdAt": "2022-04-27"
             }
         ]
+    },
+    {
+        "slug": "venmo-teen-card",
+        "title": "Venmo Teen Card",
+        "description": "The Teen Card is one of the last initiatives that I worked on before leaving PayPal/Venmo. This project was particularly challenging due to all of the restrictions and red tape that come along with building financial software for minors. This was the first time that we needed to introduce a new type of \"delegate account,\" which would allow the teen to log in, be restricted from certain features, and also be managed by / linked to their parent's Venmo account.\n\nI spent most of my time on this project working with PayPal architects to design the systems to manage the delegate accounts, allow them to act as entities on our existing Venmo models, and also designed interfaces between PayPal/Venmo back-ends and our mobile app.",
+        "featured": 0,
+        "updatedAt": "2022-04-20",
+        "url": "https://venmo.com/about/teendebitcard/",
+        "job": "paypal",
+        "tags": [
+            "api-design",
+            "python"
+        ],
+        "versions": []
+    },
+    {
+        "slug": "roboflow-python-sdk",
+        "title": "Roboflow Python SDK",
+        "description": "Roboflow is a computer vision startup founded by a friend in my city. I spent a short time contracting with them to build APIs and work on their Python SDK. Aside from implementing some image classification and segmentation features, I was also about to containerize the Python package, DRY up a bunch of code, and improve their test coverage.\n\nI really enjoyed getting to work with this company and play with ML, computer vision, and annotating images with masks, overlays, etc.",
+        "featured": 0,
+        "updatedAt": "2022-10-20",
+        "url": "https://github.com/roboflow/roboflow-python",
+        "job": null,
+        "tags": [
+            "api-design",
+            "image-processing",
+            "python"
+        ],
+        "versions": []
+    },
+    {
+        "slug": "galactic-crypto-card",
+        "title": "Galactic Crypto Card",
+        "description": "Galactic was a startup that was developing a product that would allow workers who were paid in cryptocurrency to easily spend their earnings via a debit card that linked to their wallet.\n\nI contracted with them to mentor/pair program with new frontend developers on building out the new user registration flows and account management pieces of the product. The company was unfortunately shut down before the product was launched.",
+        "featured": 0,
+        "updatedAt": "2022-10-31",
+        "url": null,
+        "job": null,
+        "tags": [
+            "css",
+            "javascript",
+            "react"
+        ],
+        "versions": []
+    },
+    {
+        "slug": "panther-console",
+        "title": "Panther Console",
+        "description": "Panther is a cloud-based SIEM (Security information and event management) cybersecurity company that I work for. We ingest logs from various sources and help security teams identify threats based on homegrown and custom detection rules.\n\nThe back-end is a mix of golang and python deployed to a largely serverless infrastructure and makes extensive uses of queues, document-based data stores, etc. The front-end is react and typescript and interfaces with the backend via GraphQL.\n\nMy primary focus has been on our detection and alerting interfaces, as well as integrating with third party services. Within these realms, I work on the full stack of the Panther application - from architecting features, defining graphql services, and implementing backend logic in golang to building out front-end components.",
+        "featured": 0,
+        "updatedAt": "2023-12-01",
+        "url": "https://panther.com/",
+        "job": "panther",
+        "tags": [
+            "go",
+            "graphql",
+            "javascript",
+            "react",
+            "typescript"
+        ],
+        "versions": []
     }
 ]

@@ -52,7 +52,9 @@ export default {
 img {
   border: 1px solid #DDD;
   border-radius: 0.25em;
+  height: auto;
   float: left;
+  max-width: 150px;
   margin: 0 1em 1em 0;
 }
 </style>
