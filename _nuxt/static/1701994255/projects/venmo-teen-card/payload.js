@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/venmo-teen-card", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/galactic-crypto-card", {data:[{}],fetch:{},mutations:void 0});

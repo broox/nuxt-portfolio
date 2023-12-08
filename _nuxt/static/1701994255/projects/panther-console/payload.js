@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/panther-console", {data:[{}],fetch:{},mutations:void 0});
