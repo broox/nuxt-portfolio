@@ -23,13 +23,13 @@
       <h2>Skills</h2>
       <dl>
         <dt>Development:</dt>
-        <dd>Python, Javascript, Ruby on Rails, PHP, Objective-C, Java, C#, ActionScript, ASP, ASP.NET, PowerScript, SQL, VBScript</dd>
+        <dd>Python, Javascript, Typescript, Go, Ruby on Rails, PHP, Objective-C, Java, C#, ActionScript, ASP, ASP.NET, PowerScript, SQL, VBScript</dd>
         
         <dt>Platforms:</dt>
         <dd>MacOS, Linux, Windows</dd>
         
         <dt>Databases:</dt>
-        <dd>MySQL, Mongo, Oracle, Sybase</dd>
+        <dd>MySQL, DynamoDB, Postgres, Mongo, Oracle, Sybase</dd>
         
         <dt>Markup:</dt>
         <dd>HTML, XML, CSS</dd>

@@ -1,5 +1,10 @@
 [
     {
+        "slug": "ai",
+        "name": "Artificial Intelligence",
+        "description": "From building MCP servers, agents, and custom LLM applications to leveraging AI to orchestrate building for me... I've been able to leverage artificial intelligence in a variety of ways to enhance user experiences and streamline workflows."
+    },
+    {
         "slug": "ajax",
         "name": "AJAX",
         "description": "I've used asynchronous request patterns extensively through my years in web development. I was actually writing \"AJAX\" code before (and after) asynchronous web requests were even called AJAX."
@@ -12,6 +17,11 @@
     {
         "slug": "android",
         "name": "Android",
+        "description": ""
+    },
+    {
+        "slug": "angular",
+        "name": "Angular",
         "description": ""
     },
     {
@@ -48,6 +58,11 @@
         "slug": "brightkite-api",
         "name": "BrightKite API",
         "description": "I used the old BrightKite API to gather data and sync my check-ins and notes up with my tweets, and facebook statuses in my local database.  Combined with Google Latitude, I also used the API to display my latest location and daily travels on my personal site."
+    },
+    {
+        "slug": "c-sharp",
+        "name": "C#",
+        "description": "I've developed with C# at my first job out of college and my most recent job at Rocket Mortgage. AI is really helping me dive right back in after 15+ years away from it."
     },
     {
         "slug": "cloudevents",
@@ -197,6 +212,11 @@
     {
         "slug": "perl",
         "name": "Perl",
+        "description": ""
+    },
+    {
+        "slug": "postgres",
+        "name": "PostgreSQL",
         "description": ""
     },
     {

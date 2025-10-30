@@ -1,11 +1,23 @@
 [
   {
+    "slug"     : "rocket",
+    "position" : "Principal Software Engineer",
+    "company"  : "Rocket Mortgage",
+    "location" : "Detroit, Michigao (remote)",
+    "timespan" : "May 2025 - Present",
+    "tasks"    : []
+  },
+  {
     "slug"     : "panther",
     "position" : "Staff Full Stack Software Engineer",
     "company"  : "Panther",
     "location" : "San Francisco, California (remote)",
-    "timespan" : "November 2022 - Present",
-    "tasks"    : []
+    "timespan" : "November 2022 - May 2025",
+    "tasks"    : [
+      "Architected and developed full stack detection and alerting interfaces for serverless, cloud-based SIEM cybersecurity product",
+      "Integrated with third party security services and developed AI tooling to enhance threat triage capabilities",
+      "Led frontend engineering team and collaborated with product directors and leadership on technical strategy"
+    ]
   },
   {
     "slug"     : "paypal",
