@@ -3,7 +3,7 @@
     "slug"     : "rocket",
     "position" : "Principal Software Engineer",
     "company"  : "Rocket Mortgage",
-    "location" : "Detroit, Michigao (remote)",
+    "location" : "Detroit, Michigan (remote)",
     "timespan" : "May 2025 - Present",
     "tasks"    : []
   },
@@ -65,7 +65,7 @@
       "Developed and extended JavaScript based interactive timeline software",
       "Managed systems receiving 250,000 - 700,000 daily pageviews on Amazon EC2 and S3",
       "Architected and developed JavaScript API to allow developers to leverage our timeline widget",
-      "Extended our REST API while offloading all date calculation to 24-bit API servers to extend the span of our timelines"
+      "Extended our REST API while offloading all date calculation to 64-bit API servers to extend the span of our timelines"
     ]
   },
   { 
