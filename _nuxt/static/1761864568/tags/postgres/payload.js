@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tags/postgres", {data:[{}],fetch:{},mutations:void 0});
