@@ -9,11 +9,15 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
+    "typecheck": "nuxt typecheck",
     "validate": "java -jar node_modules/vnu-jar/build/dist/vnu.jar --errors-only --skip-non-html .output/public"
   },
   "devDependencies": {
+    "@types/node": "^24.9.2",
     "nuxt": "^3.20.0",
-    "vnu-jar": "^25.11.1"
+    "typescript": "^5.9.3",
+    "vnu-jar": "^25.11.1",
+    "vue-tsc": "^3.1.2"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.11.2",

@@ -15,8 +15,6 @@
 import { useStore } from '~/store'
 
 const route = useRoute()
-const { $getMetaTags } = useNuxtApp()
-
 const store = useStore()
 
 const tag = computed(() => {
@@ -44,13 +42,10 @@ const projectCount = computed(() => {
 
 const title = computed(() => `${tag.value.name} by Derek Brooks`)
 
-useHead(() => ({
+usePageMeta({
   title: title.value,
-  meta: $getMetaTags({
-    title: title.value,
-    description: tag.value.description
-  }),
-}))
+  description: tag.value.description
+})
 </script>
 
 <style scoped>

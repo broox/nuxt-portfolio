@@ -55,15 +55,10 @@
 import { useStore } from '~/store'
 
 const store = useStore()
-const { $getMetaTags } = useNuxtApp()
-
 const jobs = store.jobs
 
 const title = 'Derek Brooks\'s Resume'
-useHead({
-  title,
-  meta: $getMetaTags({ title })
-})
+usePageMeta({ title })
 </script>
 
 

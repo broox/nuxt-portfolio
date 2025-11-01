@@ -17,16 +17,16 @@ export const useStore = defineStore('main', {
       return state.projects.filter(project => project.featured)
     },
     getProject: (state) => {
-      return (slug) => state.projects.find((project) => project.slug === slug)
+      return (slug: string) => state.projects.find((project) => project.slug === slug)
     },
     getProjectsForJob: (state) => {
-      return (slug) => state.projects.filter(project => project.job === slug)
+      return (slug: string) => state.projects.filter(project => project.job === slug)
     },
     getProjectsTagged: (state) => {
-      return (slug) => state.projects.filter(project => project.tags.includes(slug))
+      return (slug: string) => state.projects.filter(project => project.tags.includes(slug))
     },
     getTag: (state) => {
-      return (slug) => state.tags.find((tag) => tag.slug === slug)
+      return (slug: string) => state.tags.find((tag) => tag.slug === slug)
     }
   }
 })

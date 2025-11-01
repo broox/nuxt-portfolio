@@ -62,6 +62,7 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       routes: ['/'],
+      autoSubfolderIndex: false,
       crawlLinks: true,
       failOnError: false
     }
@@ -72,10 +73,13 @@ export default defineNuxtConfig({
       strict: false,
     }
   },
-
-  routeRules: {
-    '/**': { trailingSlash: 'append' }
+  experimental: {
+    defaults: {
+      nuxtLink: {
+        trailingSlash: 'append'
+      }
+    }
   },
 
-  compatibilityDate: '2025-01-30'
+  compatibilityDate: '2025-11-01'
 })

@@ -16,8 +16,6 @@
 import { useStore } from '~/store'
 
 const store = useStore()
-const { $getMetaTags } = useNuxtApp()
-
 const tags = store.tags
 const minFontSize = 1
 const maxFontSize = 3
@@ -42,12 +40,9 @@ tags.forEach((tag) => {
 })
 
 const title = 'Derek Brooks\'s Portfolio Tags'
-useHead({
+usePageMeta({
   title,
-  meta: $getMetaTags({
-    title,
-    description: 'This is a word cloud of some skills, tools, and technologies that I\'ve used over the years.'
-  }),
+  description: 'This is a word cloud of some skills, tools, and technologies that I\'ve used over the years.'
 })
 </script>
 

@@ -14,8 +14,6 @@
 import { useStore } from '~/store'
 
 const store = useStore()
-const { $getMetaTags } = useNuxtApp()
-
 const projects = store.projects
 
 const years = computed(() => {
@@ -29,11 +27,8 @@ const years = computed(() => {
 })
 
 const title = 'Derek Brooks\'s Portfolio Projects'
-useHead(() => ({
+usePageMeta({
   title,
-  meta: $getMetaTags({
-    title,
-    description: `This is a rough list of ${projects.length} projects that I've worked on over the past ${years.value} years.`
-  }),
-}))
+  description: `This is a rough list of ${projects.length} projects that I've worked on over the past ${years.value} years.`
+})
 </script>

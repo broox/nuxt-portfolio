@@ -21,6 +21,11 @@ import { useStore } from '~/store'
 
 const store = useStore()
 const featuredProjects = computed(() => store.featuredProjects)
+
+usePageMeta({
+  title: "Derek Brooks's Portfolio",
+  description: "Professional tech lead, software engineer, and product architect. I've built software and teams for startups, small businesses, and Fortune 100 companies."
+})
 </script>
 
 <style scoped>
