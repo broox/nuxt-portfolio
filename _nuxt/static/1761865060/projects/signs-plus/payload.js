@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/signs-plus", {data:[{}],fetch:{},mutations:void 0});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tags/website-payments-pro", {data:[{}],fetch:{},mutations:void 0});

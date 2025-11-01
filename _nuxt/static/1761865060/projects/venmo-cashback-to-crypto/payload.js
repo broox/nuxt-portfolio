@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/venmo-cashback-to-crypto", {data:[{}],fetch:{},mutations:void 0});

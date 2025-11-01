@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/iowa-meth-watch", {data:[{}],fetch:{},mutations:void 0});

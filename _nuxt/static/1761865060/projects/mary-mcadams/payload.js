@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/mary-mcadams", {data:[{}],fetch:{},mutations:void 0});

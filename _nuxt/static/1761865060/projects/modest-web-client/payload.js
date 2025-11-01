@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/modest-web-client", {data:[{}],fetch:{},mutations:void 0});

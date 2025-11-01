@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/broox-extreme", {data:[{}],fetch:{},mutations:void 0});

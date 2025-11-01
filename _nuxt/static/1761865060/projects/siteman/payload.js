@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/siteman", {data:[{}],fetch:{},mutations:void 0});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tags/facebook-api", {data:[{}],fetch:{},mutations:void 0});

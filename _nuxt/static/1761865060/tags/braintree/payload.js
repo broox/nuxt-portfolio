@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tags/braintree", {data:[{}],fetch:{},mutations:void 0});

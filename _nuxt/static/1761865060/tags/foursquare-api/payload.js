@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tags/foursquare-api", {data:[{}],fetch:{},mutations:void 0});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tags/authorize-net", {data:[{}],fetch:{},mutations:void 0});

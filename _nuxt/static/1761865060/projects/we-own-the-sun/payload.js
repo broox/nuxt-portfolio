@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/we-own-the-sun", {data:[{}],fetch:{},mutations:void 0});

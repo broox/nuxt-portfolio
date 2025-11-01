@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tags/siteman", {data:[{}],fetch:{},mutations:void 0});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/venmo-purchase-protection", {data:[{}],fetch:{},mutations:void 0});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/advantage-group", {data:[{}],fetch:{},mutations:void 0});

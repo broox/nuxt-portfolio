@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tags/objective-c", {data:[{}],fetch:{},mutations:void 0});

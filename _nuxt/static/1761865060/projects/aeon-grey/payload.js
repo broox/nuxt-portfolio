@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/aeon-grey", {data:[{}],fetch:{},mutations:void 0});

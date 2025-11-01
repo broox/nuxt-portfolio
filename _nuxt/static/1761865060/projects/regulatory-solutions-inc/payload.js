@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/regulatory-solutions-inc", {data:[{}],fetch:{},mutations:void 0});

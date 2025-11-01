@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/philadelphia-marketplace", {data:[{}],fetch:{},mutations:void 0});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tags/prototype", {data:[{}],fetch:{},mutations:void 0});

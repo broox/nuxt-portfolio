@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/venmo-payouts", {data:[{}],fetch:{},mutations:void 0});

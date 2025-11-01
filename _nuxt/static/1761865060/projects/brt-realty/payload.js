@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/brt-realty", {data:[{}],fetch:{},mutations:void 0});

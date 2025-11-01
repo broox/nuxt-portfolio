@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/bix-produce", {data:[{}],fetch:{},mutations:void 0});

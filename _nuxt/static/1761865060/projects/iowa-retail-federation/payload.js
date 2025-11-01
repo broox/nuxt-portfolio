@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/iowa-retail-federation", {data:[{}],fetch:{},mutations:void 0});

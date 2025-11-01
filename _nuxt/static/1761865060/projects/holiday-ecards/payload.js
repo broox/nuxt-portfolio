@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/holiday-ecards", {data:[{}],fetch:{},mutations:void 0});

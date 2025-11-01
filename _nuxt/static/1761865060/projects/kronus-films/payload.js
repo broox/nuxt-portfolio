@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/kronus-films", {data:[{}],fetch:{},mutations:void 0});

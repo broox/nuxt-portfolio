@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/valley-west-mall", {data:[{}],fetch:{},mutations:void 0});

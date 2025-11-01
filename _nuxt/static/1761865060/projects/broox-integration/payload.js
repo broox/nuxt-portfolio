@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/broox-integration", {data:[{}],fetch:{},mutations:void 0});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tags/extjs", {data:[{}],fetch:{},mutations:void 0});

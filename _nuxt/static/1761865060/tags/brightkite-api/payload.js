@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/tags/brightkite-api", {data:[{}],fetch:{},mutations:void 0});

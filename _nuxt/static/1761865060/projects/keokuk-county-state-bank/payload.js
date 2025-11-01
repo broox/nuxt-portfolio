@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/keokuk-county-state-bank", {data:[{}],fetch:{},mutations:void 0});

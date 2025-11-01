@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/the-jugglers", {data:[{}],fetch:{},mutations:void 0});
