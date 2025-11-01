@@ -8,10 +8,12 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "validate": "java -jar node_modules/vnu-jar/build/dist/vnu.jar --errors-only --skip-non-html .output/public"
   },
   "devDependencies": {
-    "nuxt": "^3.20.0"
+    "nuxt": "^3.20.0",
+    "vnu-jar": "^25.11.1"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.11.2",

@@ -1,0 +1,42 @@
+name: Build and Validate
+
+on:
+  workflow_call:
+    outputs:
+      build-path:
+        description: "Path to the generated build"
+        value: ${{ jobs.build.outputs.build-path }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      build-path: .output/public
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Generate static site
+        run: pnpm generate
+
+      - name: Validate HTML
+        run: pnpm validate
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: build
+          path: .output/public
+          retention-days: 1

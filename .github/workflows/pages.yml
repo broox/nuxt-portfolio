@@ -1,40 +1,26 @@
-name: Deploy Nuxt site to Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches: ["main"]
 
 jobs:
-  cd:
-    runs-on: ${{ matrix.os }}
+  build-and-validate:
+    uses: ./.github/workflows/build-and-validate.yml
 
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        node: [20]
+  deploy:
+    needs: build-and-validate
+    runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@master
-
-      - name: Setup node env
-        uses: actions/setup-node@v4
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
         with:
-          node-version: ${{ matrix.node }}
+          name: build
+          path: .output/public
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 9
-
-      - name: Install dependencies
-        run: pnpm install
-
-      - name: Generate
-        run: pnpm generate
-
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./.output/public
+          publish_dir: .output/public
