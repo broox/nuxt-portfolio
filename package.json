@@ -1,20 +1,28 @@
 {
   "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": "^24.11.0"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "typecheck": "nuxt typecheck",
+    "validate": "java -jar node_modules/vnu-jar/build/dist/vnu.jar --errors-only --skip-non-html .output/public"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/basiclightbox": "^5.0.4",
+    "@types/node": "^24.9.2",
+    "nuxt": "^3.20.0",
+    "typescript": "^5.9.3",
+    "vnu-jar": "^25.11.1",
+    "vue-tsc": "^3.1.2"
+  },
   "dependencies": {
-    "@nuxtjs/composition-api": "^0.33.1",
-    "@pinia/nuxt": "0.2.1",
+    "@pinia/nuxt": "^0.11.2",
     "basiclightbox": "^5.0.4",
-    "nuxt": "^2.17.2",
-    "pinia": "^2.1.7"
-  },
-  "resolutions": {
-    "vue-template-compiler": "2.7.16"
+    "pinia": "^3.0.3"
   }
 }

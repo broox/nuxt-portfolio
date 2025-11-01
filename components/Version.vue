@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h4>{{version.version}} <span>{{displayTime}}</span></h4>
+    <h4>{{ version.version }} <span>{{ displayTime }}</span></h4>
     <div>
       <Thumbnail :project="project" :version="version"/>
       <div v-html="version.description"></div>
@@ -9,18 +9,15 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: {
-    project: Object,
-    version: Object,
-  },
-  computed: {
-    displayTime() {
-      return this.$getDisplayDate(this.version.createdAt)
-    },
-  },
-}
+<script setup lang="ts">
+const props = defineProps<{
+  project: Project
+  version: ProjectVersion
+}>()
+
+const { $getDisplayDate } = useNuxtApp()
+
+const displayTime = computed(() => $getDisplayDate(props.version.createdAt))
 </script>
 
 <style scoped>

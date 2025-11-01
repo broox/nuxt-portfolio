@@ -6,57 +6,44 @@
     </header>
     <div>
       <ul>
-        <Tag v-for="tag in tags" v-bind:key="tag.slug" :tag="tag"></Tag>
+        <Tag v-for="tag in tags" :key="tag.slug" :tag="tag"></Tag>
       </ul>
     </div>
   </div>
 </template>
 
-<script>
+<script setup>
 import { useStore } from '~/store'
 
-export default {
-  setup() {
-    const store = useStore()
-    const tags = store.tags
-    const minFontSize = 1
-    const maxFontSize = 3
+const store = useStore()
+const tags = store.tags
+const minFontSize = 1
+const maxFontSize = 3
 
-    
-    tags.forEach((tag) => {
-      const projectCount = store.getProjectsTagged(tag.slug).length
-      tag.projectCount = projectCount
-    })
+tags.forEach((tag) => {
+  const projectCount = store.getProjectsTagged(tag.slug).length
+  tag.projectCount = projectCount
+})
 
-    const projectCounts = tags.map(tag => tag.projectCount)
-    // const highestCount = Math.max(...projectCounts)
-    const meanCount = projectCounts.reduce((a, b) => a + b, 0) / projectCounts.length
+const projectCounts = tags.map(tag => tag.projectCount)
+const meanCount = projectCounts.reduce((a, b) => a + b, 0) / projectCounts.length
 
-    tags.forEach((tag) => {
-      // let fontSize = (tag.projectCount / highestCount * maxFontSize).toFixed(2)
-      let fontSize = (tag.projectCount / (meanCount * 2) * maxFontSize).toFixed(2)
-      if (fontSize < minFontSize) {
-        fontSize = minFontSize
-      }
-      if (fontSize > maxFontSize) {
-        fontSize = maxFontSize
-      }
-      tag.fontSize = fontSize
-    })
+tags.forEach((tag) => {
+  let fontSize = (tag.projectCount / (meanCount * 2) * maxFontSize).toFixed(2)
+  if (fontSize < minFontSize) {
+    fontSize = minFontSize
+  }
+  if (fontSize > maxFontSize) {
+    fontSize = maxFontSize
+  }
+  tag.fontSize = fontSize
+})
 
-    return { tags }
-  },
-  head() {
-    const title = 'Derek Brooks\'s Portfolio Tags'
-    return {
-      title,
-      meta: this.$getMetaTags({
-        title,
-        description: 'This is a word cloud of some skills, tools, and technologies that I\'ve used over the years.'
-      }),
-    }
-  },
-}
+const title = 'Derek Brooks\'s Portfolio Tags'
+usePageMeta({
+  title,
+  description: 'This is a word cloud of some skills, tools, and technologies that I\'ve used over the years.'
+})
 </script>
 
 <style scoped>

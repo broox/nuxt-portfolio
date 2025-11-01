@@ -1,18 +1,27 @@
 # Derek Brooks' Portfolio
 
-This is a simple [Nuxt](https://nuxtjs.org/) application that I built to showcase some software that I've built over the years.
+This is a simple [Nuxt 3](https://nuxt.com/) application that I built to showcase some software that I've built over the years.
 
 This app is designed to be generated and deployed as a static website and is currently hosted on GitHub pages at [broox.dev](https://broox.dev/).
 
+## Tech Stack
+
+- **Nuxt 3** - Vue.js framework for server-side rendering and static site generation
+- **Vue 3** - Progressive JavaScript framework with Composition API
+- **Pinia** - State management
+- **TypeScript** - Type-safe configuration and plugins
+- **Vite** - Fast build tool and dev server
+
 ## Setup
 
-1. Install nvm.
-2. Install dependencies.
+1. Install nvm (Node Version Manager)
+2. Install and use the LTS version of Node.js
+3. Install dependencies
 
 ```bash
 nvm install --lts
-npm install --global yarn
-yarn install
+nvm use --lts
+pnpm install
 ```
 
 ## Development Server
@@ -20,21 +29,40 @@ yarn install
 Start the development server on http://localhost:3000
 
 ```bash
-yarn run dev
+pnpm run dev
 ```
 
-or, to open the site in a browser while starting the server
-
-```bash
-yarn dev -o
-```
+The dev server will automatically:
+- Hot reload on file changes
+- Show detailed error messages
+- Enable Vue DevTools integration
 
 ## Production
 
-This application uses GitHub actions and will automatically generate a static website that will be deployed when new code is pushed to the `main` branch.
+This application uses GitHub Actions and will automatically generate a static website that will be deployed when new code is pushed to the `main` branch.
 
-It can also be built locally for production and tested via:
+### Build Locally
+
+Build the application for production:
 
 ```bash
-yarn run generate
+pnpm run build
+```
+
+### Generate Static Site
+
+Generate a static website (for deployment):
+
+```bash
+pnpm run generate
+```
+
+The static files will be output to the `.output/public` directory.
+
+### Preview Production Build
+
+Preview the generated static site locally:
+
+```bash
+pnpm run preview
 ```
