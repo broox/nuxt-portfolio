@@ -24,8 +24,19 @@ const project = computed(() => {
 
 const title = computed(() => `${project.value.title} by Derek Brooks`)
 
+const latestVersion = computed(() => {
+  const versions = project.value.versions
+  if (versions && versions.length > 0) {
+    return versions[versions.length - 1]
+  }
+  return null
+})
+
+const { imgURL } = useProjectImage(project.value, latestVersion.value)
+
 usePageMeta({
   title: title.value,
-  description: project.value.description
+  description: project.value.description,
+  image: imgURL.value
 })
 </script>

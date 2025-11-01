@@ -12,9 +12,9 @@ export const usePageMeta = ({ title, description, image }: {
   const config = useRuntimeConfig()
 
   // Ensure canonical URLs have a trailing slash
-  const canonicalUrl = computed(() => {
-    const fullUrl = `${config.public.baseURL}${route.fullPath}`
-    return fullUrl.endsWith('/') ? fullUrl : `${fullUrl}/`
+  const canonicalURL = computed(() => {
+    const fullURL = `${config.public.baseURL}${route.fullPath}`
+    return fullURL.endsWith('/') ? fullURL : `${fullURL}/`
   })
 
   const metaTags = computed(() => {
@@ -22,7 +22,7 @@ export const usePageMeta = ({ title, description, image }: {
 
     meta.push({
       property: 'og:url',
-      content: canonicalUrl.value
+      content: canonicalURL.value
     })
 
     if (title) {
@@ -64,7 +64,7 @@ export const usePageMeta = ({ title, description, image }: {
     link: [
       {
         rel: 'canonical',
-        href: canonicalUrl.value
+        href: canonicalURL.value
       }
     ]
   }))

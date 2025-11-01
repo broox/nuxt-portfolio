@@ -1,11 +1,11 @@
 <template>
   <a
-    v-if="hasImage"
-    :href="img"
+    v-if="imgPath"
+    :href="imgPath"
     @click.prevent="showScreenshot"
   >
     <img
-      :src="thumbnail"
+      :src="thumbnailPath"
       :alt="alt"
       loading="lazy"
     />
@@ -20,41 +20,15 @@ const props = defineProps({
   version: Object
 })
 
-// Create a manifest of all available images at build time
-const imageManifest = import.meta.glob('/public/images/*.png')
-const thumbManifest = import.meta.glob('/public/images/thumb/*.gif')
+const { imgPath, thumbnailPath } = useProjectImage(props.project, props.version)
 
 const alt = computed(() => `Screenshot of ${props.project.title}`)
 
-const imgPath = computed(() => {
-  if (props.version) {
-    return `${props.project.slug}-${props.version.version}.png`
-  } else {
-    return `${props.project.slug}.png`
-  }
-})
-
-const thumbnailPath = computed(() => {
-  if (props.version) {
-    return `${props.project.slug}-${props.version.version}.gif`
-  } else {
-    return `${props.project.slug}.gif`
-  }
-})
-
-const img = computed(() => `/images/${imgPath.value}`)
-const thumbnail = computed(() => `/images/thumb/${thumbnailPath.value}`)
-
-// Check if both the main image and thumbnail exist at build time
-const hasImage = computed(() => {
-  const imgExists = `/public/images/${imgPath.value}` in imageManifest
-  const thumbExists = `/public/images/thumb/${thumbnailPath.value}` in thumbManifest
-  return imgExists && thumbExists
-})
-
 const showScreenshot = () => {
-  const instance = basicLightbox.create(`<img src="${img.value}"/>`)
-  instance.show()
+  if (imgPath.value) {
+    const instance = basicLightbox.create(`<img src="${imgPath.value}"/>`)
+    instance.show()
+  }
 }
 </script>
 
