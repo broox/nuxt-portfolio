@@ -1,50 +1,60 @@
 <template>
-  <a :href="img" v-if="img" @click.prevent="showScreenshot">
-    <img :src="thumbnail" v-if="thumbnail" :alt="alt"/>
+  <a
+    v-if="hasImage"
+    :href="img"
+    @click.prevent="showScreenshot"
+  >
+    <img
+      :src="thumbnail"
+      :alt="alt"
+      loading="lazy"
+    />
   </a>
 </template>
 
-<script>
+<script setup>
 import * as basicLightbox from 'basiclightbox'
 
-export default {
-  props: {
-    project: Object,
-    version: Object,
-  },
-  computed: {
-    alt() {
-      return `Screenshot of ${this.project.title}`
-    },
-    img() {
-      try {
-        if (this.version) {
-          return require(`~/assets/images/${this.project.slug}-${this.version.version}.png`)
-        } else {
-          return require(`~/assets/images/${this.project.slug}.png`)
-        }
-      } catch (e) {
-        return null
-      }
-    },
-    thumbnail() {
-      try {
-        if (this.version) {
-          return require(`~/assets/images/thumb/${this.project.slug}-${this.version.version}.gif`)
-        } else {
-          return require(`~/assets/images/thumb/${this.project.slug}.gif`)
-        }
-      } catch (e) {
-        return null
-      }
-    },
-  },
-  methods: {
-    showScreenshot() {
-      const instance = basicLightbox.create(`<img src="${this.img}"/>`)
-      instance.show()
-    },
+const props = defineProps({
+  project: Object,
+  version: Object
+})
+
+// Create a manifest of all available images at build time
+const imageManifest = import.meta.glob('/public/images/*.png')
+const thumbManifest = import.meta.glob('/public/images/thumb/*.gif')
+
+const alt = computed(() => `Screenshot of ${props.project.title}`)
+
+const imgPath = computed(() => {
+  if (props.version) {
+    return `${props.project.slug}-${props.version.version}.png`
+  } else {
+    return `${props.project.slug}.png`
   }
+})
+
+const thumbnailPath = computed(() => {
+  if (props.version) {
+    return `${props.project.slug}-${props.version.version}.gif`
+  } else {
+    return `${props.project.slug}.gif`
+  }
+})
+
+const img = computed(() => `/images/${imgPath.value}`)
+const thumbnail = computed(() => `/images/thumb/${thumbnailPath.value}`)
+
+// Check if both the main image and thumbnail exist at build time
+const hasImage = computed(() => {
+  const imgExists = `/public/images/${imgPath.value}` in imageManifest
+  const thumbExists = `/public/images/thumb/${thumbnailPath.value}` in thumbManifest
+  return imgExists && thumbExists
+})
+
+const showScreenshot = () => {
+  const instance = basicLightbox.create(`<img src="${img.value}"/>`)
+  instance.show()
 }
 </script>
 

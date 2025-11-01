@@ -13,24 +13,24 @@
         </div>
       </div>
     </header>
-  
+
     <section class="experience">
       <h2>Experience</h2>
-      <Job v-for="job in jobs" :job="job" v-bind:key="job.slug" />
+      <Job v-for="job in jobs" :job="job" :key="job.slug" />
     </section>
-  
+
     <section class="skills">
       <h2>Skills</h2>
       <dl>
         <dt>Development:</dt>
         <dd>Python, Javascript, Typescript, Go, Ruby on Rails, PHP, Objective-C, Java, C#, ActionScript, ASP, ASP.NET, PowerScript, SQL, VBScript</dd>
-        
+
         <dt>Platforms:</dt>
         <dd>MacOS, Linux, Windows</dd>
-        
+
         <dt>Databases:</dt>
         <dd>MySQL, DynamoDB, Postgres, Mongo, Oracle, Sybase</dd>
-        
+
         <dt>Markup:</dt>
         <dd>HTML, XML, CSS</dd>
       </dl>
@@ -51,22 +51,19 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import { useStore } from '~/store'
 
-export default {
-  setup() {
-    const store = useStore()
-    return { jobs: store.jobs }
-  },
-  head() {
-    const title = 'Derek Brooks\'s Resume'
-    return {
-      title,
-      meta: this.$getMetaTags({ title, })
-    }
-  },
-}
+const store = useStore()
+const { $getMetaTags } = useNuxtApp()
+
+const jobs = store.jobs
+
+const title = 'Derek Brooks\'s Resume'
+useHead({
+  title,
+  meta: $getMetaTags({ title })
+})
 </script>
 
 

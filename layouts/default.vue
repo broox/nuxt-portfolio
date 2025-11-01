@@ -14,11 +14,11 @@
       </div>
     </header>
     <div class="content">
-      <Nuxt />
+      <slot />
     </div>
     <footer>
       <div>
-        Copyright &copy; {{year}} Derek Brooks<br>
+        Copyright &copy; {{ year }} Derek Brooks<br>
         <a href="https://github.com/broox/nuxt-portfolio" target="_blank">source code</a> &middot;
         <a :href="validateURL" target="_blank">valid markup</a>
       </div>
@@ -26,27 +26,24 @@
   </div>
 </template>
 
-<script>
-import ogImage from '~/assets/images/derek-brooks.jpeg';
-export default {
-  head () {
-    return {
-      meta: [
-        { hid: 'og:image', property: 'og:image', content: this.$config.baseURL + ogImage }
-      ]
-    }
-  },
-  data() {
-    const validateURL = new URL('https://validator.w3.org/nu/')
-    validateURL.searchParams.append('doc', this.$config.baseURL + this.$route.path)
+<script setup>
+const ogImage = '/images/derek-brooks.jpeg'
 
-    const year = new Date().getFullYear()
-    return {
-      year,
-      validateURL
-    }
-  },
-}
+const config = useRuntimeConfig()
+const route = useRoute()
+
+const year = new Date().getFullYear()
+const validateURL = computed(() => {
+  const url = new URL('https://validator.w3.org/nu/')
+  url.searchParams.append('doc', config.public.baseURL + route.path)
+  return url.toString()
+})
+
+useHead({
+  meta: [
+    { property: 'og:image', content: config.public.baseURL + ogImage }
+  ]
+})
 </script>
 
 <style scoped>
@@ -70,7 +67,7 @@ header nav a {
   /* color: rgb(192, 211, 251); */
 }
 
-header nav a.nuxt-link-exact-active {
+header nav a.router-link-exact-active {
   color: white;
   font-weight: bold;
 }

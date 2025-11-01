@@ -1,15 +1,15 @@
 <template>
   <article :class="job.slug">
     <header>
-      <h3><strong>{{job.position}}</strong> for <strong>{{job.company}}</strong> of {{job.location}}</h3>
-      <h4>{{job.timespan}}</h4>
+      <h3><strong>{{ job.position }}</strong> for <strong>{{ job.company }}</strong> of {{ job.location }}</h3>
+      <h4>{{ job.timespan }}</h4>
     </header>
     <ul>
-      <li v-for="task in job.tasks" v-bind:key="task">{{task}}</li>
+      <li v-for="task in job.tasks" :key="task">{{ task }}</li>
       <li v-if="projects.length" class="projects">
-        Projects: 
-        <span v-for="project in projects" v-bind:key="project.slug">
-          <NuxtLink :to="`/projects/${project.slug}/`">{{project.title}}</NuxtLink>
+        Projects:
+        <span v-for="project in projects" :key="project.slug">
+          <NuxtLink :to="`/projects/${project.slug}/`">{{ project.title }}</NuxtLink>
         </span>
       </li>
     </ul>
@@ -17,22 +17,16 @@
 
 </template>
 
-<script>
+<script setup>
 import { useStore } from '~/store'
-export default {
-  setup() {
-    const store = useStore()
-    return { store }
-  },
-  props: {
-    job: Object,
-  },
-  computed: {
-    projects() {
-      return this.store.getProjectsForJob(this.job.slug).reverse()
-    },
-  }
-}
+
+const props = defineProps({
+  job: Object
+})
+
+const store = useStore()
+
+const projects = computed(() => store.getProjectsForJob(props.job.slug).reverse())
 </script>
 
 <style scoped>

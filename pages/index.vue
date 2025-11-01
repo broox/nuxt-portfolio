@@ -2,34 +2,25 @@
   <div>
     <header class="title">
       <h1>Hi, I'm Derek</h1>
-      <img class="large" src="~/assets/images/derek-brooks.jpeg" alt="Derek Brooks"/>
+      <img class="large" src="/images/derek-brooks.jpeg" alt="Derek Brooks"/>
       <h2>Professional tech lead, software engineer, and product architect.</h2>
       <h3>Amateur carpenter, photographer, and pizza maker.</h3>
-      <img class="mobile" src="~/assets/images/derek-brooks.jpeg" alt="Derek Brooks"/>
+      <img class="mobile" src="/images/derek-brooks.jpeg" alt="Derek Brooks"/>
       <p>I've built software and teams for startups, small businesses, and Fortune 100 companies.</p>
       <p>I've been through an exit as a founding engineer and was a lead engineer on President Obama's winning re-election campaign.</p>
-      <p>Below, are <strong>{{featuredProjects.length}} projects</strong> that I've been particularly excited to work on.</p>
+      <p>Below, are <strong>{{ featuredProjects.length }} projects</strong> that I've been particularly excited to work on.</p>
     </header>
     <div>
-      <Project v-for="project in featuredProjects" :project="project" v-bind:key="project.slug" />
+      <Project v-for="project in featuredProjects" :project="project" :key="project.slug" />
     </div>
   </div>
 </template>
 
-<script>
+<script setup>
 import { useStore } from '~/store'
 
-export default {
-  setup() {
-    const store = useStore()
-    return { store }
-  },
-  computed: {
-    featuredProjects() {
-      return this.store.featuredProjects
-    }
-  },
-}
+const store = useStore()
+const featuredProjects = computed(() => store.featuredProjects)
 </script>
 
 <style scoped>

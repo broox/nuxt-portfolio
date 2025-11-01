@@ -22,14 +22,19 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
       - name: Install dependencies
-        run: yarn
+        run: pnpm install
 
       - name: Generate
-        run: yarn generate
+        run: pnpm generate
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./.output/public
