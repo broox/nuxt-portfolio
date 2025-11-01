@@ -32,6 +32,12 @@ pnpm run generate
 
 # Preview the static build locally
 pnpm run preview
+
+# Type check TypeScript code
+pnpm run typecheck
+
+# Validate HTML markup
+pnpm run validate
 ```
 
 ## Architecture
@@ -67,7 +73,7 @@ Uses Nuxt 3 file-based routing with dynamic routes:
 - `pages/tags/index.vue` - All tags listing
 - `pages/tags/[slug].vue` - Projects filtered by tag
 
-**Route Configuration:** All routes use trailing slashes (`routeRules: { '/**': { trailingSlash: 'append' } }`). The router is non-strict (`strict: false`).
+**Route Configuration:** All routes use trailing slashes (configured via `experimental.defaults.nuxtLink.trailingSlash: 'append'`). The router does not enforce trailing slashes because this is not supported in Nuxt 3, but all routes should have a canonical URL that specifies the trailing slash.
 
 ### Plugins
 
@@ -85,13 +91,22 @@ Configured in `nuxt.config.ts` under `nitro.prerender`:
 
 ### Deployment
 
-GitHub Actions (`.github/workflows/pages.yml`) automatically:
-1. Runs on push to `main` branch
-2. Installs dependencies with pnpm
-3. Generates static site with `pnpm generate`
-4. Deploys `.output/public` to GitHub Pages
+GitHub Actions automatically deploys on push to `main` branch:
 
-**Note:** CI uses Node 20, but local development uses Node 24.11.0+ (specified in `package.json` engines and `.nvmrc`).
+1. **Build and Validate** (`.github/workflows/build-and-validate.yml`):
+   - Checks out code
+   - Sets up Node.js using version from `.nvmrc` (24.11.0)
+   - Installs pnpm and dependencies
+   - Runs TypeScript type checking (`pnpm typecheck`)
+   - Generates static site (`pnpm generate`)
+   - Validates HTML markup (`pnpm validate`)
+   - Uploads build artifact
+
+2. **Deploy** (`.github/workflows/pages.yml`):
+   - Downloads build artifact from previous job
+   - Deploys `.output/public` to GitHub Pages
+
+**Note:** Both CI and local development use Node 24.11.0+ (specified in `package.json` engines and `.nvmrc`).
 
 ## Key Conventions
 
