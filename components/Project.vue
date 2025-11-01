@@ -33,12 +33,12 @@
   </article>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { useStore } from '~/store'
 
-const props = defineProps({
-  project: Object
-})
+const props = defineProps<{
+  project: Project
+}>()
 
 const store = useStore()
 const { $getDisplayDate } = useNuxtApp()
@@ -71,18 +71,21 @@ const previousVersions = computed(() => {
 })
 
 const tags = computed(() => {
-  const tagList = []
+  const tagList: Tag[] = []
   props.project.tags.forEach((tag) => {
-    tagList.push(store.getTag(tag))
+    const resolvedTag = store.getTag(tag)
+    if (resolvedTag) {
+      tagList.push(resolvedTag)
+    }
   })
   return tagList
 })
 
 const url = computed(() => `/projects/${props.project.slug}/`)
 
-const toggleVersions = (event) => {
-  const parent = event.target.closest('.previous')
-  const versions = parent.querySelector('.versions')
+const toggleVersions = (event: Event) => {
+  const parent = (event.target as HTMLElement).closest('.previous') as HTMLElement
+  const versions = parent.querySelector('.versions') as HTMLElement
   const expanded = 'expanded'
 
   if (parent.classList.contains(expanded)) {

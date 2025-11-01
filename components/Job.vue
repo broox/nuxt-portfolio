@@ -17,12 +17,12 @@
 
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { useStore } from '~/store'
 
-const props = defineProps({
-  job: Object
-})
+const props = defineProps<{
+  job: Job
+}>()
 
 const store = useStore()
 

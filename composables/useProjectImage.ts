@@ -2,13 +2,13 @@ const imageManifest = import.meta.glob('/public/images/*.png')
 const thumbManifest = import.meta.glob('/public/images/thumb/*.gif')
 
 /**
- * Updated composable for resolving project image paths
+ * Composable for resolving project image paths
  *
  * @param project - The project object
  * @param version - Optional specific version to use for the image
  * @returns Object containing URLs and relative paths of images if they exist, or undefined otherwise
  */
-export const useProjectImage = (project: any, version?: any) => {
+export const useProjectImage = (project: Project, version?: ProjectVersion | null) => {
   const config = useRuntimeConfig()
 
   const imgPath = computed(() => {

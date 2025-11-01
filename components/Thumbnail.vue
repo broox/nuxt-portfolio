@@ -12,13 +12,13 @@
   </a>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import * as basicLightbox from 'basiclightbox'
 
-const props = defineProps({
-  project: Object,
-  version: Object
-})
+const props = defineProps<{
+  project: Project
+  version?: ProjectVersion
+}>()
 
 const { imgPath, thumbnailPath } = useProjectImage(props.project, props.version)
 

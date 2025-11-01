@@ -4,10 +4,10 @@
   </li>
 </template>
 
-<script setup>
-const props = defineProps({
-  tag: Object
-})
+<script setup lang="ts">
+const props = defineProps<{
+  tag: TagWithMetadata
+}>()
 
 const style = computed(() => `font-size: ${props.tag.fontSize}em`)
 

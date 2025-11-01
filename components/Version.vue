@@ -9,11 +9,11 @@
   </div>
 </template>
 
-<script setup>
-const props = defineProps({
-  project: Object,
-  version: Object
-})
+<script setup lang="ts">
+const props = defineProps<{
+  project: Project
+  version: ProjectVersion
+}>()
 
 const { $getDisplayDate } = useNuxtApp()
 
