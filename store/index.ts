@@ -16,6 +16,9 @@ export const useStore = defineStore('main', {
     featuredProjects: (state): Project[] => {
       return state.projects.filter(project => project.featured)
     },
+    featuredTags: (state): Tag[] => {
+      return state.tags.filter(tag => tag.featured)
+    },
     getProject: (state) => {
       return (slug: string): Project | undefined => {
         return state.projects.find((project) => project.slug === slug)

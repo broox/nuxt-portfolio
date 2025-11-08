@@ -29,6 +29,7 @@ interface Tag {
   slug: string
   name: string
   description: string
+  featured?: boolean
 }
 
 interface TagWithMetadata extends Tag {

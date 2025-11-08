@@ -1327,6 +1327,7 @@
         "job": "ofa",
         "tags": [
             "api-design",
+            "amazon-web-services",
             "image-processing",
             "json",
             "mysql",
@@ -1343,6 +1344,7 @@
         "url": null,
         "job": "ofa",
         "tags": [
+            "amazon-web-services",
             "json",
             "mysql",
             "python",
@@ -1378,6 +1380,7 @@
         "url": null,
         "job": "ofa",
         "tags": [
+            "amazon-web-services",
             "facebook-api",
             "ruby-on-rails"
         ],
@@ -1501,6 +1504,7 @@
         "job": "paypal",
         "tags": [
             "api-design",
+            "amazon-web-services",
             "graphql",
             "mongo",
             "mysql",
@@ -1519,6 +1523,7 @@
         "job": "paypal",
         "tags": [
             "api-design",
+            "amazon-web-services",
             "mongo",
             "mysql",
             "paypal",
@@ -1554,6 +1559,7 @@
         "url": "https://venmo.com/about/creditcard/",
         "job": "paypal",
         "tags": [
+            "amazon-web-services",
             "api-design",
             "cloudevents",
             "mongo",
@@ -1572,6 +1578,7 @@
         "url": null,
         "job": "paypal",
         "tags": [
+            "amazon-web-services",
             "api-design",
             "cloudevents",
             "dynamodb",
@@ -1590,6 +1597,7 @@
         "url": "https://venmo.com/purchaseprotection/",
         "job": "paypal",
         "tags": [
+            "amazon-web-services",
             "api-design",
             "e-commerce",
             "mongo",
@@ -1608,6 +1616,7 @@
         "url": null,
         "job": "paypal",
         "tags": [
+            "amazon-web-services",
             "api-design",
             "dynamodb",
             "mysql",
@@ -1696,6 +1705,7 @@
             "prototype",
             "scriptaculous",
             "twitter-api",
+            "typescript",
             "video-production",
             "vue",
             "xml"
@@ -1752,6 +1762,7 @@
         "url": "https://venmo.com/about/teendebitcard/",
         "job": "paypal",
         "tags": [
+            "amazon-web-services",
             "api-design",
             "python"
         ],
@@ -1797,9 +1808,13 @@
         "job": "panther",
         "tags": [
             "ai",
+            "amazon-web-services",
+            "api-design",
+            "dynamodb",
             "go",
             "graphql",
             "javascript",
+            "python",
             "react",
             "typescript"
         ],
@@ -1816,6 +1831,7 @@
         "tags": [
             "ai",
             "angular",
+            "amazon-web-services",
             "api-design",
             "c-sharp",
             "javascript",

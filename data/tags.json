@@ -2,7 +2,8 @@
     {
         "slug": "ai",
         "name": "Artificial Intelligence",
-        "description": "From building MCP servers, agents, and custom LLM applications to leveraging AI to orchestrate building for me... I've been able to leverage artificial intelligence in a variety of ways to enhance user experiences and streamline workflows."
+        "description": "From building MCP servers, agents, and custom LLM applications to leveraging AI to orchestrate my work... I've successfully leveraged AI in a variety of ways to enhance user experiences and streamline workflows.",
+        "featured": true
     },
     {
         "slug": "ajax",
@@ -12,7 +13,14 @@
     {
         "slug": "api-design",
         "name": "API Design",
-        "description": "I've been designing APIs nearly as long as I've been consuming them. I find API design to be very fun and always like collaborating with my API consumers to ensure that we're implementing interfaces in a sane fashion."
+        "description": "I've been designing APIs nearly as long as I've been consuming them. I find API design to be fun and always like approaching design from the lens of a full stack engineer - collaborating with API consumers to ensure that we're implementing interfaces that work for both the frontend and backend.",
+        "featured": true
+    },
+    {
+        "slug": "amazon-web-services",
+        "name": "Amazon Web Services",
+        "description": "Whether it's DynamoDB, S3, SNS, SQS, Lambdas, EC2, or any of the other services that Amazon offers - I've used a wide variety of AWS services to build and deploy scalable web applications.",
+        "featured": true
     },
     {
         "slug": "android",
@@ -22,7 +30,8 @@
     {
         "slug": "angular",
         "name": "Angular",
-        "description": ""
+        "description": "I came into Angular development after much experience with React, Vue and other frameworks, but have enjoyed the experience.",
+        "featured": true
     },
     {
         "slug": "apple-pay",
@@ -62,7 +71,8 @@
     {
         "slug": "c-sharp",
         "name": "C#",
-        "description": "I've developed with C# at my first job out of college and my most recent job at Rocket Mortgage. AI is really helping me dive right back in after 15+ years away from it."
+        "description": "I've developed with C# at my first job out of college and my most recent job at Rocket Mortgage. AI has really helped me dive right back in after 15+ years away.",
+        "featured": true
     },
     {
         "slug": "cloudevents",
@@ -82,7 +92,8 @@
     {
         "slug": "dynamodb",
         "name": "DynamoDB",
-        "description": ""
+        "description": "",
+        "featured": true
     },
     {
         "slug": "e-commerce",
@@ -142,7 +153,7 @@
     {
         "slug": "image-processing",
         "name": "Image Processing",
-        "description": "I've done image processing and manipulation with several libraries including GD, Image Magick, Image Science, PIL - everything from cropping, and resizing to appending watermarks and rotating based on EXIF information."
+        "description": "I've done image processing and manipulation with several libraries including GD, Image Magick, Image Science, PIL - everything from cropping, resizing, and rotating based on EXIF information to appending watermarks, annotating, and applying masks."
     },
     {
         "slug": "ios",
@@ -157,7 +168,8 @@
     {
         "slug": "javascript",
         "name": "JavaScript",
-        "description": "I've done extensive JavaScript work over the years. From the client-side to server-side and from popular frameworks to thousands of lines of custom libraries.\n\nSome of the frameworks I've most used include: Express, <a href=\"/tags/extjs/\">ExtJS</a>, <a href=\"/tags/jquery/\">jQuery</a>, <a href=\"/tags/nuxt/\">Nuxt</a>, <a href=\"/tags/prototype/\">Prototype</a>, <a href=\"/tags/scriptaculous/\">Scriptaculous</a>, SproutCore, <a href=\"/tags/vue/\">Vue</a> and a handful of custom in-house frameworks."
+        "description": "I've done extensive JavaScript work over the years. From the client-side to server-side and from popular frameworks to thousands of lines of custom libraries.\n\nSome of the frameworks I've most used include: Express, <a href=\"/tags/extjs/\">ExtJS</a>, <a href=\"/tags/jquery/\">jQuery</a>, <a href=\"/tags/nuxt/\">Nuxt</a>, <a href=\"/tags/prototype/\">Prototype</a>, <a href=\"/tags/react/\">React</a>, <a href=\"/tags/scriptaculous/\">Scriptaculous</a>, SproutCore, <a href=\"/tags/vue/\">Vue</a> and a handful of custom in-house frameworks.",
+        "featured": true
     },
     {
         "slug": "jquery",
@@ -177,7 +189,8 @@
     {
         "slug": "mysql",
         "name": "MySQL",
-        "description": "Lately, I've been spoiled by a lot of ORMs like ActiveRecord, SQLAlchemy, Sequelize, etc.\n\nAs such, I haven't been writing as much SQL as I used to... but every once in a while, writing a plain query can be quicker (and easier to manage) than figuring out how to wrangle the ORMs to get the data I need."
+        "description": "Lately, I've been spoiled by a lot of ORMs like ActiveRecord, SQLAlchemy, Sequelize, etc.\n\nAs such, I haven't been writing as much SQL as I used to... but every once in a while, writing a plain query can be quicker (and easier to manage) than figuring out how to wrangle the ORMs to get the data I need.",
+        "featured": true
     },
     {
         "slug": "mongo",
@@ -187,12 +200,14 @@
     {
         "slug": "node-js",
         "name": "Node.js",
-        "description": "Whether it was with Nuxt or the express.js apps/APIs that I've hacked on... I've gotten to write quite a few lines of server side JS with Node."
+        "description": "Whether it was with Nuxt or the express.js apps/APIs that I've hacked on... I've written thousands of lines of server side JS with Node.",
+        "featured": true
     },
     {
         "slug": "nuxt",
         "name": "Nuxt.js",
-        "description": "I discovered Nuxt when I was looking to rebuild my personal website as a single page, performant application that still had server side rendering and good SEO. I've absolutely loved tinkering with Nuxt."
+        "description": "I discovered Nuxt when I was looking to rebuild my personal website as a single page, performant application that still had server side rendering and good SEO. I've absolutely loved tinkering with Nuxt.",
+        "featured": true
     },
     {
         "slug": "objective-c",
@@ -217,7 +232,8 @@
     {
         "slug": "postgres",
         "name": "PostgreSQL",
-        "description": ""
+        "description": "",
+        "featured": true
     },
     {
         "slug": "php",
@@ -232,12 +248,14 @@
     {
         "slug": "python",
         "name": "Python",
-        "description": "After reading the Zen of Python, Python quickly became my server-side and scripting language of choice. It's readable, concise, and easy to get rolling with - especially when paired with the tons of lightweight frameworks and libraries that are available."
+        "description": "After reading the Zen of Python, Python quickly became my server-side and scripting language of choice. It's readable, concise, and easy to get rolling - especially when paired with the tons of lightweight frameworks and libraries that are available.",
+        "featured": true
     },
     {
         "slug": "react",
         "name": "React",
-        "description": ""
+        "description": "",
+        "featured": true
     },
     {
         "slug": "ruby-on-rails",
@@ -277,7 +295,8 @@
     {
         "slug": "typescript",
         "name": "Typescript",
-        "description": null
+        "description": null,
+        "featured": true
     },
     {
         "slug": "video-production",
