@@ -1823,7 +1823,7 @@
     {
         "slug": "rocket-pro-navigate",
         "title": "Rocket Pro Navigate",
-        "description": "Rocket Pro Navigate is a mortgage-specific large language model platform integrated into the Rocket Pro portal for mortgage brokers. The platform features an AI-powered sales coach for role play and objection handling, a Lead Scanner that analyzes client and prospect lists to identify refinance opportunities, a Document Analyzer to generate client-ready explanations, and many other tools for our mortgage partners.\n\nThis was the first product I worked on at Rocket Mortgage. I helped design APIs and database schemas, patched security vulnerabilities, and architected the application to be multi-tenant in order to support Rocket's broker partner network.",
+        "description": "Rocket Pro Navigate is a mortgage-specific large language model platform integrated into the Rocket Pro portal for mortgage brokers. The platform features an AI-powered sales coach for role play and objection handling, a Lead Scanner that analyzes client and prospect lists to identify refinance opportunities, a Document Analyzer to generate client-ready explanations, and many other tools for our mortgage partners.\n\nThis was the first product I worked on at Rocket Mortgage. I designed APIs and database schemas, added safeguards to address security vulnerabilities, and architected the application to be multi-tenant in order to support Rocket's broker partner network.",
         "featured": 0,
         "updatedAt": "2025-09-29",
         "url": "https://rocketpro.com/",
