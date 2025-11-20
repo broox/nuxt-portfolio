@@ -1,1 +1,0 @@
-import"./0Prts66e.js";const r=""+new URL("narwhal.BoJuDk_0.png",import.meta.url).href;export{r as default};
